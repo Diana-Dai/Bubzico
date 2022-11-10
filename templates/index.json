@@ -84,17 +84,49 @@
     },
     "1654072995afca1996": {
       "type": "ticker",
+      "blocks": {
+        "226850c1-879a-43a5-9246-e93a30e46ac3": {
+          "type": "block",
+          "settings": {
+            "html": "<div>\n<img loading=\"lazy\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1719\/6357\/files\/rainbow_2.png?v=1668076229\" width=\"57\" height=\"32\">\n<p>Proudly Served Over 1 Million Families<\/p>\n<\/div>"
+          }
+        },
+        "cc34b41b-b9c5-4f27-9f1b-719d8e2fcc2a": {
+          "type": "block",
+          "settings": {
+            "html": "<div>\n<img loading=\"lazy\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1719\/6357\/files\/charity_1.png?v=1668076229\" width=\"45\" height=\"40\">\n<p>Designed in Australia with love<\/p>\n<\/div>"
+          }
+        },
+        "b7e042d9-fa78-47e4-aa14-4a762c7bcdd8": {
+          "type": "block",
+          "settings": {
+            "html": "<div>\n<img loading=\"lazy\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1719\/6357\/files\/charity-2_1.png?v=1668076229\" width=\"38\" height=\"37\">\n<p>Portion of purchases goes to our charity partners<\/p>\n<\/div>"
+          }
+        },
+        "dd01eb26-4089-4014-98b7-5a6ebfb7009e": {
+          "type": "block",
+          "settings": {
+            "html": "<div>\n<img loading=\"lazy\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1719\/6357\/files\/crown_200x.png?v=1668076798\" width=\"40\" height=\"40\">\n<p>Portion of purchases goes to our charity partners<\/p>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "226850c1-879a-43a5-9246-e93a30e46ac3",
+        "cc34b41b-b9c5-4f27-9f1b-719d8e2fcc2a",
+        "b7e042d9-fa78-47e4-aa14-4a762c7bcdd8",
+        "dd01eb26-4089-4014-98b7-5a6ebfb7009e"
+      ],
       "settings": {
-        "top_spacing": "normal",
-        "ticker_time": 10,
+        "top_spacing": "none",
+        "ticker_time": 29,
         "text_size": "normal",
-        "text": "<p>- Proudly Served Over 1 Million Families     - Designed in Australia with love   - Portion of purchases goes to our charity partners   - Exclusive Website-Only Offers<br\/><br\/><\/p>",
+        "text": "",
         "show_icon": "none",
         "icon_name": "advertising_sm",
         "color_svg": "rgba(0,0,0,0)",
         "color_text": "rgba(0,0,0,0)",
         "background": "color",
-        "color_background": "rgba(0,0,0,0)",
+        "color_background": "#faeca6",
         "gradient": "",
         "background_spacing": "small",
         "remove_bottom_spacing": false
@@ -103,6 +135,7 @@
     "16544355349cd01ef0": {
       "type": "featured-collection",
       "settings": {
+        "decoration_color": "orange",
         "collection": "sleep-soothers",
         "subheading": "Help Your Baby To Sleep With Lullabies",
         "heading": "Soothing Sleep Friends",
@@ -110,10 +143,10 @@
         "button_name": "Shop All",
         "top_spacing": "normal",
         "width": "page-width",
-        "grid": "col-md-4 col-one_fifth",
+        "grid": "col-6",
         "mobile_grid": "6",
         "swipe_on_mobile": false,
-        "product_limit": 10,
+        "product_limit": 4,
         "image_ratio": "auto",
         "show_secondary_image": true,
         "texts_aligment": "text-center",
@@ -124,13 +157,14 @@
         "show_price": true,
         "truncate_product_name": false,
         "hover_underline": false,
-        "button_type_product": "show",
+        "button_type_product": "only_text",
         "show_button_quickview": true,
         "show_badge_on_sale": true,
         "show_badge_sold_out": true,
         "show_badge_feature": true,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
+        "color_subheading": "#df744a",
+        "color_heading": "#df744a",
+        "color_body": "#df744a",
         "color_meta": "rgba(0,0,0,0)",
         "color_button_product": "rgba(0,0,0,0)"
       }
@@ -142,7 +176,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "shopify:\/\/shop_images\/clay-step-2.png",
+            "image": "shopify:\/\/shop_images\/2_4ba17a9b-7cc3-4edf-b7ef-45664964c5c7.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -157,7 +191,7 @@
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Bubzi Co Air-Drying Clay Baby Handprint Kit & Footprint Photo Frame<\/p>"
+            "text": "<p>Remember The Precious Moments Between You and Your Bub With Our Best Selling Keepsake Clay Frame Kits!<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
@@ -174,23 +208,24 @@
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3"
       ],
       "settings": {
-        "url": "",
+        "decoration_color": "blue",
+        "url": "shopify:\/\/products\/clay-casting-baby-footprints-and-handprint-frame-package",
         "top_spacing": "normal",
-        "width": "page-width",
-        "content_size": "fullscreen",
-        "desktop_content_height": 440,
+        "width": "page-fullwidth",
+        "content_size": "auto",
+        "desktop_content_height": 360,
         "row_reverse": false,
         "content_aligment": "align-self-center",
-        "texts_aligment": "text-left",
+        "texts_aligment": "text-center",
         "heading_tag": "h2",
         "text_size": "normal",
         "hover_underline": false,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)",
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_text": "#4484ce",
+        "color_button": "#4484ce",
         "play_background": "rgba(0,0,0,0)",
-        "color_background": "rgba(0,0,0,0)"
+        "color_background": "#faeca6"
       }
     },
     "39a3cd53-c1c5-468d-83d5-d2deef683f10": {
@@ -199,14 +234,14 @@
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1": {
           "type": "heading",
           "settings": {
-            "subheading": "ABOUT US",
-            "heading": ""
+            "subheading": "",
+            "heading": "The most beautiful and high quality playmat"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
           "type": "text",
           "settings": {
-            "text": "<p>We are Bubzi Co, a baby care company created to help new moms around the world.<\/p><p>Established<br\/> in Sydney, Australia by wife and husband, Angela & Elijah, we <br\/>create solutions that genuinely help you prepare for and to take care of<br\/> your newborn, with innovative designs and quality materials that result<br\/> in products that help make your day a little easier, but also filled <br\/>with priceless memories.<\/p>"
+            "text": "<p>Our NEW Forever Woodland Wonder Playmat features a hand-painted watercolor design, exclusive to Bubzi Co.<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
@@ -219,7 +254,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "shopify:\/\/shop_images\/Bubzi_About_Us_Img_Web.jpg",
+            "image": "shopify:\/\/shop_images\/image_8.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -232,23 +267,24 @@
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0"
       ],
       "settings": {
-        "url": "shopify:\/\/pages\/about",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "content_size": "fullscreen",
+        "decoration_color": "orange",
+        "url": "shopify:\/\/products\/bubzi-co-baby-woodland-monthly-milestone-blanket",
+        "top_spacing": "none",
+        "width": "page-fullwidth",
+        "content_size": "auto",
         "desktop_content_height": 440,
         "row_reverse": true,
         "content_aligment": "align-self-center",
-        "texts_aligment": "text-left",
+        "texts_aligment": "text-center",
         "heading_tag": "h2",
         "text_size": "normal",
         "hover_underline": false,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)",
+        "color_subheading": "#df744a",
+        "color_heading": "#df744a",
+        "color_text": "#df744a",
+        "color_button": "#df744a",
         "play_background": "rgba(0,0,0,0)",
-        "color_background": "rgba(0,0,0,0)"
+        "color_background": "#d7ece7"
       }
     },
     "943ed382-fb26-4c45-a575-23d10b63e490": {

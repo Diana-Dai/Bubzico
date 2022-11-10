@@ -19,8 +19,8 @@ h1>a,h2>a,h3>a,h4>a,h5>a,h6>a{
 }
 @media (min-width: 993px){
   h1,h2{
-  	--h-mt: var(--sections-top-spacing);
-    --h-mb: 60px
+  	--h-mt: 28px;
+    --h-mb: 28px;
   }
 }
 @media (max-width: 992px){
@@ -456,7 +456,7 @@ a.image-hover-scaling__image{
   pointer-events: none;
   border-radius:var(--radius-badge);
   background: var(--color-badge-1);
-  color: var(--color-badge-1-text);
+  color:white;
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);    
   font-size: var(--font-body2-size);
@@ -684,7 +684,8 @@ svg > *{
   text-align: center;
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
-  font-weight: var(--font-button-weight);
+  /* font-weight: var(--font-button-weight); */
+  font-weight: normal;
   font-size: var(--font-body-size);
   line-height: var(--font-body-line-height);
   height: 50px;
@@ -692,7 +693,7 @@ svg > *{
   color: var(--color);
   border-radius: var(--radius-button);
   border: unset;
-  padding: 0 25px;
+  padding: 0 80px;
   width: auto;
   text-decoration: none;
   cursor: pointer;
@@ -1179,4 +1180,76 @@ terms_and_condition-checkbox .checkbox-input a{
 terms_and_condition-checkbox .checkbox-input:hover span{
   cursor: default;
   font-weight: var(--font-body-weight);
+}
+
+[data-section-name="featured-collection"] slider-component{
+  max-width: 60%;
+  margin: 0 auto;
+  gap: 100px;
+}
+[data-section-name="featured-collection"] slider-component .col-6{
+  max-width: 280px;
+  margin: 0 auto;
+}
+@media (min-width: 577px){
+
+h2.orange,
+h2.blue{
+  display: inline;
+  position: relative;
+}
+
+section h2.orange:before{
+  content: '';
+  width: 88px;
+  height: 102px;
+  position: absolute;
+  background-image: url('https://cdn.shopify.com/s/files/1/1719/6357/files/OF186Z1-Recovered_1.png?v=1668077816');
+  background-size: cover;
+  background-position: center;
+  left: -65px;
+  top: -53px;
+}
+
+section h2.orange::after{
+  content: '';
+  width: 75px;
+  height: 86px;
+  position: absolute;
+  background-image: url('https://cdn.shopify.com/s/files/1/1719/6357/files/OF186Z1-Recovered_2.png?v=1668077816');
+  background-size: cover;
+  background-position: center;
+  right: -70px;
+  top: -40px;
+}
+
+section h2.blue:before{
+  content: '';
+  width: 80px;
+  height: 165px;
+  position: absolute;
+  background-image: url('https://cdn.shopify.com/s/files/1/1719/6357/files/blue_2.png?v=1668079484');
+  background-size: cover;
+  background-position: center;
+  left: -75px;
+  top: -82px;
+}
+
+section h2.blue::after{
+  content: '';
+  width: 75px;
+  height: 152px;
+  position: absolute;
+  background-image: url('https://cdn.shopify.com/s/files/1/1719/6357/files/blue_1.png?v=1668079495');
+  background-size: cover;
+  background-position: center;
+  right: -60px;
+  top: -80px;
+}
+}
+@media (min-width: 993px){
+
+[data-section-name="image-with-text-type2"] .page-fullwidth .grid-container-it2{
+  padding: 100px 61px;
+}
 }

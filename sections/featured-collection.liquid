@@ -43,7 +43,13 @@
   --fill: var(--auto-text-color-button-dark);
   {%- endif -%}
 }
+
 {%- endif -%}
+#featured-collection-{{ section.id }} span:not(.badge),
+#featured-collection-{{ section.id }} a,
+#featured-collection-{{ section.id }} p{
+  color:{{section.settings.color_body}};
+}
 {%- endcapture -%}
 {%- if section_styles != blank -%}
 <style>{{ section_styles }}</style>
@@ -163,6 +169,22 @@
     "name": "t:sections.featured-collection.name",
   	"tag": "section",
     "settings": [
+      {
+        "type": "select",
+        "id": "decoration_color",
+        "label": "Decoration color",
+        "options": [
+          {
+          "value": "blue",
+          "label": "Blue"
+          },
+          {
+            "value": "orange",
+            "label": "Orange"
+          }
+        ],
+        "default": "blue"
+      },
       {
         "type": "collection",
         "id": "collection",
@@ -486,6 +508,12 @@
         "id": "color_heading",
         "default": "rgba(0,0,0,0)",
         "label": "t:sections.general.settings.heading.label"
+      },
+      {
+        "type": "color",
+        "id": "color_body",
+        "default": "rgba(0,0,0,0)",
+		"label": "Body color"
       },
       {
         "type": "paragraph",

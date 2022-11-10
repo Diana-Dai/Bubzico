@@ -66,12 +66,9 @@
 {%- if section.settings.color_button != "rgba(0,0,0,0)" -%}
 {%- assign accent_brightness = section.settings.color_button | color_extract: 'lightness' -%}
 #image-with-text2-{{ section.id }} .btn{
-  --background: {{ section.settings.color_button }};
-  {%- if accent_brightness < 50 -%}
-  --color: var(--auto-text-color-button-light);
-  {%- else -%}
-  --color: var(--auto-text-color-button-dark);
-  {%- endif -%}
+  --background: #fff;
+  --color:{{ section.settings.color_button }};
+  border:1px solid var(--color);
 }
 {%- endif -%}
 {%- endcapture -%}
@@ -212,7 +209,7 @@
           <div class="mb--last-child-0" {{ block.shopify_attributes }}>
             {%- if block.settings.subheading != blank -%}<p class="subheading h5 mb20">{{ block.settings.subheading }}</p>{%- endif -%}
             {%- if block.settings.heading != blank -%}
-            {{ '<' | append: section.settings.heading_tag }} class="heading mt0 mb0{% if section.settings.hover_underline and section.settings.url != blank %} animation-underline{% endif %}">
+            {{ '<' | append: section.settings.heading_tag }} class="heading mt0 mb0 {{section.settings.decoration_color}} {% if section.settings.hover_underline and section.settings.url != blank %} animation-underline{% endif %}">
             {%- if section.settings.url != blank -%}<a href="{{ section.settings.url }}" class="clear-underline">{%- endif -%}
             {{ block.settings.heading }}
             {%- if section.settings.url != blank -%}</a>{%- endif -%}
@@ -258,6 +255,22 @@
     "name": "t:sections.image-with-text-type2.name",
   	"tag": "section",
     "settings": [
+      {
+        "type": "select",
+        "id": "decoration_color",
+        "label": "Decoration color",
+        "options": [
+          {
+          "value": "blue",
+          "label": "Blue"
+          },
+          {
+            "value": "orange",
+            "label": "Orange"
+          }
+        ],
+        "default": "blue"
+      },
       {
         "type": "url",
         "id": "url",
