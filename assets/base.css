@@ -513,7 +513,7 @@ a.image-hover-scaling__image{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--auto-text-color-accent);
+  color: #fff;
   background: var(--color-accent);
   border-radius: 50%;
 }
@@ -1373,10 +1373,7 @@ section{
   left: -3vw;
   bottom: -4vw;
 }
-[data-section-name="brands"]  .liquid-box.bottom-left{
-  left: -13vw;
-  bottom: -5vw;
-}
+
  .liquid-box.bottom-left img,
  .liquid-box.bottom-right img{
   width: 350px;
@@ -1384,6 +1381,11 @@ section{
  .liquid-box.bottom-left img{
   left: 0;
   bottom: 0;
+}
+[data-section-name="brands"] ~ .liquid-wrap .liquid-box.bottom-left{
+  left: -13vw;
+  bottom: -5vw;
+  width: 100%;
 }
 @media (max-width: 992px){
    .liquid-box.top-left{
@@ -1427,4 +1429,13 @@ line-height: 1.3;
   [data-section-name="custom-text"] .col-6{
     max-width: 90% !important;
   }
+}
+
+
+.opinew-stars-plugin-product-list{
+  margin-top: 20px;
+}
+.product-form__submit span,
+#cart-icon-bubble--mobile *{
+  color: #fff !important;
 }

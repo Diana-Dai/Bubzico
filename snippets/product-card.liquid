@@ -218,7 +218,7 @@ endif
     </modal-opener>
     
     {%- else -%}
-    
+    <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product_card_product %}</div>
     <product-form>
       <div class="product-form__error-message-wrapper" role="alert" hidden>
         {%- render "icon-attention" -%}
@@ -226,7 +226,7 @@ endif
       </div>
 
       {%- form 'product', product_card_product, id: product_card_product.id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-      <input type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
+        <input type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
       <button type="submit"
               name="add"
               class="quick-add__submit btn btn_zoom btn--add-to-cart w-full-sp{% if button_type_product == "only_icon" %} only-child{% endif %}"

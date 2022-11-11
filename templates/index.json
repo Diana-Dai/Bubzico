@@ -247,7 +247,7 @@
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
           "type": "button",
           "settings": {
-            "button_name": "Learn more"
+            "button_name": "Shop now"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0": {
@@ -573,7 +573,7 @@
         "post_limit": 2,
         "image_ratio": "auto",
         "texts_aligment": "text-center",
-        "heading_tag": "h4",
+        "heading_tag": "h5",
         "excerpt_size": "normal",
         "show_image": true,
         "truncate_post_heading": false,

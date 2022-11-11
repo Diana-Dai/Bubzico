@@ -205,7 +205,7 @@
           {%- if section.settings.color_link != "rgba(0,0,0,0)" -%}
           {%- assign color_link = ' style="--color-accent:' | append: section.settings.color_link | append: ';"' -%}
           {%- endif -%}
-          <a href="{{ section.settings.blog.url }}" style="background:{{ section.settings.color_link }}" class="btn btn--secondary w-full-sp"{{ color_link }}>{{ section.settings.link_name }}</a>
+          <a href="{{ section.settings.blog.url }}" style="background:{{ section.settings.color_link }};color:#fff;" class="btn btn--secondary w-full-sp"{{ color_link }}>{{ section.settings.link_name }}</a>
         </div>
       </div>
       {%- endif -%}
@@ -428,11 +428,11 @@
 			"label": "t:sections.general.settings.heading_tag.options__normal.label"
 		  },
 		  {
-			"value": "h4",
+			"value": "h5",
 			"label": "t:sections.general.settings.heading_tag.options__small.label"
 		  }
 		],
-		"default": "h4",
+		"default": "h5",
 		"label": "t:sections.general.settings.heading_tag.label"
 	  },
 	  {
