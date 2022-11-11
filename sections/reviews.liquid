@@ -177,12 +177,38 @@
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}</div>{%- endif -%}
   </div>
 </div>
+<div class="liquid-wrap">
+  <div class="liquid-box top-left">
+    <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-blue-2_1.png?v=1668138448"
+      class="img" alt="">
+  </div>
+  <div class="liquid-box bottom-right">
+    <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-blue-2_1.png?v=1668138448"
+      class="img" alt="">
+  </div>
+</div>
 
 {% schema %}
   {
     "name": "t:sections.reviews.name",
   	"tag": "section",
     "settings": [
+      {
+        "type": "select",
+        "id": "decoration_color",
+        "label": "Decoration color",
+        "options": [
+          {
+          "value": "blue",
+          "label": "Blue"
+          },
+          {
+            "value": "orange",
+            "label": "Orange"
+          }
+        ],
+        "default": "blue"
+      },
 	  {
 		"type": "text",
 		"id": "subheading",

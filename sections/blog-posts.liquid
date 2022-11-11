@@ -81,7 +81,7 @@
     {%- render "section-heading" section:section show_heading_always:show_heading_always -%}
     
     {%- if section.settings.blog.articles.size > 0 -%}
-    <div class="position-relative">
+    <div class="position-relative mt40">
       <slider-component class="grid el_mt_40 {{ section.settings.texts_aligment }}{% if section.settings.swipe_on_mobile %} slider slider--phone{% endif %}">
         {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
         <div class="col-sp-12 {{ section.settings.grid }}{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}">
@@ -205,7 +205,7 @@
           {%- if section.settings.color_link != "rgba(0,0,0,0)" -%}
           {%- assign color_link = ' style="--color-accent:' | append: section.settings.color_link | append: ';"' -%}
           {%- endif -%}
-          <a href="{{ section.settings.blog.url }}" class="btn-small"{{ color_link }}>{{ section.settings.link_name }}</a>
+          <a href="{{ section.settings.blog.url }}" style="background:{{ section.settings.color_link }}" class="btn btn--secondary w-full-sp"{{ color_link }}>{{ section.settings.link_name }}</a>
         </div>
       </div>
       {%- endif -%}
@@ -214,6 +214,12 @@
     {%- endif -%}
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}</div>{%- endif -%}
   </div>
+  <div class="liquid-wrap">
+    <div class="liquid-box bottom-right">
+      <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-white_1.png?v=1668138447"
+        class="img" alt="">
+    </div>
+    </div>
 </div>
 
 {% schema %}
@@ -221,6 +227,22 @@
     "name": "t:sections.blog-posts.name",
   	"tag": "section",
     "settings": [
+      {
+        "type": "select",
+        "id": "decoration_color",
+        "label": "Decoration color",
+        "options": [
+          {
+          "value": "blue",
+          "label": "Blue"
+          },
+          {
+            "value": "orange",
+            "label": "Orange"
+          }
+        ],
+        "default": "blue"
+      },
       {
         "type": "blog",
         "id": "blog",

@@ -26,6 +26,7 @@
 .btn--add-to-cart *{
   color: white !important;
 }
+.btn--add-to-cart,
 .btn--add-to-cart::before{
   background-color: #DF744A !important;
   background: #DF744A !important;

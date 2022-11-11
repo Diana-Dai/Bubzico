@@ -287,6 +287,127 @@
         "color_background": "#d7ece7"
       }
     },
+    "9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0": {
+      "type": "brands",
+      "blocks": {
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-03_400x_95920d5d-5003-4e36-8105-7a0db5b8d212.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        },
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-02_400x_5117e94d-bc9c-4430-9224-4da16f09f5c0.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        },
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-01_400x_2a2fc411-12fd-43fc-a78a-57e4d14faf5c.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        },
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-04_400x_9e88ecd2-9318-4135-b3fb-2edbc37d970d.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        }
+      },
+      "block_order": [
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-0",
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-1",
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-2",
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-3"
+      ],
+      "settings": {
+        "decoration_color": "blue",
+        "subheading": "",
+        "heading": "Our Products Are Designed With Love To Help You",
+        "heading_aligment": "text-center",
+        "link_name": "",
+        "link_url": "",
+        "top_spacing": "normal",
+        "width": "page-width",
+        "grid": "col-3",
+        "mobile_grid": "6",
+        "swipe_on_mobile": false,
+        "text_aligment": "text-center",
+        "hide_text": true,
+        "hover_underline": false,
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_link": "rgba(0,0,0,0)"
+      }
+    },
+    "c05bcf53-71ef-4467-956a-27205f30848c": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/image_9.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "Our story"
+          }
+        },
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are Bubzi Co, a baby care company created to help new moms around the world.<\/p><p>Established in Sydney, Australia by wife and husband, Angela & Elijah, we create solutions that genuinely help you prepare for and to take care of your newborn, with innovative designs and quality materials that result in products that help make your day a little easier, but also filled with priceless memories.<\/p>"
+          }
+        },
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-3": {
+          "type": "button",
+          "settings": {
+            "button_name": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-0",
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-1",
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-2",
+        "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-3"
+      ],
+      "settings": {
+        "decoration_color": "orange",
+        "url": "shopify:\/\/pages\/about",
+        "top_spacing": "normal",
+        "width": "page-fullwidth",
+        "content_size": "auto",
+        "desktop_content_height": 440,
+        "row_reverse": false,
+        "content_aligment": "align-self-center",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "text_size": "normal",
+        "hover_underline": false,
+        "color_subheading": "#df744a",
+        "color_heading": "#df744a",
+        "color_text": "#df744a",
+        "color_button": "#df744a",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#faebe6"
+      }
+    },
     "943ed382-fb26-4c45-a575-23d10b63e490": {
       "type": "reviews",
       "blocks": {
@@ -330,7 +451,8 @@
         "template--14581927215192__943ed382-fb26-4c45-a575-23d10b63e490-1667960596a0824128-2"
       ],
       "settings": {
-        "subheading": "Real Reviews",
+        "decoration_color": "blue",
+        "subheading": "",
         "heading": "You're Too Sweet!",
         "heading_aligment": "text-center",
         "top_spacing": "normal",
@@ -340,12 +462,12 @@
         "image_ratio": "auto",
         "texts_aligment": "text-center",
         "description_size": "normal",
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_swipe_buttons": "rgba(0,0,0,0)",
-        "color_heading_blurb": "rgba(0,0,0,0)",
-        "color_description": "rgba(0,0,0,0)",
-        "color_author": "rgba(0,0,0,0)",
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_swipe_buttons": "#4484ce",
+        "color_heading_blurb": "#4484ce",
+        "color_description": "#4484ce",
+        "color_author": "#4484ce",
         "background": "hide",
         "color_background": "rgba(0,0,0,0)",
         "gradient": "",
@@ -356,6 +478,7 @@
     },
     "1654074087c407e2b5": {
       "type": "brands",
+      "disabled": true,
       "blocks": {
         "1654074087617b461f-0": {
           "type": "image",
@@ -415,6 +538,7 @@
         "1654074087617b461f-5"
       ],
       "settings": {
+        "decoration_color": "blue",
         "subheading": "Read All About It",
         "heading": "As Featured In",
         "heading_aligment": "text-center",
@@ -437,15 +561,15 @@
       "type": "blog-posts",
       "settings": {
         "blog": "news",
-        "subheading": "SUBHEADING",
-        "heading": "Blog posts",
+        "subheading": "",
+        "heading": "Related contents",
         "heading_aligment": "text-center",
         "link_name": "Show All",
         "top_spacing": "normal",
         "width": "page-width",
-        "grid": "col-4",
+        "grid": "col-6",
         "swipe_on_mobile": false,
-        "post_limit": 3,
+        "post_limit": 2,
         "image_ratio": "auto",
         "texts_aligment": "text-center",
         "heading_tag": "h4",
@@ -455,18 +579,18 @@
         "hover_underline": false,
         "showtags": false,
         "show_date": false,
-        "show_author": true,
+        "show_author": false,
         "show_comment_count": false,
         "excerpt": "hide",
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_link": "rgba(0,0,0,0)",
-        "color_swipe_buttons": "rgba(0,0,0,0)",
-        "color_author_date_comments": "rgba(0,0,0,0)",
-        "color_heading_post": "rgba(0,0,0,0)",
-        "color_excerpt": "rgba(0,0,0,0)",
-        "background": "hide",
-        "color_background": "rgba(0,0,0,0)",
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_link": "#4484ce",
+        "color_swipe_buttons": "#4484ce",
+        "color_author_date_comments": "#4484ce",
+        "color_heading_post": "#4484ce",
+        "color_excerpt": "#4484ce",
+        "background": "color",
+        "color_background": "#faeca6",
         "gradient": "",
         "background_width": "fullwidth",
         "background_spacing": "normal",
@@ -480,6 +604,8 @@
     "16544355349cd01ef0",
     "017e1fec-4097-4af8-ae4a-96bcb982b387",
     "39a3cd53-c1c5-468d-83d5-d2deef683f10",
+    "9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0",
+    "c05bcf53-71ef-4467-956a-27205f30848c",
     "943ed382-fb26-4c45-a575-23d10b63e490",
     "1654074087c407e2b5",
     "16540746330397160e"

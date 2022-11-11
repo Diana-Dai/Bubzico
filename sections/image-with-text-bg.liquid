@@ -203,7 +203,7 @@
       {%- for block in section.blocks -%}
       {%- if block.type == 'text' -%}
       {%- if block.settings.text != blank -%}
-      <div class="image-with-text-bg__texts mt15 mt--first-child-0{% if section.settings.text_size != "normal" %} {{ section.settings.text_size }}{% endif %}" {{ block.shopify_attributes }}>
+      <div class="image-with-text-bg__texts mt30 mt--first-child-0{% if section.settings.text_size != "normal" %} {{ section.settings.text_size }}{% endif %}" {{ block.shopify_attributes }}>
         {{ block.settings.text }}
       </div>
       {%- endif -%}

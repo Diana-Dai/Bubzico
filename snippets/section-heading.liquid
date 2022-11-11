@@ -21,7 +21,7 @@
 -%}
 {%- if section.settings.subheading != blank or section.settings.heading != blank or show_heading_always -%}
 <div class="grid{% if section.settings.heading_aligment == "text-center" %} justify-content-center{% endif %} heading--mb">
-  <div class="col-st-12 col-6 mb--last-child-0 {{ section.settings.heading_aligment }}">
+  <div class="col-st-12 col-6 mb30 mb--last-child-0 {{ section.settings.heading_aligment }}">
     {%- if section.settings.heading != blank -%}<h2{{ color_heading }} class="{{section.settings.decoration_color}}">{{ section.settings.heading }}</h2>{%- endif -%}
     {%- if section.settings.subheading != blank -%}<div class="subheading"{{ color_subheading }}>{{ section.settings.subheading }}</div>{%- endif -%}
   </div>
