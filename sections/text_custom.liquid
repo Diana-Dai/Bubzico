@@ -44,8 +44,8 @@
 {%- endif -%}
 
 <div id="text-{{ section.id }}" class="top-spacing-{{ section.settings.top_spacing }}{% if section.settings.background != 'hide' and section.settings.background_width == "fullwidth" %} section-background section-background--{{ section.settings.background_spacing }}{% endif %}"
-     data-section-name="text">
-  <div class="{{ section.settings.width }}">
+     data-section-name="custom-text">
+  <div class="{{ section.settings.width }} liquid-content ">
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}<div class="section-background section-background--{{ section.settings.background_spacing }} border__radius">{%- endif -%}
     
     {%- liquid
@@ -60,7 +60,7 @@
       <div class="col-st-12 col-6 mt--first-child-0 mb--last-child-0 {{ section.settings.texts_aligment }}">
         {%- if section.settings.subheading != blank -%}<div class="subheading h5"{{ color_subheading }}>{{ section.settings.subheading }}</div>{%- endif -%}
         {%- if section.settings.heading != blank -%}
-        {{ '<' | append: section.settings.heading_tag }} class="mt0 mb15"{{ color_heading }}>
+        {{ '<' | append: section.settings.heading_tag }} class="mt0 mb15 {{section.settings.decoration_color}}"{{ color_heading }}>
         {{ section.settings.heading }}
         {{ '</' | append: section.settings.heading_tag }}>
         {%- endif -%}
@@ -78,25 +78,49 @@
           </a>
         </div>
         {%- endif -%}
+        <img style="width:118px;height:118px;margin-top:20px;" src="{{section.settings.image  | img_url: '200x'}}"
+          class="img" width="{{section.settings.image.width}}" height="{{section.settings.image.height}}">
       </div>
     </div>
     
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}</div>{%- endif -%}
     
   </div>
-</div>
-
-<div class="liquid-wrap">
-  <div class="liquid-box bottom-left">
-    <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-white_1.png?v=1668138447"
-      class="img" alt="">
+  <div class="liquid-wrap">
+    <div class="liquid-box bottom-left">
+      <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-white_1.png?v=1668138447"
+        class="img" alt="">
+    </div>
   </div>
 </div>
+
+
 {% schema %}
   {
-    "name": "Text",
+    "name": "Custom Text",
   	"tag": "section",
     "settings": [
+      {
+        "type": "select",
+        "id": "decoration_color",
+        "label": "Decoration color",
+        "options": [
+          {
+          "value": "blue",
+          "label": "Blue"
+          },
+          {
+            "value": "orange",
+            "label": "Orange"
+          }
+        ],
+        "default": "blue"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
 	  {
 		"type": "text",
 		"id": "subheading",
@@ -335,7 +359,7 @@
 	],
     "presets": [
       {
-      	"name": "Text"
+      	"name": "Custom Text"
       }
     ]
   }

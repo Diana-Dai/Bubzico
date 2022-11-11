@@ -203,7 +203,7 @@
         {%- endfor -%}
       </div>
       <div class="image-with-text2__container {{ section.settings.texts_aligment }}">
-        <div class="mt--first-child-0 {{ section.settings.content_aligment }}">
+        <div class="liquid-content mt--first-child-0 {{ section.settings.content_aligment }}">
           {%- for block in section.blocks -%}
           {%- if block.type == 'heading' -%}
           <div class="mb--last-child-0" {{ block.shopify_attributes }}>
@@ -245,12 +245,27 @@
           {%- endif -%}
           {%- endfor -%}
         </div>
+        {% if section.settings.row_reverse %}
+          {%- assign class_name = "bottom-left" -%}
+        {%else%}
+        {%- assign class_name = "bottom-right" -%}
+
+        {%endif%}
+        {%- if section.settings.color_background == "#ffffff" -%}
+          <div class="liquid-wrap">
+            <div class="liquid-box {{class_name}}">
+              <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-blue-2_1.png?v=1668138448"
+                class="img" alt="">
+            </div>
+          </div>
+          {%- else -%}
         <div class="liquid-wrap">
-          <div class="liquid-box bottom-right">
+          <div class="liquid-box {{class_name}}">
             <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-white_1.png?v=1668138447"
               class="img" alt="">
           </div>
         </div>
+      {%- endif -%}
         
       </div>
     {{section_html_tag_close}}

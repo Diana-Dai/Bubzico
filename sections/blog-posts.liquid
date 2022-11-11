@@ -67,7 +67,7 @@
 {%- assign last_characters = 'general.abbreviation_of_text_in_a_section.last_characters' | t -%}
 <div id="blog-posts-{{ section.id }}" class="top-spacing-{{ section.settings.top_spacing }}{% if section.settings.background != 'hide' and section.settings.background_width == "fullwidth" %} section-background section-background--{{ section.settings.background_spacing }}{% endif %}"
      data-section-name="blog-posts">
-  <div class="{{ section.settings.width }} mb--last-child-0">
+  <div class="{{ section.settings.width }} mb--last-child-0 liquid-content">
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}<div class="section-background section-background--{{ section.settings.background_spacing }} border__radius">{%- endif -%}
     
     {%- liquid

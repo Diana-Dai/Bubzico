@@ -1318,12 +1318,16 @@ section h2.blue::after{
 
 
 /* Add clouds to the sections */
-[data-section-name="blog-posts"]
+[data-section-name="blog-posts"],
 .image-with-text2__container,
 section{
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+.liquid-content{
+  position: relative;
+  z-index: 1;
 }
 .liquid-wrap{
   position: absolute;
@@ -1332,14 +1336,10 @@ section{
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: -1;
-}
-[data-section-name="brands"] ~ .liquid-wrap{
-  z-index: 1;
+  z-index: 0;
 }
 .liquid-box {
   position: absolute;
-  /* z-index: -1; */
 }
 
 .liquid-box.top-left{
@@ -1370,10 +1370,13 @@ section{
   bottom: -3vw;
 }
  .liquid-box.bottom-left{
-  left: -5vw;
+  left: -3vw;
   bottom: -4vw;
 }
-
+[data-section-name="brands"]  .liquid-box.bottom-left{
+  left: -13vw;
+  bottom: -5vw;
+}
  .liquid-box.bottom-left img,
  .liquid-box.bottom-right img{
   width: 350px;
@@ -1400,4 +1403,17 @@ section{
     left: -180px;
     bottom: 60px;
   }
+}
+
+
+[data-section-name="text"] p{
+  font-size: 32px;
+line-height: 1.3;
+}
+[data-section-name="custom-text"] .col-6{
+  max-width: 60% !important;
+
+}
+[data-section-name="text"] .col-6{
+  max-width: 80% !important;
 }

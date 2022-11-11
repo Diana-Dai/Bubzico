@@ -52,6 +52,13 @@ footer{
 }
 {%- endif -%}
 {%- if section.settings.color_links != "rgba(0,0,0,0)" -%}
+  .field__icon svg path{
+    fill: {{ section.settings.color_links }};
+  }
+  .footer label,
+  .footer button{
+    color: {{ section.settings.color_links }};
+  }
 .footer a{
   --color-text-link: {{ section.settings.color_links }};
 }

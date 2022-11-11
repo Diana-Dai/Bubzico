@@ -45,6 +45,9 @@
 }
 
 {%- endif -%}
+#featured-collection-{{ section.id }} .badge{
+  background:{{section.settings.color_body}};
+}
 #featured-collection-{{ section.id }} span:not(.badge),
 #featured-collection-{{ section.id }} a,
 #featured-collection-{{ section.id }} p{

@@ -76,9 +76,9 @@
           "type": "buy_buttons",
           "settings": {
             "show_quantity": true,
-            "button_type_product": "show",
+            "button_type_product": "only_text",
             "enable_sticky_addtocart": true,
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "891d0f6f-5a37-4358-a93f-d49c92004bef": {
@@ -88,23 +88,13 @@
             "icon_name": ""
           }
         },
-        "de9b7b68-7c6a-4e8a-a64b-a11978a6ad82": {
-          "type": "additional-feature",
+        "99c77a7d-9f96-4c18-b2a8-3864d35b294a": {
+          "type": "collapsible_tab",
           "settings": {
             "heading": "How to use",
             "icon_name": "",
-            "icon_1": "check",
-            "text_1": "Add product sale point",
-            "icon_2": "check",
-            "text_2": "Add product sale point",
-            "icon_3": "",
-            "text_3": "",
-            "icon_4": "",
-            "text_4": "",
-            "icon_5": "",
-            "text_5": "",
-            "icon_6": "",
-            "text_6": ""
+            "content": "<p><\/p><p>Just remove the plastic projector from our Bubzi Co Soothing Sleep Owl’s tummy. <\/p><p>Then, open the battery compartment with the included screwdriver, and insert the AAA batteries that were also included with your purchase.<\/p><p>1.Turn on the Soother<\/p><p>2.Choose the song or white noise your baby responds to<\/p><p>3.Turn up\/down the volume<\/p><p>4.Turn on the lights if desired<\/p><p>5.Watch as your baby relaxes and settles<\/p>",
+            "page": ""
           }
         },
         "86106f28-8537-421d-bc18-e66191b98c4b": {
@@ -112,7 +102,7 @@
           "settings": {
             "heading": "Spec",
             "icon_name": "",
-            "content": "<p>Add an additional description to your products. You may set the same content for all products. <\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p><p>Or you may link a dynamic source to show product fields like vendor or custom product meta fields.<\/p><p>Ex: Ingredients, nutritional info, additional features and other unique per-product data.<\/p>",
+            "content": "<p>Length: 7 inches, Height: 8.6 inches, Width: 3.5 inches.<\/p><p>The songs include: Minuet, Brahms Lullaby, Are You Sleeping, Baa Baa Black sheep, Home Sweet Home, American Patrol, Mary has a Little Lamb, Oh My Darling, London Bridge is Falling Down, and Hush Little Baby. It also includes a natural bird song, and a heartbeat and white noise sound to calm and settle your baby<\/p><p>Soft plush toy with electronic music box and light projector<\/p>",
             "page": ""
           }
         },
@@ -121,7 +111,7 @@
           "settings": {
             "heading": "Shipping",
             "icon_name": "",
-            "content": "<p>Add an additional description to your products. You may set the same content for all products. <\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p><p>Or you may link a dynamic source to show product fields like vendor or custom product meta fields.<\/p><p>Ex: Ingredients, nutritional info, additional features and other unique per-product data.<\/p>",
+            "content": "<p>Choose from these local USA shipping options:<\/p><p><strong>Standard Delivery<\/strong> time is within 7 business days (Free if you spend over $50)<\/p><p><strong>Expedited Delivery<\/strong> is within 2-3 business days.<\/p><p><strong>Priority Shipping<\/strong> is within 1-2 business days.<\/p>",
             "page": ""
           }
         }
@@ -135,7 +125,7 @@
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
         "891d0f6f-5a37-4358-a93f-d49c92004bef",
-        "de9b7b68-7c6a-4e8a-a64b-a11978a6ad82",
+        "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
         "86106f28-8537-421d-bc18-e66191b98c4b",
         "7f397899-cbcc-426b-b3fc-a60a320f0a2c"
       ],
@@ -152,68 +142,296 @@
         "enable_image_zoom": true
       }
     },
-    "1648018242bd6448c3": {
-      "type": "apps",
+    "95a3189b-0a15-40aa-a020-c007b78111c7": {
+      "type": "text",
       "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "<p>Don’t wait or wonder anymore when you are tired enough, give it a try and if it doesn’t work for you then we offer a 100% satisfaction guarantee.<\/p><p><strong>Finally get the sleep you deserve!<\/strong><\/p>",
+        "button_name": "",
+        "button_url": "",
         "top_spacing": "normal",
-        "width": "page-width"
+        "width": "page-width",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "description_size": "normal",
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_description": "#142c73",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#d7ece7",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
       }
     },
-    "16540789797a179ca9": {
+    "39a3cd53-c1c5-468d-83d5-d2deef683f10": {
       "type": "image-with-text-type2",
       "blocks": {
-        "16540789797fa73dd3-0": {
-          "type": "image",
-          "settings": {
-            "content_type": "video",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "16540789797fa73dd3-1": {
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1": {
           "type": "heading",
           "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Text with colored background and side image"
+            "subheading": "",
+            "heading": "CHOOSE YOUR SOUND – 30 MINS PLAY & CRY SENSOR"
           }
         },
-        "16540789797fa73dd3-2": {
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
           "type": "text",
           "settings": {
-            "text": "<p>This section allows you to set a text box background.<\/p>"
+            "text": "<p>Turn on the sound machine, walk away and experience peace of mind knowing your baby is minutes from drifting into dreamland. 20 relaxing songs, gentle heartbeat sound and quiet bird song quickly lull tired eyes to sleep in 30 minutes before automatically stopping so you don’t need to creep into the nursery to turn it off. Also includes a cry sensor that turns on the light and\/or sound if baby cries for longer than 5 minutes.<\/p>"
           }
         },
-        "16540789797fa73dd3-3": {
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
           "type": "button",
+          "disabled": true,
           "settings": {
-            "button_name": "Button"
+            "button_name": "Learn more"
+          }
+        },
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/img2.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
           }
         }
       },
       "block_order": [
-        "16540789797fa73dd3-0",
-        "16540789797fa73dd3-1",
-        "16540789797fa73dd3-2",
-        "16540789797fa73dd3-3"
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0"
       ],
       "settings": {
-        "url": "",
-        "top_spacing": "normal",
-        "width": "page-width",
+        "decoration_color": "blue",
+        "url": "shopify:\/\/products\/bubzi-co-baby-woodland-monthly-milestone-blanket",
+        "top_spacing": "none",
+        "width": "page-fullwidth",
         "content_size": "auto",
         "desktop_content_height": 440,
         "row_reverse": true,
         "content_aligment": "align-self-center",
-        "texts_aligment": "text-left",
+        "texts_aligment": "text-center",
         "heading_tag": "h2",
         "text_size": "normal",
         "hover_underline": false,
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_text": "#4484ce",
+        "color_button": "#4484ce",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#ffffff"
+      }
+    },
+    "017e1fec-4097-4af8-ae4a-96bcb982b387": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/3_5a7055b1-2261-43ea-bec0-96b259004c39.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "SWEET, SNUGGLY, SOOTHING SLEEP"
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Remember The Precious Moments Between You and Your Bub With Our Best Selling Keepsake Clay Frame Kits!<\/p>"
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_name": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3"
+      ],
+      "settings": {
+        "decoration_color": "blue",
+        "url": "shopify:\/\/products\/clay-casting-baby-footprints-and-handprint-frame-package",
+        "top_spacing": "none",
+        "width": "page-fullwidth",
+        "content_size": "auto",
+        "desktop_content_height": 360,
+        "row_reverse": false,
+        "content_aligment": "align-self-center",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "text_size": "normal",
+        "hover_underline": false,
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_text": "#4484ce",
+        "color_button": "#4484ce",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#faeca6"
+      }
+    },
+    "017e1fec-4097-4af8-ae4a-96bcb982b3871": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/img4_ba572d7d-ded4-4484-9f1a-7e79316df760.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "TURNS ON WHEN THEY CRY"
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NEW Automatic Cry Sensor - Activates when baby cries to play sound and light for 5 minutes. 30 minute auto off. Turn on the sound machine, walk away and experience peace of mind knowing your babies’ minutes from drifting into dreamland. Choose to turn the sensor ON or OFF.<\/p>"
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_name": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3"
+      ],
+      "settings": {
+        "decoration_color": "orange",
+        "url": "",
+        "top_spacing": "none",
+        "width": "page-fullwidth",
+        "content_size": "auto",
+        "desktop_content_height": 360,
+        "row_reverse": true,
+        "content_aligment": "align-self-center",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "text_size": "normal",
+        "hover_underline": false,
+        "color_subheading": "#ef6c00",
+        "color_heading": "#ef6c00",
+        "color_text": "#ef6c00",
+        "color_button": "#ef6c00",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#ffffff"
+      }
+    },
+    "39a3cd53-c1c5-468d-83d5-d2deef683f101": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "BABIES LOVE STARLIGHT PROJECTION"
+          }
+        },
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>so you can get things done, projecting an enchanting, fading constellation of star lights colors on dark ceilings or walls – the perfect baby nightlight projector for calming anxious minds, even when it’s not bedtime<\/p>"
+          }
+        },
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_name": "Learn more"
+          }
+        },
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/Untitled-jk.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0"
+      ],
+      "settings": {
+        "decoration_color": "orange",
+        "url": "",
+        "top_spacing": "none",
+        "width": "page-fullwidth",
+        "content_size": "auto",
+        "desktop_content_height": 440,
+        "row_reverse": false,
+        "content_aligment": "align-self-center",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "text_size": "normal",
+        "hover_underline": false,
+        "color_subheading": "#df744a",
+        "color_heading": "#df744a",
+        "color_text": "#df744a",
+        "color_button": "#df744a",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#faebe6"
+      }
+    },
+    "a8f7ffd0-ca78-4e9d-baf2-2bbfc591d767": {
+      "type": "text_custom",
+      "settings": {
+        "decoration_color": "blue",
+        "image": "shopify:\/\/shop_images\/image_13.png",
+        "subheading": "",
+        "heading": "Recommended by The Baby Sleep Site",
+        "description": "<p>\"As parents, we need many tools in our toolboxes and I can confidently recommend Bubzi Co sleep soothers. The Bubzi Co sleep soother is a great product that is not only a white noise machine but also an attachment object, music player, and projection toy. When you are teaching your baby to self-soothe, these types of products make it so much easier!\" Nicole Johnson, President & Founder, The Baby Sleep Site<\/p>",
+        "button_name": "",
+        "button_url": "",
+        "top_spacing": "none",
+        "width": "page-width",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "description_size": "normal",
         "color_subheading": "rgba(0,0,0,0)",
         "color_heading": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
+        "color_description": "#142c73",
         "color_button": "rgba(0,0,0,0)",
-        "play_background": "rgba(0,0,0,0)",
-        "color_background": "rgba(0,0,0,0)"
+        "background": "color",
+        "color_background": "#d7ece7",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
       }
     },
     "product-recommendations": {
@@ -246,169 +464,6 @@
         "color_heading": "rgba(0,0,0,0)",
         "color_meta": "rgba(0,0,0,0)",
         "color_button_product": "rgba(0,0,0,0)"
-      }
-    },
-    "d9e76fef-44b1-4d90-8089-0ec23f11533b": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "subheading": "SUBHEADING",
-        "heading": "Recently viewed products",
-        "heading_aligment": "text-center",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "grid": "col-md-4 col-one_fifth",
-        "mobile_grid": "6",
-        "swipe_on_mobile": true,
-        "image_ratio": "1",
-        "show_secondary_image": true,
-        "texts_aligment": "text-center",
-        "product_name_size": "normal",
-        "show_vendor": false,
-        "show_price": true,
-        "truncate_product_name": false,
-        "hover_underline": false,
-        "show_button_quickview": true,
-        "show_badge_on_sale": true,
-        "show_badge_sold_out": true,
-        "show_badge_feature": true,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_meta": "rgba(0,0,0,0)"
-      }
-    },
-    "16540791187138409c": {
-      "type": "icon-banners",
-      "blocks": {
-        "165407911824ee5498-0": {
-          "type": "banner",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "delivery",
-            "url": "",
-            "heading": "Free delivery",
-            "description": "Short content about your store",
-            "button_name": "Learn more"
-          }
-        },
-        "165407911824ee5498-1": {
-          "type": "banner",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "chat",
-            "url": "",
-            "heading": "Top-notch support",
-            "description": "Short content about your store",
-            "button_name": "Learn more"
-          }
-        },
-        "165407911824ee5498-2": {
-          "type": "banner",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "money_back",
-            "url": "",
-            "heading": "Satisfied or refunded",
-            "description": "Short content about your store",
-            "button_name": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "165407911824ee5498-0",
-        "165407911824ee5498-1",
-        "165407911824ee5498-2"
-      ],
-      "settings": {
-        "subheading": "YOUR SUBHEADING GOES HERE",
-        "heading": "Icon banners",
-        "heading_aligment": "text-center",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "grid": "grid-columns-3",
-        "swipe_on_mobile": false,
-        "texts_aligment": "text-left",
-        "heading_tag": "h4",
-        "description_size": "normal",
-        "hover_underline": false,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_svg": "rgba(0,0,0,0)",
-        "color_heading_banner": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)"
-      }
-    },
-    "1654079122d668a8e2": {
-      "type": "banners",
-      "blocks": {
-        "16540791227c6814a2-0": {
-          "type": "banner",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "subheading": "SUBHEADING",
-            "heading": "Banner",
-            "description": "Tell more about your product, collection...",
-            "call_to_action": "one_link_banner",
-            "button_primary_name": "Button",
-            "url": "",
-            "button_secondary_name": "Button",
-            "button_secondary_url": "",
-            "texts_aligment": "text-center",
-            "texts_aligment_mobile": "text-center-mobile",
-            "heading_tag": "h2",
-            "description_size": "normal",
-            "content_aligment": "align-items-center justify-content-center",
-            "show_background": false,
-            "hover_underline": false,
-            "color_subheading": "rgba(0,0,0,0)",
-            "color_heading": "rgba(0,0,0,0)",
-            "color_description": "rgba(0,0,0,0)",
-            "button_primary_bg": "rgba(0,0,0,0)",
-            "button_secondary_bg": "rgba(0,0,0,0)",
-            "color_background": "rgba(0,0,0,0)"
-          }
-        },
-        "16540791227c6814a2-1": {
-          "type": "banner",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "subheading": "SUBHEADING",
-            "heading": "Banner",
-            "description": "Tell more about your product, collection...",
-            "call_to_action": "one_link_banner",
-            "button_primary_name": "Button",
-            "url": "",
-            "button_secondary_name": "Button",
-            "button_secondary_url": "",
-            "texts_aligment": "text-center",
-            "texts_aligment_mobile": "text-center-mobile",
-            "heading_tag": "h2",
-            "description_size": "normal",
-            "content_aligment": "align-items-center justify-content-center",
-            "show_background": false,
-            "hover_underline": false,
-            "color_subheading": "rgba(0,0,0,0)",
-            "color_heading": "rgba(0,0,0,0)",
-            "color_description": "rgba(0,0,0,0)",
-            "button_primary_bg": "rgba(0,0,0,0)",
-            "button_secondary_bg": "rgba(0,0,0,0)",
-            "color_background": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "16540791227c6814a2-0",
-        "16540791227c6814a2-1"
-      ],
-      "settings": {
-        "subheading": "SUBHEADING",
-        "heading": "Banners",
-        "heading_aligment": "text-center",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "grid": "col-6",
-        "image_ratio": "auto",
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)"
       }
     },
     "b6a57d08-8072-44ba-a8f1-4987d1087771": {
@@ -499,12 +554,13 @@
   },
   "order": [
     "main",
-    "1648018242bd6448c3",
-    "16540789797a179ca9",
+    "95a3189b-0a15-40aa-a020-c007b78111c7",
+    "39a3cd53-c1c5-468d-83d5-d2deef683f10",
+    "017e1fec-4097-4af8-ae4a-96bcb982b387",
+    "017e1fec-4097-4af8-ae4a-96bcb982b3871",
+    "39a3cd53-c1c5-468d-83d5-d2deef683f101",
+    "a8f7ffd0-ca78-4e9d-baf2-2bbfc591d767",
     "product-recommendations",
-    "d9e76fef-44b1-4d90-8089-0ec23f11533b",
-    "16540791187138409c",
-    "1654079122d668a8e2",
     "b6a57d08-8072-44ba-a8f1-4987d1087771"
   ]
 }

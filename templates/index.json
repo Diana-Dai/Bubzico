@@ -124,7 +124,7 @@
         "show_icon": "none",
         "icon_name": "advertising_sm",
         "color_svg": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
+        "color_text": "#142c73",
         "background": "color",
         "color_background": "#faeca6",
         "gradient": "",
@@ -560,6 +560,7 @@
     "16540746330397160e": {
       "type": "blog-posts",
       "settings": {
+        "decoration_color": "blue",
         "blog": "news",
         "subheading": "",
         "heading": "Related contents",
