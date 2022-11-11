@@ -1189,13 +1189,13 @@ terms_and_condition-checkbox .checkbox-input:hover span{
   cursor: default;
   font-weight: var(--font-body-weight);
 }
-
+product-recommendations .grid.el_mt_40,
 [data-section-name="featured-collection"] slider-component{
   max-width: 60%;
   margin: 0 auto;
   gap: 100px;
 }
-
+product-recommendations .grid.el_mt_40 .col-6,
 [data-section-name="featured-collection"] slider-component .col-6{
   max-width: 280px;
   margin: 0 auto;
@@ -1410,10 +1410,21 @@ section{
   font-size: 32px;
 line-height: 1.3;
 }
+@media (max-width: 992px){
+  [data-section-name="text"] p{
+    font-size: 24px;
+  }
+}
 [data-section-name="custom-text"] .col-6{
   max-width: 60% !important;
 
 }
 [data-section-name="text"] .col-6{
   max-width: 80% !important;
+}
+
+@media (max-width: 992px){
+  [data-section-name="custom-text"] .col-6{
+    max-width: 90% !important;
+  }
 }

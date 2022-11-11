@@ -2,15 +2,34 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "top_spacing": "normal",
         "width": "page-width",
         "show_heading": true,
         "heading_aligment": "text-center"
       }
+    },
+    "166815135298182ff0": {
+      "type": "apps",
+      "blocks": {
+        "58a7751c-3397-4939-ae43-8a00e59ba875": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/all-reviews\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "58a7751c-3397-4939-ae43-8a00e59ba875"
+      ],
+      "settings": {
+        "top_spacing": "normal",
+        "width": "page-width"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "166815135298182ff0"
   ]
 }

@@ -285,7 +285,7 @@
         "type": "range",
         "id": "spacing_grid_horizontal",
         "min": 10,
-        "max": 40,
+        "max": 60,
         "step": 10,
         "default": 20,
         "unit": "px",

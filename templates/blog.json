@@ -24,10 +24,12 @@
     },
     "1654076844c8f3b753": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "subheading": "SUBHEADING",
         "heading": "Newsletter",
         "text": "A short sentence describing what someone will receive by subscribing",
+        "newsletter_terms": "<p>By clicking the button you agree to the <a href=\"\/\"><strong>Privacy Policy<\/strong><\/a> and <a href=\"\/\"><strong>Terms and Conditions<\/strong><\/a>.<\/p>",
         "heading_aligment": "text-center",
         "top_spacing": "normal",
         "width": "page-width",
@@ -47,7 +49,9 @@
     },
     "16540768593189435f": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
+        "decoration_color": "blue",
         "blog": "news",
         "subheading": "SUBHEADING",
         "heading": "Blog posts",
@@ -87,6 +91,7 @@
     },
     "16540768765f5e1577": {
       "type": "banners",
+      "disabled": true,
       "blocks": {
         "16540768750972710a-0": {
           "type": "banner",

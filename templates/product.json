@@ -209,7 +209,7 @@
       "settings": {
         "decoration_color": "blue",
         "url": "shopify:\/\/products\/bubzi-co-baby-woodland-monthly-milestone-blanket",
-        "top_spacing": "none",
+        "top_spacing": "small",
         "width": "page-fullwidth",
         "content_size": "auto",
         "desktop_content_height": 440,
@@ -434,38 +434,6 @@
         "remove_bottom_spacing": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "subheading": "BEST SELLING PRODUCTS",
-        "heading": "Product recommendations",
-        "heading_aligment": "text-center",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "grid": "col-md-4 col-one_fifth",
-        "mobile_grid": "6",
-        "product_limit": 5,
-        "image_ratio": "1",
-        "show_secondary_image": true,
-        "texts_aligment": "text-center",
-        "product_name_size": "normal",
-        "show_vendor": false,
-        "show_type": false,
-        "show_rating": false,
-        "show_price": true,
-        "truncate_product_name": false,
-        "hover_underline": false,
-        "button_type_product": "hide",
-        "show_button_quickview": false,
-        "show_badge_on_sale": true,
-        "show_badge_sold_out": true,
-        "show_badge_feature": true,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_meta": "rgba(0,0,0,0)",
-        "color_button_product": "rgba(0,0,0,0)"
-      }
-    },
     "b6a57d08-8072-44ba-a8f1-4987d1087771": {
       "type": "accordion",
       "blocks": {
@@ -550,6 +518,38 @@
         "background_spacing": "normal",
         "remove_bottom_spacing": false
       }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "heading": "Product recommendations",
+        "heading_aligment": "text-center",
+        "top_spacing": "normal",
+        "width": "page-width",
+        "grid": "col-6",
+        "mobile_grid": "6",
+        "product_limit": 4,
+        "image_ratio": "1",
+        "show_secondary_image": true,
+        "texts_aligment": "text-center",
+        "product_name_size": "normal",
+        "show_vendor": false,
+        "show_type": false,
+        "show_rating": false,
+        "show_price": true,
+        "truncate_product_name": false,
+        "hover_underline": false,
+        "button_type_product": "hide",
+        "show_button_quickview": false,
+        "show_badge_on_sale": true,
+        "show_badge_sold_out": true,
+        "show_badge_feature": true,
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_meta": "rgba(0,0,0,0)",
+        "color_button_product": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -560,7 +560,7 @@
     "017e1fec-4097-4af8-ae4a-96bcb982b3871",
     "39a3cd53-c1c5-468d-83d5-d2deef683f101",
     "a8f7ffd0-ca78-4e9d-baf2-2bbfc591d767",
-    "product-recommendations",
-    "b6a57d08-8072-44ba-a8f1-4987d1087771"
+    "b6a57d08-8072-44ba-a8f1-4987d1087771",
+    "product-recommendations"
   ]
 }

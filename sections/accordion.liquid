@@ -59,7 +59,7 @@
 {%- endif -%}
 
 <div id="accordion-{{ section.id }}" class="top-spacing-{{ section.settings.top_spacing }}{% if section.settings.background != 'hide' and section.settings.background_width == "fullwidth" %} section-background section-background--{{ section.settings.background_spacing }}{% endif %}" data-section-name="accordion">
-  <div class="{{ section.settings.width }} mb--last-child-0">
+  <div class="{{ section.settings.width }} liquid-content mb--last-child-0">
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}<div class="section-background section-background--{{ section.settings.background_spacing }} border__radius mb--last-child-0">{%- endif -%}
 
     {%- liquid
@@ -101,6 +101,12 @@
     </toggle-component>
     {%- endif -%}
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}</div>{%- endif -%}
+  </div>
+  <div class="liquid-wrap">
+    <div class="liquid-box bottom-right">
+      <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-blue-2_1.png?v=1668138448"
+        class="img" alt="">
+    </div>
   </div>
 </div>
 

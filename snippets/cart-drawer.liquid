@@ -340,8 +340,8 @@
           <div class="cart__footer__information">
             <div class="cart__footer__content js-contents body3" {{ block.shopify_attributes }}>
               <div class="totals">
-                <h3 class="mt0 mb0 totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h3>&nbsp;
-                <p class="mt0 h3 totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
+                <h5 class="mt0 mb0 totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h5>&nbsp;
+                <p class="mt0 h5 totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
               </div>
   
               {%- if cart.cart_level_discount_applications.size > 0 -%}
