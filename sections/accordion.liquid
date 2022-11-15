@@ -58,7 +58,7 @@
 <style>{{ section_styles }}</style>
 {%- endif -%}
 
-<div id="accordion-{{ section.id }}" class="top-spacing-{{ section.settings.top_spacing }}{% if section.settings.background != 'hide' and section.settings.background_width == "fullwidth" %} section-background section-background--{{ section.settings.background_spacing }}{% endif %}" data-section-name="accordion">
+<div id="accordion-{{ section.id }}" class="liquid-wrapper top-spacing-{{ section.settings.top_spacing }}{% if section.settings.background != 'hide' and section.settings.background_width == "fullwidth" %} section-background section-background--{{ section.settings.background_spacing }}{% endif %}" data-section-name="accordion">
   <div class="{{ section.settings.width }} liquid-content mb--last-child-0">
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}<div class="section-background section-background--{{ section.settings.background_spacing }} border__radius mb--last-child-0">{%- endif -%}
 
@@ -385,7 +385,7 @@
             "label": "t:sections.general.settings.heading.label"
           },
           {
-            "type": "richtext",
+            "type": "html",
             "id": "description",
             "default": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
 			"label": "t:sections.general.settings.description.label"

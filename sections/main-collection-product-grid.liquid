@@ -72,8 +72,7 @@ endif
 <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
-<div class="top-spacing-{{ section.settings.top_spacing }} {{ section.settings.width }}">
-
+<div class=" liquid-content top-spacing-{{ section.settings.top_spacing }} {{ section.settings.width }}">
   <div class="grid">
     
     {%- render 'collection-toolbar', 
@@ -144,7 +143,13 @@ endif
     </div>
   </div>
 </div>
+    <div class="liquid-wrap">
 
+      <div class="liquid-box bottom-right">
+        <img src="https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-blue-2_1.png?v=1668138448"
+          class="img" alt="">
+      </div>
+    </div>
 {%- if section.settings.button_type_product != 'hide' or section.settings.show_button_quickview -%}
 <script src="{{ 'quick-add.min.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
@@ -205,6 +210,7 @@ endif
 {% schema %}
   {
     "name": "t:sections.main-collection-product-grid.name",
+    "class":"main-collection liquid-wrapper",
   	"tag": "section",
     "settings": [
       {

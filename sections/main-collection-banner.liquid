@@ -67,7 +67,7 @@
     {%- if section.blocks.size == 0 or collection.image == blank -%}
     <div class="grid{% if section.settings.texts_aligment == "text-center" %} justify-content-center{% endif %}">
       <div class="col-st-12 col-6 {{ section.settings.texts_aligment }}">
-        <h1 class="mt0 mb0">{{ collection.title }}</h1>
+        <h1 class="mt0 mb0 blue">{{ collection.title }}</h1>
       </div>
     </div>
     {%- else -%}
@@ -124,6 +124,7 @@
 
     {%- endif -%}
   </div>
+
 </div>
 
 {% schema %}

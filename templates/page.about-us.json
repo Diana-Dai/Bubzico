@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "top_spacing": "normal",
         "width": "page-width",
@@ -9,49 +10,54 @@
         "heading_aligment": "text-center"
       }
     },
-    "16540757411b1ccd93": {
-      "type": "image-with-text-bg",
+    "1255d09e-14da-446a-9c89-fa6391d41178": {
+      "type": "image-with-text-type2",
       "blocks": {
-        "1654075741a97777c4-0": {
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-0": {
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image_ratio": "1.333333",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-11_at_10.29.54_pm.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
         },
-        "1654075741a97777c4-1": {
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-1": {
           "type": "heading",
           "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Big banner on color background with variable height"
+            "subheading": "",
+            "heading": "<p>Nursery Essentials To Brighten Your Day<\/p>"
           }
         },
-        "1654075741a97777c4-2": {
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-2": {
           "type": "text",
           "settings": {
-            "text": "<p>This section allows you to highlight the image with a half-height background color. You may adjust the height of the color part at section settings. Best works for the image with transparent background.<\/p>"
+            "text": "<p>Hello! We are Bubzi Co, a baby care company created to help new parents, like you.<br\/><br\/>Established by husband and wife Elijah and Angela in Sydney, Australia, we create solutions that genuinely help you prepare for and to take care of your newborn, with innovative designs and quality materials that result in products that help make your day a little easier, but also filled with priceless memories.<\/p>"
           }
         },
-        "1654075741a97777c4-3": {
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-3": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_name": "Button"
           }
         }
       },
       "block_order": [
-        "1654075741a97777c4-0",
-        "1654075741a97777c4-1",
-        "1654075741a97777c4-2",
-        "1654075741a97777c4-3"
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-0",
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-1",
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-2",
+        "template--14581926756440__1255d09e-14da-446a-9c89-fa6391d41178-1668472524392e9deb-3"
       ],
       "settings": {
+        "decoration_color": "blue",
         "url": "",
         "top_spacing": "normal",
         "width": "page-width",
-        "column_reverse": true,
+        "content_size": "fullscreen",
+        "desktop_content_height": 440,
+        "row_reverse": false,
+        "content_aligment": "align-self-center",
         "texts_aligment": "text-center",
         "heading_tag": "h2",
         "text_size": "normal",
@@ -61,433 +67,109 @@
         "color_text": "rgba(0,0,0,0)",
         "color_button": "rgba(0,0,0,0)",
         "play_background": "rgba(0,0,0,0)",
-        "background": "color",
-        "color_background": "rgba(0,0,0,0)",
-        "gradient": "",
-        "background_width": "content_width",
-        "background_spacing": "normal",
-        "background_bp": 70
+        "color_background": "#ffffff"
       }
     },
-    "16540759200ff65b94": {
-      "type": "ticker",
+    "f9a79844-cf0c-4b81-9f0d-1a42513dfe99": {
+      "type": "text_custom",
       "settings": {
-        "top_spacing": "normal",
-        "ticker_time": 10,
-        "text_size": "normal",
-        "text": "<p><strong>FOR EXAMPLE <\/strong>— test of the announcement of some news<\/p>",
-        "show_icon": "svg",
-        "icon_name": "advertising_sm",
-        "color_svg": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
-        "background": "color",
-        "color_background": "rgba(0,0,0,0)",
-        "gradient": "",
-        "background_spacing": "small",
-        "remove_bottom_spacing": false
-      }
-    },
-    "165443655509fc2f2b": {
-      "type": "image-with-text",
-      "blocks": {
-        "1654436555ddcbb6d6-0": {
-          "type": "image",
-          "settings": {
-            "content_type": "image",
-            "image_ratio": "1.333333",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "1654436555ddcbb6d6-1": {
-          "type": "heading",
-          "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Media with text"
-          }
-        },
-        "1654436555ddcbb6d6-2": {
-          "type": "text",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "",
-            "text": "<p>Some descriptive text for your store. For better alignment, it is better to use text in several lines<\/p>"
-          }
-        },
-        "1654436555ddcbb6d6-4": {
-          "type": "button",
-          "settings": {
-            "button_name": "Button"
-          }
-        }
-      },
-      "block_order": [
-        "1654436555ddcbb6d6-0",
-        "1654436555ddcbb6d6-1",
-        "1654436555ddcbb6d6-2",
-        "1654436555ddcbb6d6-4"
-      ],
-      "settings": {
-        "url": "",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "row_reverse": false,
-        "heading_aligment": "text-center",
-        "content_aligment": "align-self-center",
-        "texts_aligment": "text-left",
-        "heading_tag": "h2",
-        "text_size": "normal",
-        "hover_underline": false,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_svg": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)",
-        "background": "hide",
-        "color_background": "rgba(0,0,0,0)",
-        "gradient": "",
-        "background_width": "fullwidth",
-        "background_spacing": "normal",
-        "remove_bottom_spacing": false
-      }
-    },
-    "1654436593ed86bebc": {
-      "type": "image-with-text",
-      "blocks": {
-        "1654436593de020857-0": {
-          "type": "image",
-          "settings": {
-            "content_type": "image",
-            "image_ratio": "1.333333",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "1654436593de020857-1": {
-          "type": "heading",
-          "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Media with text"
-          }
-        },
-        "1654436593de020857-2": {
-          "type": "text",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "",
-            "text": "<p>Some descriptive text for your store. For better alignment, it is better to use text in several lines<\/p>"
-          }
-        },
-        "1654436593de020857-4": {
-          "type": "button",
-          "settings": {
-            "button_name": "Button"
-          }
-        }
-      },
-      "block_order": [
-        "1654436593de020857-0",
-        "1654436593de020857-1",
-        "1654436593de020857-2",
-        "1654436593de020857-4"
-      ],
-      "settings": {
-        "url": "",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "row_reverse": true,
-        "heading_aligment": "text-center",
-        "content_aligment": "align-self-center",
-        "texts_aligment": "text-left",
-        "heading_tag": "h2",
-        "text_size": "normal",
-        "hover_underline": false,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_svg": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)",
-        "background": "hide",
-        "color_background": "rgba(0,0,0,0)",
-        "gradient": "",
-        "background_width": "fullwidth",
-        "background_spacing": "normal",
-        "remove_bottom_spacing": false
-      }
-    },
-    "165443662014c3d10f": {
-      "type": "image-with-text",
-      "blocks": {
-        "1654436620b226b81b-0": {
-          "type": "image",
-          "settings": {
-            "content_type": "image",
-            "image_ratio": "1.333333",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "1654436620b226b81b-1": {
-          "type": "heading",
-          "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Media with text"
-          }
-        },
-        "1654436620b226b81b-2": {
-          "type": "text",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "check",
-            "text": "<p>Some descriptive text for your store. For better alignment, it is better to use text in several lines<\/p>"
-          }
-        },
-        "1654436620b226b81b-3": {
-          "type": "text",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "check",
-            "text": "<p>Some descriptive text for your store. For better alignment, it is better to use text in several lines<\/p>"
-          }
-        },
-        "1654436620b226b81b-4": {
-          "type": "button",
-          "settings": {
-            "button_name": "Button"
-          }
-        }
-      },
-      "block_order": [
-        "1654436620b226b81b-0",
-        "1654436620b226b81b-1",
-        "1654436620b226b81b-2",
-        "1654436620b226b81b-3",
-        "1654436620b226b81b-4"
-      ],
-      "settings": {
-        "url": "",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "row_reverse": false,
-        "heading_aligment": "text-center",
-        "content_aligment": "align-self-center",
-        "texts_aligment": "text-left",
-        "heading_tag": "h2",
-        "text_size": "normal",
-        "hover_underline": false,
-        "color_subheading": "rgba(0,0,0,0)",
-        "color_heading": "rgba(0,0,0,0)",
-        "color_svg": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)",
-        "background": "hide",
-        "color_background": "rgba(0,0,0,0)",
-        "gradient": "",
-        "background_width": "fullwidth",
-        "background_spacing": "normal",
-        "remove_bottom_spacing": false
-      }
-    },
-    "165407638219db233c": {
-      "type": "text-columns-with-images",
-      "blocks": {
-        "0bd220a6-c853-4914-9603-3dd18c9fcd60": {
-          "type": "blurb_image",
-          "settings": {
-            "show_image": "show",
-            "url": "",
-            "heading": "Heading",
-            "description": "<p>Give customers details about the banner image(s) or content on the template.<\/p>"
-          }
-        },
-        "1c37d03e-42d4-4a8c-8da0-a431227d3744": {
-          "type": "blurb_image",
-          "settings": {
-            "show_image": "show",
-            "url": "",
-            "heading": "Heading",
-            "description": "<p>Give customers details about the banner image(s) or content on the template.<\/p>"
-          }
-        },
-        "ae100884-e4c0-490b-89fa-29212a686d8a": {
-          "type": "blurb_image",
-          "settings": {
-            "show_image": "show",
-            "url": "",
-            "heading": "Heading",
-            "description": "<p>Give customers details about the banner image(s) or content on the template.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "0bd220a6-c853-4914-9603-3dd18c9fcd60",
-        "1c37d03e-42d4-4a8c-8da0-a431227d3744",
-        "ae100884-e4c0-490b-89fa-29212a686d8a"
-      ],
-      "settings": {
-        "subheading": "SUBHEADING",
-        "heading": "Text columns with images",
-        "heading_aligment": "text-center",
-        "button_name": "Button",
+        "decoration_color": "blue",
+        "subheading": "",
+        "heading": "Our Mission",
+        "description": "<p>To help all parents feel happy, prepared, confident, safe and knowledgeable about what’s to come in their next chapter of life.<\/p>",
+        "button_name": "",
         "button_url": "",
         "top_spacing": "normal",
         "width": "page-width",
-        "grid": "col-4",
-        "swipe_on_mobile": false,
-        "image_ratio": "auto",
         "texts_aligment": "text-center",
-        "heading_tag": "h4",
+        "heading_tag": "h2",
         "description_size": "normal",
-        "hover_underline": false,
         "color_subheading": "rgba(0,0,0,0)",
         "color_heading": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)",
-        "color_swipe_buttons": "rgba(0,0,0,0)",
-        "color_heading_blurb": "rgba(0,0,0,0)",
         "color_description": "rgba(0,0,0,0)",
-        "color_svg": "rgba(0,0,0,0)",
-        "background": "hide",
-        "color_background": "rgba(0,0,0,0)",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#faeca6",
         "gradient": "",
         "background_width": "fullwidth",
         "background_spacing": "normal",
         "remove_bottom_spacing": false
       }
     },
-    "165407640731dd0cec": {
-      "type": "image-with-text-bg",
-      "blocks": {
-        "165407640719229da9-0": {
-          "type": "image",
-          "settings": {
-            "content_type": "image",
-            "image_ratio": "1.333333",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "165407640719229da9-1": {
-          "type": "heading",
-          "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Big banner on color background with variable height"
-          }
-        },
-        "165407640719229da9-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This section allows you to highlight the image with a half-height background color. You may adjust the height of the color part at section settings. Best works for the image with transparent background.<\/p>"
-          }
-        },
-        "165407640719229da9-3": {
-          "type": "button",
-          "settings": {
-            "button_name": "Button"
-          }
-        }
-      },
-      "block_order": [
-        "165407640719229da9-0",
-        "165407640719229da9-1",
-        "165407640719229da9-2",
-        "165407640719229da9-3"
-      ],
+    "803d407a-e7d7-42b5-96df-3789e890886c": {
+      "type": "text_custom",
       "settings": {
-        "url": "",
-        "top_spacing": "normal",
+        "decoration_color": "blue",
+        "subheading": "",
+        "heading": "Contact Us",
+        "description": "<p>We love to hear from our customers. Your comments help us improve our products & reach more people. Feel free to contact us with your ideas & <br\/>suggestions.<\/p><p>Email: admin@bubzico.com<\/p><p>Facebook: <a href=\"http:\/\/www.facebook.com\/bubzico\" target=\"_blank\">facebook.com\/BubziCo<\/a><\/p><p>Instagram: <a href=\"https:\/\/www.instagram.com\/bubzi.co\/\" target=\"_self\">instagram.com\/Bubzi.Co<\/a><\/p><p>Pinterest: <a href=\"https:\/\/www.pinterest.com\/BubziCoNurseryDecor\" target=\"_self\">pinterest.com\/BubziCoNurseryDecor<\/a><\/p>",
+        "button_name": "",
+        "button_url": "",
+        "top_spacing": "small",
         "width": "page-width",
-        "column_reverse": true,
         "texts_aligment": "text-center",
         "heading_tag": "h2",
-        "text_size": "normal",
-        "hover_underline": false,
+        "description_size": "normal",
         "color_subheading": "rgba(0,0,0,0)",
         "color_heading": "rgba(0,0,0,0)",
-        "color_text": "rgba(0,0,0,0)",
+        "color_description": "rgba(0,0,0,0)",
         "color_button": "rgba(0,0,0,0)",
-        "play_background": "rgba(0,0,0,0)",
         "background": "color",
-        "color_background": "rgba(0,0,0,0)",
+        "color_background": "#ffffff",
         "gradient": "",
-        "background_width": "content_width",
+        "background_width": "fullwidth",
         "background_spacing": "normal",
-        "background_bp": 70
+        "remove_bottom_spacing": false
       }
     },
-    "16544367585fa41da1": {
-      "type": "text-columns-with-images",
-      "blocks": {
-        "16544367586871e38e-0": {
-          "type": "blurb_icon",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "check",
-            "url": "",
-            "heading": "Heading",
-            "description": "<p>Give customers details about the banner image(s) or content on the template.<\/p>"
-          }
-        },
-        "16544367586871e38e-1": {
-          "type": "blurb_icon",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "advertising",
-            "url": "",
-            "heading": "Heading",
-            "description": "<p>Give customers details about the banner image(s) or content on the template.<\/p>"
-          }
-        },
-        "16544367586871e38e-2": {
-          "type": "blurb_icon",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "phone",
-            "url": "",
-            "heading": "Heading",
-            "description": "<p>Give customers details about the banner image(s) or content on the template.<\/p>"
-          }
-        },
-        "7bc4f058-d4e7-4fd0-8b31-0db6dd3208a8": {
-          "type": "blurb_icon",
-          "settings": {
-            "show_icon": "svg",
-            "icon_name": "check",
-            "url": "",
-            "heading": "Heading",
-            "description": "<p>Give customers details about the banner image(s) or content on the template.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16544367586871e38e-0",
-        "16544367586871e38e-1",
-        "16544367586871e38e-2",
-        "7bc4f058-d4e7-4fd0-8b31-0db6dd3208a8"
-      ],
+    "315b0f80-6e10-4896-b250-9d0aa6e3c05b": {
+      "type": "text_custom",
       "settings": {
-        "subheading": "SUBHEADING",
-        "heading": "Text columns with images",
-        "heading_aligment": "text-center",
-        "button_name": "Button",
+        "decoration_color": "blue",
+        "image": "shopify:\/\/shop_images\/psi_logo_300dpi_mediumpng-1539691047039.png",
+        "subheading": "",
+        "heading": "Our Partnership with Postpartum Support International",
+        "description": "<p>Did you know 1 in 7 women and 1 in 10 men experience postpartum depression?<\/p><p>At Bubzi Co, we're passionate about helping you navigate parenthood for <br\/>the first time, and this includes looking after your mental health.<\/p><p>While many women experience some mild mood changes during or after the birth of a child, 15 to 20% of women experience more significant symptoms of depression or anxiety.<\/p><p>However with the right informed care, moms can prevent a worsening of these symptoms and can fully recover. <\/p><p>There is no reason to continue to suffer and feel alone.That's why we donate a portion of our sales revenue to Postpartum Support International on an annual basis as of November 2017. <\/p><p><strong>Useful links:<\/strong><\/p><p><strong>The Facts<\/strong><a href=\"http:\/\/www.postpartum.net\/learn-more\/pregnancy-postpartum-mental-health\/\"><strong>http:\/\/www.postpartum.net\/learn-more\/pregnancy-postpartum-mental-health\/<br\/><\/strong><\/a><\/p><p><strong>Get Help Now - Your Local Area<\/strong><\/p><p><a href=\"http:\/\/www.postpartum.net\/get-help\/locations\/united-states\/\"><strong>http:\/\/www.postpartum.net\/get-help\/locations\/<br\/><\/strong><\/a><\/p><p><strong>Donate Online<\/strong><\/p><p><a href=\"http:\/\/www.postpartum.net\/about-psi\/donate-to-psi\/\"><strong>http:\/\/www.postpartum.net\/about-psi\/donate-to-psi\/<\/strong><br\/><\/a><\/p><p><\/p><p>If you have any questions about our partnership with PSI, please contact us.<\/p>",
+        "button_name": "",
         "button_url": "",
-        "top_spacing": "normal",
+        "top_spacing": "none",
         "width": "page-width",
-        "grid": "col-md-6 col-3",
-        "swipe_on_mobile": false,
-        "image_ratio": "auto",
         "texts_aligment": "text-center",
-        "heading_tag": "h4",
+        "heading_tag": "h2",
         "description_size": "normal",
-        "hover_underline": false,
         "color_subheading": "rgba(0,0,0,0)",
         "color_heading": "rgba(0,0,0,0)",
-        "color_button": "rgba(0,0,0,0)",
-        "color_swipe_buttons": "rgba(0,0,0,0)",
-        "color_heading_blurb": "rgba(0,0,0,0)",
         "color_description": "rgba(0,0,0,0)",
-        "color_svg": "rgba(0,0,0,0)",
-        "background": "hide",
-        "color_background": "rgba(0,0,0,0)",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#d7ece7",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
+      }
+    },
+    "ae5de980-33f4-4b0e-a2dd-7ab897846b9a": {
+      "type": "text_custom",
+      "settings": {
+        "decoration_color": "blue",
+        "image": "shopify:\/\/shop_images\/pf-6a4aafa4--b1g1.webp",
+        "subheading": "",
+        "heading": "Our Partnership with B1G1",
+        "description": "<p>With every Bubzi Co purchase you're given the choice to allocate our donation to either PSI or B1G1.<br\/>This is because we believe in supporting mothers around the world.<br\/><br\/>Our B1G1 donation goes to the Bombay Mothers and Children Welfare Society in India to give a pregnant mother maternal care, which includes proper prenatal healthcare and vitamins.<\/p><p><strong>With your help, we have given over 20,000 days of maternal care through B1G1.<\/strong>If you have any questions about our partnership with B1G1, please contact us.<\/p>",
+        "button_name": "",
+        "button_url": "",
+        "top_spacing": "none",
+        "width": "page-width",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "description_size": "normal",
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_description": "rgba(0,0,0,0)",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#faeca6",
         "gradient": "",
         "background_width": "fullwidth",
         "background_spacing": "normal",
@@ -497,13 +179,10 @@
   },
   "order": [
     "main",
-    "16540757411b1ccd93",
-    "16540759200ff65b94",
-    "165443655509fc2f2b",
-    "1654436593ed86bebc",
-    "165443662014c3d10f",
-    "165407638219db233c",
-    "165407640731dd0cec",
-    "16544367585fa41da1"
+    "1255d09e-14da-446a-9c89-fa6391d41178",
+    "f9a79844-cf0c-4b81-9f0d-1a42513dfe99",
+    "803d407a-e7d7-42b5-96df-3789e890886c",
+    "315b0f80-6e10-4896-b250-9d0aa6e3c05b",
+    "ae5de980-33f4-4b0e-a2dd-7ab897846b9a"
   ]
 }

@@ -3,83 +3,83 @@
     "1662640935ca798dff": {
       "type": "slideshow",
       "blocks": {
-        "166264093577412f3d-0": {
+        "ea61cb53-f1e9-4dc9-ae76-867b0a542372": {
           "type": "slide",
           "settings": {
-            "content_type": "video",
+            "content_type": "image",
             "video_url": "",
-            "image": "shopify:\/\/shop_images\/DSC08740.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_design_42.png",
             "image_overlay_opacity": 0,
             "subheading": "",
-            "heading": "",
+            "heading": "Nursery Essentials To Brighten Your Days",
             "description": "",
             "call_to_action": "one_link_banner",
             "button_primary_name": "",
-            "url": "shopify:\/\/collections",
-            "button_secondary_name": "Button",
+            "url": "",
+            "button_secondary_name": "",
             "button_secondary_url": "",
             "texts_aligment": "text-center",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "description_size": "normal",
             "content_aligment": "align-items-center justify-content-center",
             "show_background": false,
             "hover_underline": false,
             "color_subheading": "#ffffff",
-            "color_heading": "rgba(0,0,0,0)",
+            "color_heading": "#ffffff",
             "color_description": "rgba(0,0,0,0)",
-            "button_primary_bg": "rgba(0,0,0,0)",
+            "button_primary_bg": "#4484ce",
             "button_secondary_bg": "rgba(0,0,0,0)",
             "color_background": "rgba(0,0,0,0)"
           }
         },
-        "69cbccf2-3651-4207-afeb-d5def55ce1c3": {
+        "166264093577412f3d-0": {
           "type": "slide",
           "settings": {
-            "content_type": "image",
+            "content_type": "video",
             "video_url": "",
-            "image": "shopify:\/\/shop_images\/website_header_1800_x_1000.png",
+            "image": "shopify:\/\/shop_images\/2_43cf7229-97db-4583-a8cc-ac9d56dd3ff2.png",
             "image_overlay_opacity": 0,
             "subheading": "",
-            "heading": "",
+            "heading": "Baby Gifts That Create Unforgettable Memories",
             "description": "",
             "call_to_action": "one_link_banner",
-            "button_primary_name": "Button",
-            "url": "",
-            "button_secondary_name": "Button",
+            "button_primary_name": "",
+            "url": "shopify:\/\/collections\/keepsakes",
+            "button_secondary_name": "",
             "button_secondary_url": "",
             "texts_aligment": "text-center",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "description_size": "normal",
             "content_aligment": "align-items-center justify-content-center",
             "show_background": false,
             "hover_underline": false,
-            "color_subheading": "rgba(0,0,0,0)",
-            "color_heading": "rgba(0,0,0,0)",
+            "color_subheading": "#ffffff",
+            "color_heading": "#ffffff",
             "color_description": "rgba(0,0,0,0)",
-            "button_primary_bg": "rgba(0,0,0,0)",
+            "button_primary_bg": "#4484ce",
             "button_secondary_bg": "rgba(0,0,0,0)",
             "color_background": "rgba(0,0,0,0)"
           }
         }
       },
       "block_order": [
-        "166264093577412f3d-0",
-        "69cbccf2-3651-4207-afeb-d5def55ce1c3"
+        "ea61cb53-f1e9-4dc9-ae76-867b0a542372",
+        "166264093577412f3d-0"
       ],
       "settings": {
         "top_spacing": "none",
-        "bottom_spacing": "normal",
-        "width": "page-width",
+        "bottom_spacing": "none",
+        "width": "page-fullwidth",
         "image_size": "fixed",
         "desktop_image_height": 590,
         "texts_aligment_mobile": "text-center-mobile",
         "desktop_navigation": "dots_arrows",
         "mobile_navigation": "dots_arrows",
         "dots_desktop_position": "center",
-        "autoplay_enabled": false,
-        "autoplay_time": 5,
+        "autoplay_enabled": true,
+        "autoplay_time": 3,
         "video_slide_mode": "autoplay_muted",
-        "play_button_enabled": true
+        "play_button_enabled": false
       }
     },
     "1654072995afca1996": {
@@ -117,115 +117,19 @@
         "dd01eb26-4089-4014-98b7-5a6ebfb7009e"
       ],
       "settings": {
-        "top_spacing": "none",
+        "top_spacing": "small",
         "ticker_time": 29,
         "text_size": "normal",
         "text": "",
         "show_icon": "none",
         "icon_name": "advertising_sm",
-        "color_svg": "rgba(0,0,0,0)",
-        "color_text": "#142c73",
-        "background": "color",
+        "color_svg": "#faeca6",
+        "color_text": "#4484ce",
+        "background": "hide",
         "color_background": "#faeca6",
         "gradient": "",
         "background_spacing": "small",
         "remove_bottom_spacing": false
-      }
-    },
-    "16544355349cd01ef0": {
-      "type": "featured-collection",
-      "settings": {
-        "decoration_color": "orange",
-        "collection": "sleep-soothers",
-        "subheading": "Help Your Baby To Sleep With Lullabies",
-        "heading": "Soothing Sleep Friends",
-        "heading_aligment": "text-center",
-        "button_name": "Shop All",
-        "top_spacing": "normal",
-        "width": "page-width",
-        "grid": "col-6",
-        "mobile_grid": "6",
-        "swipe_on_mobile": false,
-        "product_limit": 4,
-        "image_ratio": "auto",
-        "show_secondary_image": true,
-        "texts_aligment": "text-center",
-        "product_name_size": "normal",
-        "show_vendor": false,
-        "show_type": false,
-        "show_rating": false,
-        "show_price": true,
-        "truncate_product_name": false,
-        "hover_underline": false,
-        "button_type_product": "only_text",
-        "show_button_quickview": true,
-        "show_badge_on_sale": true,
-        "show_badge_sold_out": true,
-        "show_badge_feature": true,
-        "color_subheading": "#df744a",
-        "color_heading": "#df744a",
-        "color_body": "#df744a",
-        "color_meta": "rgba(0,0,0,0)",
-        "color_button_product": "rgba(0,0,0,0)"
-      }
-    },
-    "017e1fec-4097-4af8-ae4a-96bcb982b387": {
-      "type": "image-with-text-type2",
-      "blocks": {
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0": {
-          "type": "image",
-          "settings": {
-            "content_type": "image",
-            "image": "shopify:\/\/shop_images\/2_4ba17a9b-7cc3-4edf-b7ef-45664964c5c7.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1": {
-          "type": "heading",
-          "settings": {
-            "subheading": "",
-            "heading": "Make Memories That Last a Lifetime"
-          }
-        },
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Remember The Precious Moments Between You and Your Bub With Our Best Selling Keepsake Clay Frame Kits!<\/p>"
-          }
-        },
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
-          "type": "button",
-          "settings": {
-            "button_name": "Shop now"
-          }
-        }
-      },
-      "block_order": [
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0",
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1",
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2",
-        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3"
-      ],
-      "settings": {
-        "decoration_color": "blue",
-        "url": "shopify:\/\/products\/clay-casting-baby-footprints-and-handprint-frame-package",
-        "top_spacing": "normal",
-        "width": "page-fullwidth",
-        "content_size": "auto",
-        "desktop_content_height": 360,
-        "row_reverse": false,
-        "content_aligment": "align-self-center",
-        "texts_aligment": "text-center",
-        "heading_tag": "h2",
-        "text_size": "normal",
-        "hover_underline": false,
-        "color_subheading": "#4484ce",
-        "color_heading": "#4484ce",
-        "color_text": "#4484ce",
-        "color_button": "#4484ce",
-        "play_background": "rgba(0,0,0,0)",
-        "color_background": "#faeca6"
       }
     },
     "39a3cd53-c1c5-468d-83d5-d2deef683f10": {
@@ -235,7 +139,7 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "The most beautiful and high quality playmat"
+            "heading": "<p>Create a soft and whimsical play area<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
@@ -269,7 +173,7 @@
       "settings": {
         "decoration_color": "orange",
         "url": "shopify:\/\/products\/bubzi-co-baby-woodland-monthly-milestone-blanket",
-        "top_spacing": "none",
+        "top_spacing": "small",
         "width": "page-fullwidth",
         "content_size": "auto",
         "desktop_content_height": 440,
@@ -285,6 +189,102 @@
         "color_button": "#df744a",
         "play_background": "rgba(0,0,0,0)",
         "color_background": "#d7ece7"
+      }
+    },
+    "017e1fec-4097-4af8-ae4a-96bcb982b387": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/2_4ba17a9b-7cc3-4edf-b7ef-45664964c5c7.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "<p>Make Memories That Last a Lifetime<\/p>"
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Remember The Precious Moments Between You and Your Bub With Our Best Selling Keepsake Clay Frame Kits!<\/p>"
+          }
+        },
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
+          "type": "button",
+          "settings": {
+            "button_name": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-0",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-1",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2",
+        "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3"
+      ],
+      "settings": {
+        "decoration_color": "blue",
+        "url": "shopify:\/\/products\/clay-casting-baby-footprints-and-handprint-frame-package",
+        "top_spacing": "none",
+        "width": "page-fullwidth",
+        "content_size": "auto",
+        "desktop_content_height": 360,
+        "row_reverse": false,
+        "content_aligment": "align-self-center",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "text_size": "normal",
+        "hover_underline": false,
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_text": "#4484ce",
+        "color_button": "#4484ce",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#faeca6"
+      }
+    },
+    "16544355349cd01ef0": {
+      "type": "featured-collection",
+      "settings": {
+        "decoration_color": "blue",
+        "collection": "sleep-soothers",
+        "subheading": "Help Your Baby To Sleep With Lullabies",
+        "heading": "Soothing Sleep Friends",
+        "heading_aligment": "text-center",
+        "button_name": "Shop All",
+        "top_spacing": "medium",
+        "width": "page-width",
+        "grid": "col-st-6 col-3",
+        "mobile_grid": "6",
+        "swipe_on_mobile": false,
+        "product_limit": 4,
+        "image_ratio": "auto",
+        "show_secondary_image": true,
+        "texts_aligment": "text-center",
+        "product_name_size": "normal",
+        "show_vendor": false,
+        "show_type": false,
+        "show_rating": false,
+        "show_price": true,
+        "truncate_product_name": false,
+        "hover_underline": false,
+        "button_type_product": "only_text",
+        "show_button_quickview": true,
+        "show_badge_on_sale": false,
+        "show_badge_sold_out": true,
+        "show_badge_feature": true,
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_body": "#4484ce",
+        "color_meta": "rgba(0,0,0,0)",
+        "color_button_product": "rgba(0,0,0,0)"
       }
     },
     "9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0": {
@@ -356,7 +356,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "shopify:\/\/shop_images\/image_9.jpg",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-11_at_10.29.54_pm.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -365,7 +365,7 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "Our story"
+            "heading": "<p>Our story<\/p>"
           }
         },
         "template--16887147004205__c05bcf53-71ef-4467-956a-27205f30848c-166813663675cd154f-2": {
@@ -417,8 +417,8 @@
             "show_image": "show",
             "image": "shopify:\/\/shop_images\/Untitled-1.png",
             "url": "shopify:\/\/products\/bubzi-co-soothing-sleep-elephant",
-            "heading": "Love It!",
-            "description": "<p>So far, I'm impressed. My 2 month old LOVES it! It has calmed her during crying fits and lulled her to sleep.<\/p>",
+            "heading": "\"Love It!\"",
+            "description": "<p><em>So far, I'm impressed. My 2 month old LOVES it! It has calmed her during crying fits and lulled her to sleep.<\/em><\/p>",
             "author": "Trish P"
           }
         },
@@ -428,8 +428,8 @@
             "show_image": "show",
             "image": "shopify:\/\/shop_images\/bubzi-co-baby-handprint-footprint-clay-ornament-keepsake-kit-keepsake-bubzi-co-105481_1200x_45436e46-63c8-4cdc-9d0f-8a959bbc21ce.webp",
             "url": "shopify:\/\/products\/bubzi-co-baby-handprint-footprint-clay-ornament-keepsake-kit",
-            "heading": "Quick & Easy to Create a Forever Memory!",
-            "description": "<p>I absolutely love this product! It's so quick and easy to use, and creates a gorgeous keepsake to treasure for a lifetime.<\/p>",
+            "heading": "\"Quick & Easy to Create a Forever Memory!\"",
+            "description": "<p><em>I absolutely love this product! It's so quick and easy to use, and creates a gorgeous keepsake to treasure for a lifetime.<\/em><\/p>",
             "author": "Carol M"
           }
         },
@@ -439,8 +439,8 @@
             "show_image": "show",
             "image": "shopify:\/\/shop_images\/bubzi-co-premium-baby-nasal-aspirator-for-little-blocked-noses-bubzi-co-739490_1200x_5e99c4de-2742-43b2-bf6f-1bb7ed488749.webp",
             "url": "shopify:\/\/products\/premium-baby-nasal-aspirator-for-infant-stuffy-nose",
-            "heading": "Amazing Product",
-            "description": "<p>Amazing product! Easy to use! So happy I can clean it without the chance of molding in the inside! Thank you for this product!<\/p>",
+            "heading": "\"Amazing Product\"",
+            "description": "<p><em>Amazing product! Easy to use! So happy I can clean it without the chance of molding in the inside! Thank you for this product!<\/em><\/p>",
             "author": "Jackie"
           }
         }
@@ -563,14 +563,14 @@
         "decoration_color": "blue",
         "blog": "news",
         "subheading": "",
-        "heading": "Related contents",
+        "heading": "Get Ready For #Parentlife",
         "heading_aligment": "text-center",
-        "link_name": "Show All",
+        "link_name": "More Articles",
         "top_spacing": "normal",
         "width": "page-width",
-        "grid": "col-6",
+        "grid": "col-4",
         "swipe_on_mobile": false,
-        "post_limit": 2,
+        "post_limit": 3,
         "image_ratio": "auto",
         "texts_aligment": "text-center",
         "heading_tag": "h5",
@@ -602,9 +602,9 @@
   "order": [
     "1662640935ca798dff",
     "1654072995afca1996",
-    "16544355349cd01ef0",
-    "017e1fec-4097-4af8-ae4a-96bcb982b387",
     "39a3cd53-c1c5-468d-83d5-d2deef683f10",
+    "017e1fec-4097-4af8-ae4a-96bcb982b387",
+    "16544355349cd01ef0",
     "9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0",
     "c05bcf53-71ef-4467-956a-27205f30848c",
     "943ed382-fb26-4c45-a575-23d10b63e490",

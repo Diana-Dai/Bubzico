@@ -22,7 +22,7 @@
         "01e8e8b9-4016-4780-8d95-24062070e38e"
       ],
       "settings": {
-        "top_spacing": "none",
+        "top_spacing": "medium",
         "width": "page-width",
         "texts_aligment": "text-center"
       }
@@ -38,29 +38,29 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "top_spacing": "medium",
+        "top_spacing": "small",
         "width": "page-width",
         "grid": "col-st-6 col-3",
         "mobile_grid": "6",
-        "enable_filtering": "enable",
-        "enable_sorting": true,
-        "enable_sticky_filter_button": true,
-        "enable_products_count": true,
-        "pagination_aligment": "text-left",
+        "enable_filtering": "disable",
+        "enable_sorting": false,
+        "enable_sticky_filter_button": false,
+        "enable_products_count": false,
+        "pagination_aligment": "text-center",
         "product_limit": 18,
-        "image_ratio": "1",
+        "image_ratio": "auto",
         "show_secondary_image": true,
         "texts_aligment": "text-center",
         "product_name_size": "normal",
-        "show_vendor": true,
-        "show_type": true,
+        "show_vendor": false,
+        "show_type": false,
         "show_rating": false,
         "show_price": true,
         "truncate_product_name": false,
         "hover_underline": false,
-        "button_type_product": "show",
+        "button_type_product": "hide",
         "show_button_quickview": false,
-        "show_badge_on_sale": true,
+        "show_badge_on_sale": false,
         "show_badge_sold_out": true,
         "show_badge_feature": true
       }
@@ -68,7 +68,8 @@
     "172f76e6-ca14-490c-8834-23d69db8e6d7": {
       "type": "recently-viewed-products",
       "settings": {
-        "subheading": "SUBHEADING",
+        "decoration_color": "blue",
+        "subheading": "",
         "heading": "Recently viewed products",
         "heading_aligment": "text-center",
         "top_spacing": "normal",

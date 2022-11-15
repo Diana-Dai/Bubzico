@@ -43,7 +43,7 @@
 <style>{{ section_styles }}</style>
 {%- endif -%}
 
-<div id="text-{{ section.id }}" class="top-spacing-{{ section.settings.top_spacing }}{% if section.settings.background != 'hide' and section.settings.background_width == "fullwidth" %} section-background section-background--{{ section.settings.background_spacing }}{% endif %}"
+<div id="text-{{ section.id }}" class="liquid-wrapper top-spacing-{{ section.settings.top_spacing }}{% if section.settings.background != 'hide' and section.settings.background_width == "fullwidth" %} section-background section-background--{{ section.settings.background_spacing }}{% endif %}"
      data-section-name="custom-text">
   <div class="{{ section.settings.width }} liquid-content ">
     {% if section.settings.background != 'hide' and section.settings.background_width == "content_width" %}<div class="section-background section-background--{{ section.settings.background_spacing }} border__radius">{%- endif -%}
@@ -78,8 +78,10 @@
           </a>
         </div>
         {%- endif -%}
-        <img style="width:118px;height:118px;margin-top:20px;" src="{{section.settings.image  | img_url: '200x'}}"
+        {% if section.settings.image != blank %}
+        <img style="width:118px;height:auto;margin-top:20px;" src="{{section.settings.image  | img_url: '200x'}}"
           class="img" width="{{section.settings.image.width}}" height="{{section.settings.image.height}}">
+          {% endif %}
       </div>
     </div>
     

@@ -5,17 +5,36 @@
   position: relative;
   align-items: center;
   color: var(--color-menu);
+  font-weight:bold;
 }
-.list-menu__item:before{
+/* .list-menu__item:before{
   content: "";
   position: absolute;
   left: calc(var(--column-gap) / -2);
   width: calc(100% + var(--column-gap));
   height: calc(100% + var(--row-gap));
-}
+} */
 nav a,nav a:hover{text-decoration: none;}
-.list-menu--hover:hover > .list-menu__item{
+
+.list-menu--hover{
+  display: flex !important;
+  gap:5px;
+  align-items: center;
+  justify-content: center;
+}
+.list-menu--hover:before{
+  opacity:0;
+  content:"";
+  width:20px;
+  height:20px;
+  display:block;
+  background-position:center;
+  background-size:cover;
+  background-image:url('https://cdn.shopify.com/s/files/1/1719/6357/files/cloud-blue-2_1.png?v=1668138448');
   color: var(--color-base);
+}
+.list-menu--hover:hover:before{
+  opacity:1;
 }
 .list-menu__item svg{
   opacity: var(--opacity-icons);
@@ -35,14 +54,14 @@ nav a,nav a:hover{text-decoration: none;}
 }
 .menu--animation-underline .list-menu__item > span{position: relative;}
 .menu--animation-underline .list-menu__item > span:before{
-  content: "";
+/*   content: "";
   position: absolute;
   width: 0;
   height: 2px;
   left: 0;
   top: 100%;
   background: var(--color-base);
-  transition: width var(--duration-medium) ease;
+  transition: width var(--duration-medium) ease; */
 }
 .menu--animation-underline .list-menu__item.body2 > span:before{
   height: 1px;

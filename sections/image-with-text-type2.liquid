@@ -202,7 +202,7 @@
         {%- endif -%}
         {%- endfor -%}
       </div>
-      <div class="image-with-text2__container {{ section.settings.texts_aligment }}">
+      <div class="liquid-wrapper image-with-text2__container {{ section.settings.texts_aligment }}">
         <div class="liquid-content mt--first-child-0 {{ section.settings.content_aligment }}">
           {%- for block in section.blocks -%}
           {%- if block.type == 'heading' -%}
@@ -576,9 +576,9 @@
             "label": "t:sections.general.settings.subheading.label"
           },
           {
-            "type": "text",
+            "type": "richtext",
             "id": "heading",
-            "default": "Full height media with text",
+            "default": "<p>Full height media with text</p>",
             "label": "t:sections.general.settings.heading.label"
           }
         ]

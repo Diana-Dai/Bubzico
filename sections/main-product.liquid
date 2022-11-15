@@ -220,7 +220,6 @@
           <span class="badge badge--featured">{{ product.metafields.softali.featured_badge }}</span>
           {%- endunless -%}
         {%- endcapture -%}
-        <div id="badge__container-{{ section.id }}" class="badge__container">{{- badges -}}</div>
 
 
         {%- for block in section.blocks -%}
@@ -1102,7 +1101,7 @@
   {
     "name": "t:sections.main-product.name",
     "tag": "section",
-    "class": "section",
+    "class": "section main-product",
     "settings": [
       {
         "type": "header",

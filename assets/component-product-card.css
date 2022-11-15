@@ -28,8 +28,8 @@
 }
 .btn--add-to-cart,
 .btn--add-to-cart::before{
-  background-color: #DF744A !important;
-  background: #DF744A !important;
+/*   background-color: #DF744A !important; */
+/*   background: #DF744A !important; */
   
 }
 .btn--add-to-cart[disabled] svg{
@@ -158,10 +158,10 @@
   margin-right: 0;
 }
 .btn-quickview .path{
-  stroke: #DF744A;
+/*   stroke: #DF744A; */
 }
 .btn-quickview svg path{
-  fill: #DF744A;
+/*   fill: #DF744A; */
 }
 @media (max-width:992px){
   .product-card__image-holder modal-opener{

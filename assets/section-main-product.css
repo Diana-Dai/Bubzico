@@ -571,7 +571,7 @@ html.no-js .no-js-hidden+.product__tax{
     height: 100%;
     background: transparent;
     border: 2px solid var(--color-lines-borders);
-    border-radius: var(--radius);
+    border-radius: 5px;
   }
   .thumbnail-slider__list::-webkit-scrollbar{
     width: 6px;
@@ -650,7 +650,7 @@ html.no-js .no-js-hidden+.product__tax{
 }
 .thumbnail img {
   pointer-events: none;
-  border-radius: var(--radius);
+  border-radius: 5px;
 }
 .thumbnail--wide img {
   width: 100%;

@@ -51,6 +51,7 @@ button.field__input{
   right: 0;
   padding: 2px 15px 0;
   height: var(--form_field-height);
+  
   background-color: transparent;
   cursor: pointer;
   opacity: 0;
@@ -192,6 +193,7 @@ button.field__input{
   width: 140px;
 }
 .quantity .field__input{
+    box-shadow: inset 0 0 0 2px var(--component-color-lines-borders, var(--color-lines-borders));
   padding: 0 !important;
   text-align: center;
 }

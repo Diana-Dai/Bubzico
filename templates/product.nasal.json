@@ -36,13 +36,30 @@
           "settings": {
             "text_size": "small",
             "icon_name_1": "check_sm",
-            "content_1": "<p><strong>LIFETIME WARRANTY<\/strong><br\/>Love it, or keep it for free<\/p>",
+            "content_1": "<p><strong>BEST PRICE<\/strong><br\/>We back all products with a 1 year guarantee.<\/p>",
             "icon_name_2": "truck_sm",
             "content_2": "<p><strong>FREE SHIPPING<\/strong><br\/>No code needed, just head for checkout!<\/p>",
             "icon_name_3": "",
             "content_3": "",
             "icon_name_4": "",
             "content_4": "",
+            "icon_name_5": "",
+            "content_5": ""
+          }
+        },
+        "a593bf72-1978-43ec-9d69-7b6cf499eb6c": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_size": "small",
+            "icon_name_1": "check_sm",
+            "content_1": "<p>Short content about your product.<\/p>",
+            "icon_name_2": "check_sm",
+            "content_2": "<p>Short content about your product.<\/p>",
+            "icon_name_3": "",
+            "content_3": "<p>Icons are optional<\/p>",
+            "icon_name_4": "check",
+            "content_4": "<p><strong>USE RICH TEXT EDITOR<br\/><\/strong>And big icons to highlight the product sale point<\/p>",
             "icon_name_5": "",
             "content_5": ""
           }
@@ -80,29 +97,11 @@
             "show_dynamic_checkout": false
           }
         },
-        "ab12c122-e225-4180-b58c-7c07db6043f8": {
-          "type": "text",
-          "settings": {
-            "text_size": "small",
-            "icon_name_1": "",
-            "content_1": "<p>Create a soft, whimsical and cozy play area for your little one.<\/p><p>Designed exclusively by watercolor artist Nina Stajner for Bubzi Co, our woodland playmat creates an ultra-hygienic, mess-proof, waterproof, stain proof, easy wash surface - ensuring your sanity and their safety, through all the stages - babies crawling, toddlers walking, preschoolers snack time, kids gymnastic ninja moves & everyone’s artistic adventures.<\/p>",
-            "icon_name_2": "check_sm",
-            "content_2": "<p>BONUS Woodland Wall Decal Set with every playmat valued at $19.95<\/p>",
-            "icon_name_3": "",
-            "content_3": "",
-            "icon_name_4": "",
-            "content_4": "",
-            "icon_name_5": "",
-            "content_5": ""
-          }
-        },
-        "8f8597c7-077f-4119-81a0-47c333998da1": {
-          "type": "collapsible_tab",
+        "891d0f6f-5a37-4358-a93f-d49c92004bef": {
+          "type": "description",
           "settings": {
             "heading": "Description",
-            "icon_name": "",
-            "content": "",
-            "page": ""
+            "icon_name": ""
           }
         },
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a": {
@@ -114,21 +113,12 @@
             "page": ""
           }
         },
-        "e33d801e-d0ab-4ed1-b5fa-a91cc53514d9": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How To Use",
-            "icon_name": "",
-            "content": "<p>1. Take out of the cardboard box and roll out on the floor<\/p><p>2. The corner may be curled from transit, place something weighty on each corner to flatten overnight<\/p><p>3. Wipe down with damp cloth<\/p>",
-            "page": ""
-          }
-        },
         "86106f28-8537-421d-bc18-e66191b98c4b": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Features",
+            "heading": "Spec",
             "icon_name": "",
-            "content": "<p>Reversible design - Woodland Wonder \/ Egg-shell beige with white polka dots<\/p><p>Large 6.5(L) x 4.6(W) x 0.69(D) ft<\/p><p>Made from premium non-toxic TPU, PVC-free, Vegan<\/p><p>Safe for babies - tested, proven safe and certified under the strictest international standards<\/p><p>Large size perfect for play areas around the living room or nursery or even outdoors<\/p><p>Mess-free Hygienic surface - simply wipe up spills or vacuum crumbs off<\/p>",
+            "content": "<p>Length: 7 inches, Height: 8.6 inches, Width: 3.5 inches.<\/p><p>The songs include: Minuet, Brahms Lullaby, Are You Sleeping, Baa Baa Black sheep, Home Sweet Home, American Patrol, Mary has a Little Lamb, Oh My Darling, London Bridge is Falling Down, and Hush Little Baby. It also includes a natural bird song, and a heartbeat and white noise sound to calm and settle your baby<\/p><p>Soft plush toy with electronic music box and light projector<\/p>",
             "page": ""
           }
         },
@@ -146,12 +136,31 @@
           "settings": {
             "heading": "Complementary products",
             "icon_name": "",
-            "product_list_limit": 2,
+            "product_list_limit": 5,
             "image_ratio": "auto",
             "show_price": true,
             "truncate_product_name": false,
             "hover_underline": false,
             "button_type_product": "hide"
+          }
+        },
+        "86984dc9-190c-47fe-92e5-850f592f72a9": {
+          "type": "additional-feature",
+          "settings": {
+            "heading": "Additional features",
+            "icon_name": "certified_sm",
+            "icon_1": "check",
+            "text_1": "Add product sale point",
+            "icon_2": "check",
+            "text_2": "Add product sale point",
+            "icon_3": "",
+            "text_3": "",
+            "icon_4": "",
+            "text_4": "",
+            "icon_5": "",
+            "text_5": "",
+            "icon_6": "",
+            "text_6": ""
           }
         }
       },
@@ -161,15 +170,15 @@
         "4f8b197f-142b-4618-96c7-abd9de7cc0c4",
         "36032345-aea2-4f92-821a-d5ca441bfc03",
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",
+        "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
-        "ab12c122-e225-4180-b58c-7c07db6043f8",
-        "8f8597c7-077f-4119-81a0-47c333998da1",
+        "891d0f6f-5a37-4358-a93f-d49c92004bef",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
-        "e33d801e-d0ab-4ed1-b5fa-a91cc53514d9",
         "86106f28-8537-421d-bc18-e66191b98c4b",
         "7f397899-cbcc-426b-b3fc-a60a320f0a2c",
-        "e4d0bb63-6d2c-4e35-b5f3-4811b2e0fa89"
+        "e4d0bb63-6d2c-4e35-b5f3-4811b2e0fa89",
+        "86984dc9-190c-47fe-92e5-850f592f72a9"
       ],
       "settings": {
         "top_spacing": "small",
@@ -184,6 +193,32 @@
         "enable_image_zoom": true
       }
     },
+    "95a3189b-0a15-40aa-a020-c007b78111c7": {
+      "type": "text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "<p>Don’t wait or wonder anymore when you are tired enough, give it a try and if it doesn’t work for you then we offer a 100% satisfaction guarantee.<\/p><p><strong>Finally get the sleep you deserve!<\/strong><\/p>",
+        "button_name": "",
+        "button_url": "",
+        "top_spacing": "small",
+        "width": "page-width",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "description_size": "normal",
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_description": "#142c73",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#d7ece7",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
+      }
+    },
     "39a3cd53-c1c5-468d-83d5-d2deef683f10": {
       "type": "image-with-text-type2",
       "blocks": {
@@ -191,13 +226,13 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_1_title | metafield_tag }}<\/p>"
+            "heading": "<p>Clear Without Irritation or Harm<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_1_text | metafield_tag }}<\/p>"
+            "text": "<p>Hospital grade silicone nasal aspirator tips quickly, naturally and effectively clear babies air ways without causing pain, irritation or fear. The ideal snot sucker for the newborn you love.<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
@@ -211,7 +246,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "shopify:\/\/shop_images\/emmylowephotoBubzi-16.jpg",
+            "image": "shopify:\/\/shop_images\/nasal-image-1.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -251,7 +286,6 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "{{ product.metafields.custom.images_with_text_2_image.value }}",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -260,13 +294,13 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_2_title | metafield_tag }}<\/p>"
+            "heading": "<p>No Filter Refills Required<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_2_text | metafield_tag }}<\/p>"
+            "text": "<p>Revolutionary design allows you to control suction using your own gentle breathing pattern, without transferring snot from baby’s nose to your mouth, or getting caught without those other aspirators<br\/>filters when your baby needs help most.<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
@@ -311,7 +345,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "{{ product.metafields.custom.images_with_text_3_image.value }}",
+            "image": "shopify:\/\/shop_images\/nasal-image-3.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -320,13 +354,13 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_3_title | metafield_tag }}<\/p>"
+            "heading": "<p>Easiest to Clean, Ready When You Need It Most<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_3_text | metafield_tag }}<\/p>"
+            "text": "<p>Dismantles in seconds, with a non-stick surface that comes like-new clean with just a wash in warm soapy water, then reassembles even faster – so it’s ready to provide your baby with the instant relief when they need it fast.<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
@@ -371,13 +405,13 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_4_title | metafield_tag }}<\/p>"
+            "heading": "<p>Convenient Storage Case<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_4_text | metafield_tag }}<\/p>"
+            "text": "<p>Comes with a cute and hygienic carry case to pop in your hospital bag, or diaper bag for on the go or nursery storage.<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
@@ -391,7 +425,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "{{ product.metafields.custom.images_with_text_4_image.value }}",
+            "image": "shopify:\/\/shop_images\/nasal-image-4.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -424,56 +458,174 @@
         "color_background": "#faebe6"
       }
     },
+    "a8f7ffd0-ca78-4e9d-baf2-2bbfc591d767": {
+      "type": "text_custom",
+      "disabled": true,
+      "settings": {
+        "decoration_color": "blue",
+        "image": "shopify:\/\/shop_images\/image_13.png",
+        "subheading": "",
+        "heading": "Recommended by The Baby Sleep Site",
+        "description": "<p>\"As parents, we need many tools in our toolboxes and I can confidently recommend Bubzi Co sleep soothers. The Bubzi Co sleep soother is a great product that is not only a white noise machine but also an attachment object, music player, and projection toy. When you are teaching your baby to self-soothe, these types of products make it so much easier!\" Nicole Johnson, President & Founder, The Baby Sleep Site<\/p>",
+        "button_name": "",
+        "button_url": "",
+        "top_spacing": "none",
+        "width": "page-width",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "description_size": "normal",
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_description": "#142c73",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#d7ece7",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
+      }
+    },
+    "cea7b252-2e04-40cf-992b-7c24e9d3bda6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16916524302637__cea7b252-2e04-40cf-992b-7c24e9d3bda6-166838920020a4e31b-0": {
+          "type": "slide",
+          "settings": {
+            "content_type": "image",
+            "video_url": "",
+            "image": "shopify:\/\/shop_images\/nasal-trusted.png",
+            "image_overlay_opacity": 0,
+            "subheading": "",
+            "heading": "",
+            "description": "",
+            "call_to_action": "one_link_banner",
+            "button_primary_name": "",
+            "url": "",
+            "button_secondary_name": "Button",
+            "button_secondary_url": "",
+            "texts_aligment": "text-center",
+            "heading_tag": "h1",
+            "description_size": "normal",
+            "content_aligment": "align-items-center justify-content-center",
+            "show_background": false,
+            "hover_underline": false,
+            "color_subheading": "rgba(0,0,0,0)",
+            "color_heading": "rgba(0,0,0,0)",
+            "color_description": "rgba(0,0,0,0)",
+            "button_primary_bg": "rgba(0,0,0,0)",
+            "button_secondary_bg": "rgba(0,0,0,0)",
+            "color_background": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--16916524302637__cea7b252-2e04-40cf-992b-7c24e9d3bda6-166838920020a4e31b-0"
+      ],
+      "settings": {
+        "top_spacing": "normal",
+        "bottom_spacing": "normal",
+        "width": "page-width",
+        "image_size": "auto",
+        "desktop_image_height": 440,
+        "texts_aligment_mobile": "text-center-mobile",
+        "desktop_navigation": "dots_arrows",
+        "mobile_navigation": "dots_arrows",
+        "dots_desktop_position": "center",
+        "autoplay_enabled": true,
+        "autoplay_time": 5,
+        "video_slide_mode": "autoplay_muted",
+        "play_button_enabled": true
+      }
+    },
+    "166839274233f8fbf7": {
+      "type": "apps",
+      "blocks": {
+        "5a2d96c6-22bc-4b52-a579-9050954f73b6": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "5a2d96c6-22bc-4b52-a579-9050954f73b6"
+      ],
+      "settings": {
+        "top_spacing": "normal",
+        "width": "page-width"
+      }
+    },
     "b6a57d08-8072-44ba-a8f1-4987d1087771": {
       "type": "accordion",
       "blocks": {
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-0": {
           "type": "text",
           "settings": {
-            "heading": "What songs does it play & does it have white noise?",
-            "description": "<p>The Owl plays 10 different instrumental songs such as; Minuet, Brahms Lullaby, Are You Sleeping, Baa Baa Black sheep, Home Sweet Home, American Patrol, Mary has a Little Lamb, Oh My Darling, London Bridge is Falling Down, and Hush Little Baby. It also includes white noise, a natural bird song and a heartbeat sound to calm and settle your baby.<\/p>"
+            "heading": "How do you use it?",
+            "description": "<p>Put the soft silicone tip inside the tip of your baby’s nostril, then the hose mouthpiece in your mouth, start sucking in slowly to control the suction. You will see the mucus flow inside the chamber. If your baby is very congested we suggest using a baby safe saline nasal spray prior.<\/p>"
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-1": {
           "type": "text",
           "settings": {
-            "heading": "Are batteries included?",
-            "description": "<p>Yes! We provide 3 AAA alkaline batteries and a small screwdriver so you can use it right away.<\/p>"
+            "heading": "Will I get snot in my mouth?",
+            "description": "<p>No you should not and that’s the point of an aspirator! If your baby is particularly snotty then we suggest putting a piece of cotton ball or tissue inside the lower chamber of the aspirator. Watch the video on the top of this page for a demonstration.<\/p>"
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-2": {
           "type": "text",
           "settings": {
-            "heading": "What is the decibel level of the noise?",
-            "description": "<p>Our Bubzi Co Owl Soother is set to not exceed 50 decibels. It has 5 volume levels so you can adjust it to suit your baby. Hope this helps<\/p>"
+            "heading": "How long is it?",
+            "description": "<p>Fully assembled it is about 4 inches long.<\/p>"
           }
         },
         "0ba96602-0e84-4b94-9fd9-a08b1bd1966f": {
           "type": "text",
           "settings": {
-            "heading": "Do the lights and sound both turn off automatically after 30 min or just the sound?",
-            "description": "<p>Both the lights and lullabies turn off after 30 mins<\/p>"
+            "heading": "Do you need different size tips?",
+            "description": "<p>No you don’t. Our super soft silicone tip fits noses from newborn to toddler, even adults! When they are a newborn the tip will just about cover one nostril providing safe and gently suction. As they get bigger, it will fit up a toddler’s nose without poking so far up to cause harm. Many parents say that our aspirator is the only one that their little ones actually like.<\/p>"
           }
         },
         "960eda39-ae7e-4461-88ae-85ac77ed1101": {
           "type": "text",
           "settings": {
-            "heading": "Is this safe to keep in the crib, not attached to the bars, with a toddler so he can hold it?",
-            "description": "<p>Like with all baby products, we do not recommend placing the soother inside the crib without fastenings. It can be placed outside the crib on a dresser, table or chair etc. When your baby is old enough, you can introduce it inside the crib as a lovey if you choose<\/p>"
+            "heading": "Does it come apart easily for cleaning?",
+            "description": "<p>Yes, simply disassemble all the parts in seconds and wash under hot soapy water and dry on the storage case.<\/p>"
           }
         },
         "477c4b00-13a3-40e8-b1a5-9bb90d3a1cc2": {
           "type": "text",
           "settings": {
-            "heading": "Can you wash it?",
-            "description": "<p>Yes you can remove the electronic component and hand wash the owl.<\/p>"
+            "heading": "Can it be sterilized?",
+            "description": "<p>Yes you can use a UV sterilizer, or steam sterilizer. <\/p>"
           }
         },
         "cb036877-03fc-49e8-acea-8a4ab83caa81": {
           "type": "text",
           "settings": {
+            "heading": "Is this just for babies or toddlers as well?",
+            "description": "<p>Our super soft silicone tip fits noses from newborn to toddler, even adults! When they are a newborn the tip will just about cover one nostril providing safe and gently suction. As they get bigger, it will fit up a toddler’s nose without poking so far up to cause harm. Many parents say that our aspirator is the only one that their little ones actually like.<\/p>"
+          }
+        },
+        "25f06c21-7f3b-4dc0-8265-ddce850cf2f2": {
+          "type": "text",
+          "settings": {
+            "heading": "How can you control the suction?",
+            "description": "<p>It’s like sucking through a straw – start gently and see how your baby reacts and then add more pressure to get more out. Our customers tell us that is has the best and effective suction compared to other bigger brands.<\/p>"
+          }
+        },
+        "950f3437-8e2d-44a6-9bf2-fdae24563458": {
+          "type": "text",
+          "settings": {
+            "heading": "What is the return policy?",
+            "description": "<p>Just contact our friendly customer service team at info@bubzico.com to either get a replacement or a refund.<\/p>"
+          }
+        },
+        "2b840ffd-b7f2-42a2-a960-0f4f67b9a636": {
+          "type": "text",
+          "settings": {
             "heading": "How long does it take to ship and where do they ship from?",
-            "description": "<p>Upon checkout, you can choose how quickly you would like your Bubzi to ship. Standard Shipping is up to 5 business days, Express is 2-3 days and Priority is 1-2 days.<br> <\/p><p>Our fulfillment warehouses are all over the USA so ordered are <br>processed the same day.<\/p>"
+            "description": "<p>Upon checkout, you can choose how quickly you would like your Bubzi to ship. Standard Shipping is up to 5 business days, Express is 2-3 days and Priority is 1-2 days. Our fulfillment warehouses are all over the USA so ordered are processed the same day.<\/p>"
           }
         }
       },
@@ -484,7 +636,10 @@
         "0ba96602-0e84-4b94-9fd9-a08b1bd1966f",
         "960eda39-ae7e-4461-88ae-85ac77ed1101",
         "477c4b00-13a3-40e8-b1a5-9bb90d3a1cc2",
-        "cb036877-03fc-49e8-acea-8a4ab83caa81"
+        "cb036877-03fc-49e8-acea-8a4ab83caa81",
+        "25f06c21-7f3b-4dc0-8265-ddce850cf2f2",
+        "950f3437-8e2d-44a6-9bf2-fdae24563458",
+        "2b840ffd-b7f2-42a2-a960-0f4f67b9a636"
       ],
       "settings": {
         "decoration_color": "blue",
@@ -508,23 +663,6 @@
         "background_width": "fullwidth",
         "background_spacing": "normal",
         "remove_bottom_spacing": false
-      }
-    },
-    "166839272531ed1302": {
-      "type": "apps",
-      "blocks": {
-        "78b9f76e-4e64-4515-8f7e-1248f0865e6c": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "78b9f76e-4e64-4515-8f7e-1248f0865e6c"
-      ],
-      "settings": {
-        "top_spacing": "normal",
-        "width": "page-width"
       }
     },
     "product-recommendations": {
@@ -563,12 +701,15 @@
   },
   "order": [
     "main",
+    "95a3189b-0a15-40aa-a020-c007b78111c7",
     "39a3cd53-c1c5-468d-83d5-d2deef683f10",
     "017e1fec-4097-4af8-ae4a-96bcb982b387",
     "017e1fec-4097-4af8-ae4a-96bcb982b3871",
     "39a3cd53-c1c5-468d-83d5-d2deef683f101",
+    "a8f7ffd0-ca78-4e9d-baf2-2bbfc591d767",
+    "cea7b252-2e04-40cf-992b-7c24e9d3bda6",
+    "166839274233f8fbf7",
     "b6a57d08-8072-44ba-a8f1-4987d1087771",
-    "166839272531ed1302",
     "product-recommendations"
   ]
 }

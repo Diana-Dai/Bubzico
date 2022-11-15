@@ -36,13 +36,30 @@
           "settings": {
             "text_size": "small",
             "icon_name_1": "check_sm",
-            "content_1": "<p><strong>LIFETIME WARRANTY<\/strong><br\/>Love it, or keep it for free<\/p>",
+            "content_1": "<p><strong>BEST PRICE<\/strong><br\/>We back all products with a 1 year guarantee.<\/p>",
             "icon_name_2": "truck_sm",
             "content_2": "<p><strong>FREE SHIPPING<\/strong><br\/>No code needed, just head for checkout!<\/p>",
             "icon_name_3": "",
             "content_3": "",
             "icon_name_4": "",
             "content_4": "",
+            "icon_name_5": "",
+            "content_5": ""
+          }
+        },
+        "a593bf72-1978-43ec-9d69-7b6cf499eb6c": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_size": "small",
+            "icon_name_1": "check_sm",
+            "content_1": "<p>Short content about your product.<\/p>",
+            "icon_name_2": "check_sm",
+            "content_2": "<p>Short content about your product.<\/p>",
+            "icon_name_3": "",
+            "content_3": "<p>Icons are optional<\/p>",
+            "icon_name_4": "check",
+            "content_4": "<p><strong>USE RICH TEXT EDITOR<br\/><\/strong>And big icons to highlight the product sale point<\/p>",
             "icon_name_5": "",
             "content_5": ""
           }
@@ -80,28 +97,12 @@
             "show_dynamic_checkout": false
           }
         },
-        "ab12c122-e225-4180-b58c-7c07db6043f8": {
-          "type": "text",
-          "settings": {
-            "text_size": "small",
-            "icon_name_1": "",
-            "content_1": "<p>Create a soft, whimsical and cozy play area for your little one.<\/p><p>Designed exclusively by watercolor artist Nina Stajner for Bubzi Co, our woodland playmat creates an ultra-hygienic, mess-proof, waterproof, stain proof, easy wash surface - ensuring your sanity and their safety, through all the stages - babies crawling, toddlers walking, preschoolers snack time, kids gymnastic ninja moves & everyone’s artistic adventures.<\/p>",
-            "icon_name_2": "check_sm",
-            "content_2": "<p>BONUS Woodland Wall Decal Set with every playmat valued at $19.95<\/p>",
-            "icon_name_3": "",
-            "content_3": "",
-            "icon_name_4": "",
-            "content_4": "",
-            "icon_name_5": "",
-            "content_5": ""
-          }
-        },
-        "8f8597c7-077f-4119-81a0-47c333998da1": {
+        "c4d22b42-47e7-4d43-8e19-2ce79e85146d": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Description",
             "icon_name": "",
-            "content": "",
+            "content": "<p><strong>Remember The Precious Moments Between You and Your Bub With Our Best Selling Keepsake Clay Frame Kits!<\/strong><br\/><br\/>An air-drying clay handprint & footprint keepsake photo frame kit, that helps you capture the memory of their tiny hands and feet. Make an impression of their tiny & feet and accompany them with 2 adorable photos.<\/p>",
             "page": ""
           }
         },
@@ -110,25 +111,16 @@
           "settings": {
             "heading": "How to use",
             "icon_name": "",
-            "content": "",
-            "page": ""
-          }
-        },
-        "e33d801e-d0ab-4ed1-b5fa-a91cc53514d9": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How To Use",
-            "icon_name": "",
-            "content": "<p>1. Take out of the cardboard box and roll out on the floor<\/p><p>2. The corner may be curled from transit, place something weighty on each corner to flatten overnight<\/p><p>3. Wipe down with damp cloth<\/p>",
+            "content": "<p>Making your keepsake is fun & easy! Each DIY kit comes with everything you need to create your cherished keepsake. Watch the video above to see how to make it, and see more details below.<\/p><p>1. Deluxe kit with everything you need<\/p><p>2. No baking required<\/p><p>3. Smooth finish guarantee with easy to follow instructions and video<\/p><p>4. Non toxic clay<\/p><p>5. Make yours in 10 mins<\/p>",
             "page": ""
           }
         },
         "86106f28-8537-421d-bc18-e66191b98c4b": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Features",
+            "heading": "Spec",
             "icon_name": "",
-            "content": "<p>Reversible design - Woodland Wonder \/ Egg-shell beige with white polka dots<\/p><p>Large 6.5(L) x 4.6(W) x 0.69(D) ft<\/p><p>Made from premium non-toxic TPU, PVC-free, Vegan<\/p><p>Safe for babies - tested, proven safe and certified under the strictest international standards<\/p><p>Large size perfect for play areas around the living room or nursery or even outdoors<\/p><p>Mess-free Hygienic surface - simply wipe up spills or vacuum crumbs off<\/p>",
+            "content": "<p>Each kit comes with air-drying clay, a white wooden frame with space for their prints and two photos, crack-free acrylic cover and detailed <br\/>instructions.<\/p><p>- Outer Frame:Length 28.2cm - 11.1 inches, Width 2cm - 0.78 inches, Height 23.1cm - 9.09 inches<\/p><p>- Clay Cutout Dimensions:Length 12cm - 4.7 inches, Height 16cm - 6.3 inches<\/p><p>- Small Photo Cutouts:Length 7cm - 2.75 inches, Height 7cm - 2.75 inches<\/p>",
             "page": ""
           }
         },
@@ -146,12 +138,31 @@
           "settings": {
             "heading": "Complementary products",
             "icon_name": "",
-            "product_list_limit": 2,
+            "product_list_limit": 5,
             "image_ratio": "auto",
             "show_price": true,
             "truncate_product_name": false,
             "hover_underline": false,
             "button_type_product": "hide"
+          }
+        },
+        "86984dc9-190c-47fe-92e5-850f592f72a9": {
+          "type": "additional-feature",
+          "settings": {
+            "heading": "Additional features",
+            "icon_name": "certified_sm",
+            "icon_1": "check",
+            "text_1": "Add product sale point",
+            "icon_2": "check",
+            "text_2": "Add product sale point",
+            "icon_3": "",
+            "text_3": "",
+            "icon_4": "",
+            "text_4": "",
+            "icon_5": "",
+            "text_5": "",
+            "icon_6": "",
+            "text_6": ""
           }
         }
       },
@@ -161,15 +172,15 @@
         "4f8b197f-142b-4618-96c7-abd9de7cc0c4",
         "36032345-aea2-4f92-821a-d5ca441bfc03",
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",
+        "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
-        "ab12c122-e225-4180-b58c-7c07db6043f8",
-        "8f8597c7-077f-4119-81a0-47c333998da1",
+        "c4d22b42-47e7-4d43-8e19-2ce79e85146d",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
-        "e33d801e-d0ab-4ed1-b5fa-a91cc53514d9",
         "86106f28-8537-421d-bc18-e66191b98c4b",
         "7f397899-cbcc-426b-b3fc-a60a320f0a2c",
-        "e4d0bb63-6d2c-4e35-b5f3-4811b2e0fa89"
+        "e4d0bb63-6d2c-4e35-b5f3-4811b2e0fa89",
+        "86984dc9-190c-47fe-92e5-850f592f72a9"
       ],
       "settings": {
         "top_spacing": "small",
@@ -184,64 +195,30 @@
         "enable_image_zoom": true
       }
     },
-    "39a3cd53-c1c5-468d-83d5-d2deef683f10": {
-      "type": "image-with-text-type2",
-      "blocks": {
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1": {
-          "type": "heading",
-          "settings": {
-            "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_1_title | metafield_tag }}<\/p>"
-          }
-        },
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_1_text | metafield_tag }}<\/p>"
-          }
-        },
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_name": "Learn more"
-          }
-        },
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0": {
-          "type": "image",
-          "settings": {
-            "content_type": "image",
-            "image": "shopify:\/\/shop_images\/emmylowephotoBubzi-16.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1",
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2",
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3",
-        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0"
-      ],
+    "95a3189b-0a15-40aa-a020-c007b78111c7": {
+      "type": "text",
+      "disabled": true,
       "settings": {
-        "decoration_color": "blue",
-        "url": "",
+        "subheading": "",
+        "heading": "",
+        "description": "<p>Don’t wait or wonder anymore when you are tired enough, give it a try and if it doesn’t work for you then we offer a 100% satisfaction guarantee.<\/p><p><strong>Finally get the sleep you deserve!<\/strong><\/p>",
+        "button_name": "",
+        "button_url": "",
         "top_spacing": "small",
-        "width": "page-fullwidth",
-        "content_size": "auto",
-        "desktop_content_height": 440,
-        "row_reverse": true,
-        "content_aligment": "align-self-center",
+        "width": "page-width",
         "texts_aligment": "text-center",
         "heading_tag": "h2",
-        "text_size": "normal",
-        "hover_underline": false,
-        "color_subheading": "#4484ce",
-        "color_heading": "#4484ce",
-        "color_text": "#4484ce",
-        "color_button": "#4484ce",
-        "play_background": "rgba(0,0,0,0)",
-        "color_background": "#ffffff"
+        "description_size": "normal",
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_description": "#142c73",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#d7ece7",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
       }
     },
     "017e1fec-4097-4af8-ae4a-96bcb982b387": {
@@ -251,7 +228,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "{{ product.metafields.custom.images_with_text_2_image.value }}",
+            "image": "shopify:\/\/shop_images\/clay-ornament-1.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -260,13 +237,13 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_2_title | metafield_tag }}<\/p>"
+            "heading": "<p>Cherish The Miracle Of Your Baby’s Birth<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_2_text | metafield_tag }}<\/p>"
+            "text": "<p>Your precious baby is your little miracle. The tiny handprint and footprint of your baby captures the essence of their perfection. Now you can always remember their awe-inspiring beginnings.<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
@@ -311,7 +288,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "{{ product.metafields.custom.images_with_text_3_image.value }}",
+            "image": "shopify:\/\/shop_images\/clay-ornament-2.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -320,13 +297,13 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_3_title | metafield_tag }}<\/p>"
+            "heading": "<p>Exclusive Choice Of Heart And Circle Molds<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-2": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_3_text | metafield_tag }}<\/p>"
+            "text": "<p>With our premium Kit, you will have everything you need at your fingertips to create the cutest baby ornament to display anywhere in your lovely home. Use your creativity and unique style to decide the perfect place in your home to display your baby ornaments— in your baby’s nursery, in your living room, in your office, or on your Christmas Tree<\/p>"
           }
         },
         "template--14581927215192__017e1fec-4097-4af8-ae4a-96bcb982b387-16679604721cb08a94-3": {
@@ -371,13 +348,13 @@
           "type": "heading",
           "settings": {
             "subheading": "",
-            "heading": "<p>{{ product.metafields.custom.images_with_text_4_title | metafield_tag }}<\/p>"
+            "heading": "<p>See Their Bitty Prints – Even After They’ve Grown Up<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.images_with_text_4_text | metafield_tag }}<\/p>"
+            "text": "<p>One day you’ll look up and see a full-grown adult with a life of their own. ALWAYS REMEMBER what it felt like when their tiny fingers wrapped around your own by freezing this moment in time.<\/p>"
           }
         },
         "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
@@ -391,7 +368,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "{{ product.metafields.custom.images_with_text_4_image.value }}",
+            "image": "shopify:\/\/shop_images\/clay-ornament-3.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -424,56 +401,229 @@
         "color_background": "#faebe6"
       }
     },
+    "39a3cd53-c1c5-468d-83d5-d2deef683f10": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "<p>Heart-Warming Gift Idea For Family<\/p>"
+          }
+        },
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Imagine how touched your loved ones would be to receive a personalized keepsake ornament of your baby's cute little handprint or footprint to hang on their tree or display on their mantle these holidays!<\/p>"
+          }
+        },
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_name": "Learn more"
+          }
+        },
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/clay-ornament-4.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-1",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-2",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-3",
+        "template--14581927215192__39a3cd53-c1c5-468d-83d5-d2deef683f10-1667960927f790d335-0"
+      ],
+      "settings": {
+        "decoration_color": "blue",
+        "url": "",
+        "top_spacing": "small",
+        "width": "page-fullwidth",
+        "content_size": "auto",
+        "desktop_content_height": 440,
+        "row_reverse": true,
+        "content_aligment": "align-self-center",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "text_size": "normal",
+        "hover_underline": false,
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_text": "#4484ce",
+        "color_button": "#4484ce",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#ffffff"
+      }
+    },
+    "a8f7ffd0-ca78-4e9d-baf2-2bbfc591d767": {
+      "type": "text_custom",
+      "disabled": true,
+      "settings": {
+        "decoration_color": "blue",
+        "image": "shopify:\/\/shop_images\/image_13.png",
+        "subheading": "",
+        "heading": "Recommended by The Baby Sleep Site",
+        "description": "<p>\"As parents, we need many tools in our toolboxes and I can confidently recommend Bubzi Co sleep soothers. The Bubzi Co sleep soother is a great product that is not only a white noise machine but also an attachment object, music player, and projection toy. When you are teaching your baby to self-soothe, these types of products make it so much easier!\" Nicole Johnson, President & Founder, The Baby Sleep Site<\/p>",
+        "button_name": "",
+        "button_url": "",
+        "top_spacing": "none",
+        "width": "page-width",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "description_size": "normal",
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_description": "#142c73",
+        "color_button": "rgba(0,0,0,0)",
+        "background": "color",
+        "color_background": "#d7ece7",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
+      }
+    },
+    "f0d64331-2dee-426d-b6da-bc5831b55ca3": {
+      "type": "reviews",
+      "blocks": {
+        "template--16916452639021__f0d64331-2dee-426d-b6da-bc5831b55ca3-1668387293ff17466a-0": {
+          "type": "review",
+          "settings": {
+            "show_image": "show",
+            "image": "shopify:\/\/shop_images\/ornament-step-1.png",
+            "url": "",
+            "heading": "Step 1",
+            "description": "<p>Choose your desired ornament mold and place on the wax paper. Knead the clay until smooth then press into the mold, creating a smooth surface.<\/p>",
+            "author": ""
+          }
+        },
+        "template--16916452639021__f0d64331-2dee-426d-b6da-bc5831b55ca3-1668387293ff17466a-1": {
+          "type": "review",
+          "settings": {
+            "show_image": "show",
+            "image": "shopify:\/\/shop_images\/ornament-step-2.png",
+            "url": "",
+            "heading": "Step 2",
+            "description": "<p>Press baby’s hand and\/or foot into the clay and create a hole if you’re making a hanging ornament. Air dry in the sun for 24 hrs then flip over and dry other side for 24 hrs.<\/p>",
+            "author": ""
+          }
+        },
+        "template--16916452639021__f0d64331-2dee-426d-b6da-bc5831b55ca3-1668387293ff17466a-2": {
+          "type": "review",
+          "settings": {
+            "show_image": "show",
+            "image": "shopify:\/\/shop_images\/ornament-step-3.png",
+            "url": "",
+            "heading": "Step 3",
+            "description": "<p>Decorate! Paint your ornament and add the ribbon or twine of your choice. Now you’re ready to gift or display! No needfor gift wrap, just pop them into the gold organza gift bags included!<\/p>",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16916452639021__f0d64331-2dee-426d-b6da-bc5831b55ca3-1668387293ff17466a-0",
+        "template--16916452639021__f0d64331-2dee-426d-b6da-bc5831b55ca3-1668387293ff17466a-1",
+        "template--16916452639021__f0d64331-2dee-426d-b6da-bc5831b55ca3-1668387293ff17466a-2"
+      ],
+      "settings": {
+        "decoration_color": "blue",
+        "subheading": "",
+        "heading": "3 Easy Steps To Make The Cutest Baby Ornament",
+        "heading_aligment": "text-center",
+        "top_spacing": "normal",
+        "width": "page-width",
+        "grid": "col-4",
+        "swipe_on_mobile": true,
+        "image_ratio": "auto",
+        "texts_aligment": "text-center",
+        "description_size": "normal",
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_swipe_buttons": "rgba(0,0,0,0)",
+        "color_heading_blurb": "rgba(0,0,0,0)",
+        "color_description": "rgba(0,0,0,0)",
+        "color_author": "rgba(0,0,0,0)",
+        "background": "hide",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient": "",
+        "background_width": "fullwidth",
+        "background_spacing": "normal",
+        "remove_bottom_spacing": false
+      }
+    },
+    "1668392759f7f4e322": {
+      "type": "apps",
+      "blocks": {
+        "6ca84532-2e86-405f-b536-349640256f23": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "6ca84532-2e86-405f-b536-349640256f23"
+      ],
+      "settings": {
+        "top_spacing": "normal",
+        "width": "page-width"
+      }
+    },
     "b6a57d08-8072-44ba-a8f1-4987d1087771": {
       "type": "accordion",
       "blocks": {
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-0": {
           "type": "text",
           "settings": {
-            "heading": "What songs does it play & does it have white noise?",
-            "description": "<p>The Owl plays 10 different instrumental songs such as; Minuet, Brahms Lullaby, Are You Sleeping, Baa Baa Black sheep, Home Sweet Home, American Patrol, Mary has a Little Lamb, Oh My Darling, London Bridge is Falling Down, and Hush Little Baby. It also includes white noise, a natural bird song and a heartbeat sound to calm and settle your baby.<\/p>"
+            "heading": "What is the size of the ornaments?",
+            "description": "<p>Heart: W 12cm x H 13cm | W 4.7in x H 5.1in, Circle: W 10cm x H 10cm | W 3.9 x 3.9 in<\/p>"
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-1": {
           "type": "text",
           "settings": {
-            "heading": "Are batteries included?",
-            "description": "<p>Yes! We provide 3 AAA alkaline batteries and a small screwdriver so you can use it right away.<\/p>"
+            "heading": "How old can the baby be to fit their hands and feet?",
+            "description": "We recommend this kit for newborn to 9 months old, however as long your baby’s foot is under 10cm\/3.9 in it will work."
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-2": {
           "type": "text",
           "settings": {
-            "heading": "What is the decibel level of the noise?",
-            "description": "<p>Our Bubzi Co Owl Soother is set to not exceed 50 decibels. It has 5 volume levels so you can adjust it to suit your baby. Hope this helps<\/p>"
+            "heading": "How can I achieve a smooth crack free finish?",
+            "description": "<p>The best way to guarantee a smooth finish is to knead the clay strongly for at least 10 minutes until it is soft, warm and shiny. Then dry thoroughly for 48 hours. Follow along with this video when you receive your kit: <\/p>\n\n\n<iframe src=\"https:\/\/www.youtube.com\/embed\/ShoEY7xyHBo\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"><\/iframe>"
           }
         },
         "0ba96602-0e84-4b94-9fd9-a08b1bd1966f": {
           "type": "text",
           "settings": {
-            "heading": "Do the lights and sound both turn off automatically after 30 min or just the sound?",
-            "description": "<p>Both the lights and lullabies turn off after 30 mins<\/p>"
+            "heading": "My baby’s not due for a few months, will this kit last?",
+            "description": "<p>Our kits are made to last for years so better to be prepared way in advance as it will get hectic when the baby arrives!<\/p>"
           }
         },
         "960eda39-ae7e-4461-88ae-85ac77ed1101": {
           "type": "text",
           "settings": {
-            "heading": "Is this safe to keep in the crib, not attached to the bars, with a toddler so he can hold it?",
-            "description": "<p>Like with all baby products, we do not recommend placing the soother inside the crib without fastenings. It can be placed outside the crib on a dresser, table or chair etc. When your baby is old enough, you can introduce it inside the crib as a lovey if you choose<\/p>"
+            "heading": "Is this big enough for my 2+ year old to do their handprint or footprint?",
+            "description": "<p>For both a footprint and handprint, it will be best do when they are 9 months or younger. If they are older they will only be able to do either only a handprint or footprint depending on your child’s measurements.<\/p>"
           }
         },
-        "477c4b00-13a3-40e8-b1a5-9bb90d3a1cc2": {
+        "4da7290a-8336-413d-b3b9-bec118daca38": {
           "type": "text",
           "settings": {
-            "heading": "Can you wash it?",
-            "description": "<p>Yes you can remove the electronic component and hand wash the owl.<\/p>"
+            "heading": "What is the return policy?",
+            "description": "<p>Just contact our friendly customer service team at <a href=\"mailto:info@bubzico.com\">info@bubzico.com<\/a> to either get a replacement or a refund. <\/p>"
           }
         },
-        "cb036877-03fc-49e8-acea-8a4ab83caa81": {
+        "e06eee69-712d-495d-a301-ee6534bb86fb": {
           "type": "text",
           "settings": {
             "heading": "How long does it take to ship and where do they ship from?",
-            "description": "<p>Upon checkout, you can choose how quickly you would like your Bubzi to ship. Standard Shipping is up to 5 business days, Express is 2-3 days and Priority is 1-2 days.<br> <\/p><p>Our fulfillment warehouses are all over the USA so ordered are <br>processed the same day.<\/p>"
+            "description": "<p>Upon checkout, you can choose how quickly you would like your Bubzi Co clay kits to ship. If you choose standard shipping it will take about 5 business days to arrive to your door. We also have Express and Priority options when you’re in a rush. Our fulfilment warehouses are all over the USA so you can quickly start on your exciting keepsakes!<\/p>"
           }
         }
       },
@@ -483,8 +633,8 @@
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-2",
         "0ba96602-0e84-4b94-9fd9-a08b1bd1966f",
         "960eda39-ae7e-4461-88ae-85ac77ed1101",
-        "477c4b00-13a3-40e8-b1a5-9bb90d3a1cc2",
-        "cb036877-03fc-49e8-acea-8a4ab83caa81"
+        "4da7290a-8336-413d-b3b9-bec118daca38",
+        "e06eee69-712d-495d-a301-ee6534bb86fb"
       ],
       "settings": {
         "decoration_color": "blue",
@@ -508,23 +658,6 @@
         "background_width": "fullwidth",
         "background_spacing": "normal",
         "remove_bottom_spacing": false
-      }
-    },
-    "166839272531ed1302": {
-      "type": "apps",
-      "blocks": {
-        "78b9f76e-4e64-4515-8f7e-1248f0865e6c": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "78b9f76e-4e64-4515-8f7e-1248f0865e6c"
-      ],
-      "settings": {
-        "top_spacing": "normal",
-        "width": "page-width"
       }
     },
     "product-recommendations": {
@@ -563,12 +696,15 @@
   },
   "order": [
     "main",
-    "39a3cd53-c1c5-468d-83d5-d2deef683f10",
+    "95a3189b-0a15-40aa-a020-c007b78111c7",
     "017e1fec-4097-4af8-ae4a-96bcb982b387",
     "017e1fec-4097-4af8-ae4a-96bcb982b3871",
     "39a3cd53-c1c5-468d-83d5-d2deef683f101",
+    "39a3cd53-c1c5-468d-83d5-d2deef683f10",
+    "a8f7ffd0-ca78-4e9d-baf2-2bbfc591d767",
+    "f0d64331-2dee-426d-b6da-bc5831b55ca3",
+    "1668392759f7f4e322",
     "b6a57d08-8072-44ba-a8f1-4987d1087771",
-    "166839272531ed1302",
     "product-recommendations"
   ]
 }

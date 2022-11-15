@@ -194,6 +194,8 @@ endif
     {%- if show_price -%}
     {%- render 'price', product: product_card_product -%}
     {%- endif -%}
+    <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product_card_product %}</div>
+    
     {%- if button_type_product != "hide" -%}
 
     {%- if product_card_product.variants.size > 1 and product_card_product.available -%}
@@ -218,7 +220,6 @@ endif
     </modal-opener>
     
     {%- else -%}
-    <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product_card_product %}</div>
     <product-form>
       <div class="product-form__error-message-wrapper" role="alert" hidden>
         {%- render "icon-attention" -%}
