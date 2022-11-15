@@ -122,58 +122,121 @@
         "remove_bottom_spacing": false
       }
     },
-    "315b0f80-6e10-4896-b250-9d0aa6e3c05b": {
-      "type": "text_custom",
+    "fa50d998-28ac-4dc9-8fc2-125d5cc72884": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "<p>Our Partnership with Postpartum Support International<\/p>"
+          }
+        },
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Did you know 1 in 7 women and 1 in 10 men experience postpartum depression?<\/p><p>At Bubzi Co, we're passionate about helping you navigate parenthood for <br\/>the first time, and this includes looking after your mental health.<\/p><p>While many women experience some mild mood changes during or after the birth of a child, 15 to 20% of women experience more significant symptoms of depression or anxiety.<\/p><p>However with the right informed care, moms can prevent a worsening of these symptoms and can fully recover. <\/p><p>There is no reason to continue to suffer and feel alone.That's why we donate a portion of our sales revenue to Postpartum Support International on an annual basis as of November 2017. <\/p><p><strong>Useful links:<\/strong><\/p><p><strong>The Facts<\/strong><a href=\"http:\/\/www.postpartum.net\/learn-more\/pregnancy-postpartum-mental-health\/\"><strong>http:\/\/www.postpartum.net\/learn-more\/pregnancy-postpartum-mental-health\/<br\/><\/strong><\/a><\/p><p><strong>Get Help Now - Your Local Area<\/strong><\/p><p><a href=\"http:\/\/www.postpartum.net\/get-help\/locations\/united-states\/\"><strong>http:\/\/www.postpartum.net\/get-help\/locations\/<br\/><\/strong><\/a><\/p><p><strong>Donate Online<\/strong><\/p><p><a href=\"http:\/\/www.postpartum.net\/about-psi\/donate-to-psi\/\"><strong>http:\/\/www.postpartum.net\/about-psi\/donate-to-psi\/<\/strong><br\/><\/a><\/p><p><\/p><p>If you have any questions about our partnership with PSI, please contact us.<\/p>"
+          }
+        },
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_name": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-0",
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-1",
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-2",
+        "template--16931313156397__fa50d998-28ac-4dc9-8fc2-125d5cc72884-16684986209e18587c-3"
+      ],
       "settings": {
         "decoration_color": "blue",
-        "image": "shopify:\/\/shop_images\/psi_logo_300dpi_mediumpng-1539691047039.png",
-        "subheading": "",
-        "heading": "Our Partnership with Postpartum Support International",
-        "description": "<p>Did you know 1 in 7 women and 1 in 10 men experience postpartum depression?<\/p><p>At Bubzi Co, we're passionate about helping you navigate parenthood for <br\/>the first time, and this includes looking after your mental health.<\/p><p>While many women experience some mild mood changes during or after the birth of a child, 15 to 20% of women experience more significant symptoms of depression or anxiety.<\/p><p>However with the right informed care, moms can prevent a worsening of these symptoms and can fully recover. <\/p><p>There is no reason to continue to suffer and feel alone.That's why we donate a portion of our sales revenue to Postpartum Support International on an annual basis as of November 2017. <\/p><p><strong>Useful links:<\/strong><\/p><p><strong>The Facts<\/strong><a href=\"http:\/\/www.postpartum.net\/learn-more\/pregnancy-postpartum-mental-health\/\"><strong>http:\/\/www.postpartum.net\/learn-more\/pregnancy-postpartum-mental-health\/<br\/><\/strong><\/a><\/p><p><strong>Get Help Now - Your Local Area<\/strong><\/p><p><a href=\"http:\/\/www.postpartum.net\/get-help\/locations\/united-states\/\"><strong>http:\/\/www.postpartum.net\/get-help\/locations\/<br\/><\/strong><\/a><\/p><p><strong>Donate Online<\/strong><\/p><p><a href=\"http:\/\/www.postpartum.net\/about-psi\/donate-to-psi\/\"><strong>http:\/\/www.postpartum.net\/about-psi\/donate-to-psi\/<\/strong><br\/><\/a><\/p><p><\/p><p>If you have any questions about our partnership with PSI, please contact us.<\/p>",
-        "button_name": "",
-        "button_url": "",
+        "url": "",
         "top_spacing": "none",
-        "width": "page-width",
+        "width": "page-fullwidth",
+        "content_size": "fullscreen",
+        "desktop_content_height": 440,
+        "row_reverse": false,
+        "content_aligment": "align-self-center",
         "texts_aligment": "text-center",
         "heading_tag": "h2",
-        "description_size": "normal",
+        "text_size": "normal",
+        "hover_underline": false,
         "color_subheading": "rgba(0,0,0,0)",
         "color_heading": "rgba(0,0,0,0)",
-        "color_description": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
         "color_button": "rgba(0,0,0,0)",
-        "background": "color",
-        "color_background": "#d7ece7",
-        "gradient": "",
-        "background_width": "fullwidth",
-        "background_spacing": "normal",
-        "remove_bottom_spacing": false
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#d7ece7"
       }
     },
-    "ae5de980-33f4-4b0e-a2dd-7ab897846b9a": {
-      "type": "text_custom",
+    "3e0a081d-3d49-4f01-8895-e6c9b88f7edb": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "<p>Our Partnership with B1G1<\/p>"
+          }
+        },
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With every Bubzi Co purchase you're given the choice to allocate our donation to either PSI or B1G1.<br\/>This is because we believe in supporting mothers around the world.<br\/><br\/>Our B1G1 donation goes to the Bombay Mothers and Children Welfare Society in India to give a pregnant mother maternal care, which includes proper prenatal healthcare and vitamins.<\/p><p><strong>With your help, we have given over 20,000 days of maternal care through B1G1.<\/strong>If you have any questions about our partnership with B1G1, please contact us.<\/p>"
+          }
+        },
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-3": {
+          "type": "button",
+          "settings": {
+            "button_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-0",
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-1",
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-2",
+        "template--16931313156397__3e0a081d-3d49-4f01-8895-e6c9b88f7edb-166849862610124871-3"
+      ],
       "settings": {
         "decoration_color": "blue",
-        "image": "shopify:\/\/shop_images\/pf-6a4aafa4--b1g1.webp",
-        "subheading": "",
-        "heading": "Our Partnership with B1G1",
-        "description": "<p>With every Bubzi Co purchase you're given the choice to allocate our donation to either PSI or B1G1.<br\/>This is because we believe in supporting mothers around the world.<br\/><br\/>Our B1G1 donation goes to the Bombay Mothers and Children Welfare Society in India to give a pregnant mother maternal care, which includes proper prenatal healthcare and vitamins.<\/p><p><strong>With your help, we have given over 20,000 days of maternal care through B1G1.<\/strong>If you have any questions about our partnership with B1G1, please contact us.<\/p>",
-        "button_name": "",
-        "button_url": "",
-        "top_spacing": "none",
-        "width": "page-width",
+        "url": "",
+        "top_spacing": "small",
+        "width": "page-fullwidth",
+        "content_size": "fullscreen",
+        "desktop_content_height": 440,
+        "row_reverse": true,
+        "content_aligment": "align-self-center",
         "texts_aligment": "text-center",
         "heading_tag": "h2",
-        "description_size": "normal",
+        "text_size": "normal",
+        "hover_underline": false,
         "color_subheading": "rgba(0,0,0,0)",
         "color_heading": "rgba(0,0,0,0)",
-        "color_description": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
         "color_button": "rgba(0,0,0,0)",
-        "background": "color",
-        "color_background": "#faeca6",
-        "gradient": "",
-        "background_width": "fullwidth",
-        "background_spacing": "normal",
-        "remove_bottom_spacing": false
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "#faeca6"
       }
     }
   },
@@ -182,7 +245,7 @@
     "1255d09e-14da-446a-9c89-fa6391d41178",
     "f9a79844-cf0c-4b81-9f0d-1a42513dfe99",
     "803d407a-e7d7-42b5-96df-3789e890886c",
-    "315b0f80-6e10-4896-b250-9d0aa6e3c05b",
-    "ae5de980-33f4-4b0e-a2dd-7ab897846b9a"
+    "fa50d998-28ac-4dc9-8fc2-125d5cc72884",
+    "3e0a081d-3d49-4f01-8895-e6c9b88f7edb"
   ]
 }
