@@ -47,23 +47,6 @@
             "content_5": ""
           }
         },
-        "a593bf72-1978-43ec-9d69-7b6cf499eb6c": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text_size": "small",
-            "icon_name_1": "check_sm",
-            "content_1": "<p>Short content about your product.<\/p>",
-            "icon_name_2": "check_sm",
-            "content_2": "<p>Short content about your product.<\/p>",
-            "icon_name_3": "",
-            "content_3": "<p>Icons are optional<\/p>",
-            "icon_name_4": "check",
-            "content_4": "<p><strong>USE RICH TEXT EDITOR<br\/><\/strong>And big icons to highlight the product sale point<\/p>",
-            "icon_name_5": "",
-            "content_5": ""
-          }
-        },
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494": {
           "type": "variant_picker",
           "settings": {
@@ -95,6 +78,36 @@
             "button_type_product": "only_text",
             "enable_sticky_addtocart": true,
             "show_dynamic_checkout": false
+          }
+        },
+        "d6d5b023-389c-4e91-90ae-1e59e2761786": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "woodland-wonder-wall-decal-set",
+            "upsell_text": "FREE GIFT Woodland Wall Decal Set"
+          }
+        },
+        "2e63881e-a6e4-4724-bcf4-ab0f61e76faa": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"background:#FEDCD2;padding:8px;\" class=\"\">\nFREE GIFT Woodland Wall Decal Set with every playmat valued at $24.95\n<\/div>"
+          }
+        },
+        "a593bf72-1978-43ec-9d69-7b6cf499eb6c": {
+          "type": "text",
+          "settings": {
+            "text_size": "small",
+            "icon_name_1": "",
+            "content_1": "<p>Create a soft, whimsical and cozy play area for your little one.<\/p><p>Designed exclusively by watercolor artist Nina Stajner for Bubzi Co, our woodland playmat creates an ultra-hygienic, mess-proof, waterproof, stain proof, easy wash surface - ensuring your sanity and their safety, through all the stages - babies crawling, toddlers walking, preschoolers snack time, kids gymnastic ninja moves & everyone’s artistic adventures.<\/p>",
+            "icon_name_2": "",
+            "content_2": "",
+            "icon_name_3": "",
+            "content_3": "",
+            "icon_name_4": "",
+            "content_4": "",
+            "icon_name_5": "",
+            "content_5": ""
           }
         },
         "891d0f6f-5a37-4358-a93f-d49c92004bef": {
@@ -151,9 +164,11 @@
         "4f8b197f-142b-4618-96c7-abd9de7cc0c4",
         "36032345-aea2-4f92-821a-d5ca441bfc03",
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",
-        "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
+        "d6d5b023-389c-4e91-90ae-1e59e2761786",
+        "2e63881e-a6e4-4724-bcf4-ab0f61e76faa",
+        "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "891d0f6f-5a37-4358-a93f-d49c92004bef",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
         "86106f28-8537-421d-bc18-e66191b98c4b",

@@ -82,6 +82,7 @@
         },
         "ab12c122-e225-4180-b58c-7c07db6043f8": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text_size": "small",
             "icon_name_1": "",
