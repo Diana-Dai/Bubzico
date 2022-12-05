@@ -38,7 +38,7 @@
             "icon_name_1": "check_sm",
             "content_1": "<p><strong>LIFETIME WARRANTY<\/strong><br\/>Love it, or your money back.<\/p>",
             "icon_name_2": "paw_sm",
-            "content_2": "<p><strong>WOODLAND COLLECTION <br\/><\/strong>Matches with Woodland Playmat, Milestone Blanket<br\/><\/p>",
+            "content_2": "<p><a href=\"\/collections\/nursery-decor\" target=\"_blank\" title=\"Woodland Wonder\"><strong>WOODLAND COLLECTION <\/strong><\/a><strong><br\/><\/strong>Matches with Woodland Playmat, Milestone Blanket, Woodland Decals<br\/><\/p>",
             "icon_name_3": "",
             "content_3": "",
             "icon_name_4": "",
@@ -95,6 +95,12 @@
             "button_type_product": "only_text",
             "enable_sticky_addtocart": true,
             "show_dynamic_checkout": false
+          }
+        },
+        "79f77e9b-4ce3-4025-8b98-f412d39498f4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"offers\">\n<p><strong>Buy any other item from the Woodland Range and get 10% OFF total order \n<\/strong><\/p>\n <table>\n  <tr>\n    <td>Buy milestone blanket + playmat<\/td>\n    <td> 10% OFF <\/td>\n  <\/tr>\n  <tr>\n    <td>Buy milestone blanket + wall decal<\/td>\n    <td> 10% OFF   <\/td>\n  <\/tr>\n<\/table> \n<\/div>"
           }
         },
         "891d0f6f-5a37-4358-a93f-d49c92004bef": {
@@ -154,6 +160,7 @@
         "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
+        "79f77e9b-4ce3-4025-8b98-f412d39498f4",
         "891d0f6f-5a37-4358-a93f-d49c92004bef",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
         "86106f28-8537-421d-bc18-e66191b98c4b",

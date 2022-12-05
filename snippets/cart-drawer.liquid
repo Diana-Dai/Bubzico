@@ -202,8 +202,11 @@
                           </div>
                           {%- endfor -%}
                           {%- endif -%}
-      
+                          {% assign free_gift = false %}
                           {%- for property in item.properties -%}
+                            {% if  property.first == "free_gift"  %}
+                              {% assign free_gift = true %}
+                            {% endif %}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' and property.first != "free_gift"  -%}
                           <div class="product-option">
@@ -292,6 +295,7 @@
                         <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
                           {{ 'products.product.quantity.label' | t }}
                         </label>
+                        {% unless free_gift %}
                         <quantity-input class="field quantity">
                           <button class="quantity__button no-js-hidden" name="minus" type="button">
                             <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: item.product.title | escape }}</span>
@@ -311,7 +315,7 @@
                             {% render 'icon-plus' %}
                           </button>
                         </quantity-input>
-    
+                        {% endunless %}
                         <cart-remove-button id="CartDrawer-Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
                           <a href="{{ item.url_to_remove }}" class="drawer__cart-remove-button" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
                             {% render 'icon-remove' %}

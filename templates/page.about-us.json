@@ -129,6 +129,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
+            "image": "shopify:\/\/shop_images\/PSI.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -188,6 +189,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
+            "image": "shopify:\/\/shop_images\/buy1give1_b1g1.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }

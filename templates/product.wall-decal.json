@@ -80,13 +80,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "d6d5b023-389c-4e91-90ae-1e59e2761786": {
-          "type": "upsell",
-          "settings": {
-            "upsell_product": "woodland-wonder-wall-decal-set",
-            "upsell_text": "FREE GIFT Woodland Wall Decal Set"
-          }
-        },
         "2e63881e-a6e4-4724-bcf4-ab0f61e76faa": {
           "type": "custom_liquid",
           "disabled": true,
@@ -99,7 +92,7 @@
           "settings": {
             "text_size": "small",
             "icon_name_1": "",
-            "content_1": "<p>Create a soft, whimsical and cozy play area for your little one.<\/p><p>Designed exclusively by watercolor artist Nina Stajner for Bubzi Co, our woodland playmat creates an ultra-hygienic, mess-proof, waterproof, stain proof, easy wash surface - ensuring your sanity and their safety, through all the stages - babies crawling, toddlers walking, preschoolers snack time, kids gymnastic ninja moves & everyone’s artistic adventures.<\/p>",
+            "content_1": "<p>Transform your baby's nursery or play area into a Woodland Wonderland in 10 minutes!<\/p><p>Crafted by European renowned children’s artist Nina Stajner and created exclusively for Bubzi Co, our Woodland Wonder Wall Decal Set uses only the richest, non-toxic pigments for a nursery decal set that dances playfully along your walls for years to come. Won’t fade, fall off or tear, even when moved, guaranteed. <\/p>",
             "icon_name_2": "",
             "content_2": "",
             "icon_name_3": "",
@@ -112,6 +105,7 @@
         },
         "891d0f6f-5a37-4358-a93f-d49c92004bef": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "heading": "Description",
             "icon_name": ""
@@ -166,7 +160,6 @@
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
-        "d6d5b023-389c-4e91-90ae-1e59e2761786",
         "2e63881e-a6e4-4724-bcf4-ab0f61e76faa",
         "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "891d0f6f-5a37-4358-a93f-d49c92004bef",

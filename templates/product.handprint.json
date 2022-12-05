@@ -33,6 +33,7 @@
         },
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text_size": "small",
             "icon_name_1": "check_sm",
@@ -97,6 +98,12 @@
             "show_dynamic_checkout": false
           }
         },
+        "601caf6f-6943-4bdb-bb12-69bdc5110b9a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"offers\">\n <table>\n  <tr>\n    <td>Buy 2 clay products<\/td>\n    <td> 10% OFF <\/td>\n  <\/tr>\n  <tr>\n    <td>Buy 3<\/td>\n    <td> 15% OFF   <\/td>\n  <\/tr>\n  <tr>\n    <td>Buy 4<\/td>\n    <td>20% OFF <\/td>\n  <\/tr>\n  <tr>\n    <td>Buy 5+<\/td>\n    <td>25% OFF <\/td>\n  <\/tr>\n<\/table> \n\n\n<\/div>"
+          }
+        },
         "891d0f6f-5a37-4358-a93f-d49c92004bef": {
           "type": "description",
           "settings": {
@@ -118,7 +125,7 @@
           "settings": {
             "heading": "Spec",
             "icon_name": "",
-            "content": "<p>Length: 7 inches, Height: 8.6 inches, Width: 3.5 inches.<\/p><p>The songs include: Minuet, Brahms Lullaby, Are You Sleeping, Baa Baa Black sheep, Home Sweet Home, American Patrol, Mary has a Little Lamb, Oh My Darling, London Bridge is Falling Down, and Hush Little Baby. It also includes a natural bird song, and a heartbeat and white noise sound to calm and settle your baby<\/p><p>Soft plush toy with electronic music box and light projector<\/p>",
+            "content": "<p>Outer Frame:Length 28.2cm - 11.1 inches, Width 2cm - 0.78 inches, Height 23.1cm - 9.09 inches<br\/>  <\/p><p>Clay Cutout Dimensions:Length 12cm - 4.7 inches, Height 16cm - 6.3 inches<br\/>  <\/p><p>Small Photo Cutouts:Length 7cm - 2.75 inches, Height 7cm - 2.75 inches<br\/>  <\/p><p>The photos can be a little bigger as it fits behind the silhouette.<\/p>",
             "page": ""
           }
         },
@@ -146,6 +153,7 @@
         },
         "86984dc9-190c-47fe-92e5-850f592f72a9": {
           "type": "additional-feature",
+          "disabled": true,
           "settings": {
             "heading": "Additional features",
             "icon_name": "certified_sm",
@@ -173,6 +181,7 @@
         "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
+        "601caf6f-6943-4bdb-bb12-69bdc5110b9a",
         "891d0f6f-5a37-4358-a93f-d49c92004bef",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
         "86106f28-8537-421d-bc18-e66191b98c4b",
@@ -579,7 +588,7 @@
           "type": "text",
           "settings": {
             "heading": "How big is the frame and each section within the frame?",
-            "description": "<p>Please find the dimensions below in cm and inches:<\/p><p>Outer Frame:Length 28.2cm - 11.1 inches, Width 2cm - 0.78 inches, Height 23.1cm - 9.09 inches<br>  <\/p><p>Clay Cutout Dimensions:Length 12cm - 4.7 inches, Height 16cm - 6.3 inches<br>  <\/p><p>Small Photo Cutouts:Length 7cm - 2.75 inches, Height 7cm - 2.75 inches<br>  <\/p><p>The photos can be a little bigger as it fits behind the silhouette.<br><\/p>"
+            "description": "<p>Please find the dimensions below in cm and inches:<\/p><p>Outer Frame:Length 28.2cm - 11.1 inches, Width 2cm - 0.78 inches, Height 23.1cm - 9.09 inches<br\/>  <\/p><p>Clay Cutout Dimensions:Length 12cm - 4.7 inches, Height 16cm - 6.3 inches<br\/>  <\/p><p>Small Photo Cutouts:Length 7cm - 2.75 inches, Height 7cm - 2.75 inches<br\/>  <\/p><p>The photos can be a little bigger as it fits behind the silhouette.<br\/><\/p>"
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-1": {

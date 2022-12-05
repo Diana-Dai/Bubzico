@@ -571,11 +571,7 @@
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
       if (this.mouse_in_menu && !this.menu_opened) return;
-
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom + this.checkVerticalMenuPostion()) { //+ сюда
-        if (this.preventHide) return;
-        requestAnimationFrame(this.hide.bind(this));
-      } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom + this.checkVerticalMenuPostion()) { //+ сюда
         if (!this.preventReveal) {
           requestAnimationFrame(this.reveal.bind(this));
         } else {
@@ -585,7 +581,7 @@
             this.preventReveal = false;
           }, 66);
 
-          requestAnimationFrame(this.hide.bind(this));
+          // requestAnimationFrame(this.hide.bind(this));
         }
       } else if (scrollTop <= this.headerBounds.top) {
         requestAnimationFrame(this.reset.bind(this));

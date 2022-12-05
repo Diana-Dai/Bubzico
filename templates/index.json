@@ -106,7 +106,7 @@
         "dd01eb26-4089-4014-98b7-5a6ebfb7009e": {
           "type": "block",
           "settings": {
-            "html": "<div>\n<img loading=\"lazy\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1719\/6357\/files\/crown_200x.png?v=1668076798\" width=\"40\" height=\"40\">\n<p>Portion of purchases goes to our charity partners<\/p>\n<\/div>"
+            "html": "<div>\n<img loading=\"lazy\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1719\/6357\/files\/crown_200x.png?v=1668076798\" width=\"40\" height=\"40\">\n<p>Lifetime Warranty On All Products<\/p>\n<\/div>"
           }
         }
       },
@@ -120,7 +120,7 @@
         "top_spacing": "small",
         "ticker_time": 29,
         "text_size": "normal",
-        "text": "",
+        "text": "<p>test<\/p>",
         "show_icon": "none",
         "icon_name": "advertising_sm",
         "color_svg": "#faeca6",

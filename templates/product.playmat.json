@@ -39,8 +39,8 @@
             "content_1": "<p><strong>LIFETIME WARRANTY<\/strong><br\/>Love it, or keep it for free<\/p>",
             "icon_name_2": "truck_sm",
             "content_2": "<p><strong>FREE SHIPPING<\/strong><br\/>No code needed, just head for checkout!<\/p>",
-            "icon_name_3": "",
-            "content_3": "",
+            "icon_name_3": "smile_sm",
+            "content_3": "<p><strong>BEST DEAL<\/strong><br\/>You're saving $100 by buying on our site (discount, free gift, free shipping)<\/p>",
             "icon_name_4": "",
             "content_4": "",
             "icon_name_5": "",
@@ -80,6 +80,35 @@
             "show_dynamic_checkout": false
           }
         },
+        "e31cfad9-5ebf-45c7-99a2-be505a1dae6e": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "woodland-wonder-wall-decal-set",
+            "upsell_text": "FREE GIFT Woodland Wall Decal Set"
+          }
+        },
+        "8959230d-5f39-40d8-b2a0-10909fa6564e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p><strong>\nBuy 2 playmats, get 40% OFF\n<\/strong><\/p>\n<p>- Plus a free woodland wall decal set<\/p>\n<p>- And Free shipping\n<\/p>\n<\/div>\n\n\n\n<\/div>"
+          }
+        },
+        "f8c51f7a-0c15-48a3-94bc-5f624cd18b31": {
+          "type": "text",
+          "settings": {
+            "text_size": "small",
+            "icon_name_1": "",
+            "content_1": "",
+            "icon_name_2": "",
+            "content_2": "",
+            "icon_name_3": "",
+            "content_3": "",
+            "icon_name_4": "",
+            "content_4": "",
+            "icon_name_5": "",
+            "content_5": ""
+          }
+        },
         "ab12c122-e225-4180-b58c-7c07db6043f8": {
           "type": "text",
           "settings": {
@@ -87,7 +116,7 @@
             "icon_name_1": "",
             "content_1": "<p>Create a soft, whimsical and cozy play area for your little one.<\/p><p>Designed exclusively by watercolor artist Nina Stajner for Bubzi Co, our woodland playmat creates an ultra-hygienic, mess-proof, waterproof, stain proof, easy wash surface - ensuring your sanity and their safety, through all the stages - babies crawling, toddlers walking, preschoolers snack time, kids gymnastic ninja moves & everyone’s artistic adventures.<\/p>",
             "icon_name_2": "check_sm",
-            "content_2": "<p>BONUS Woodland Wall Decal Set with every playmat valued at $19.95<\/p>",
+            "content_2": "<p>BONUS Woodland Wall Decal Set with every playmat valued at $24.95<\/p>",
             "icon_name_3": "",
             "content_3": "",
             "icon_name_4": "",
@@ -163,6 +192,9 @@
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
+        "e31cfad9-5ebf-45c7-99a2-be505a1dae6e",
+        "8959230d-5f39-40d8-b2a0-10909fa6564e",
+        "f8c51f7a-0c15-48a3-94bc-5f624cd18b31",
         "ab12c122-e225-4180-b58c-7c07db6043f8",
         "8f8597c7-077f-4119-81a0-47c333998da1",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
@@ -430,50 +462,71 @@
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-0": {
           "type": "text",
           "settings": {
-            "heading": "What songs does it play & does it have white noise?",
-            "description": "<p>The Owl plays 10 different instrumental songs such as; Minuet, Brahms Lullaby, Are You Sleeping, Baa Baa Black sheep, Home Sweet Home, American Patrol, Mary has a Little Lamb, Oh My Darling, London Bridge is Falling Down, and Hush Little Baby. It also includes white noise, a natural bird song and a heartbeat sound to calm and settle your baby.<\/p>"
+            "heading": "What is the size of the playmat?",
+            "description": "<p>The Woodland Wonder Reversible Playmat is 6.5ft x 4.6ft <\/p>"
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-1": {
           "type": "text",
           "settings": {
-            "heading": "Are batteries included?",
-            "description": "<p>Yes! We provide 3 AAA alkaline batteries and a small screwdriver so you can use it right away.<\/p>"
+            "heading": "How thick is it?",
+            "description": "<p>Our mat is 0.69 inches, which is thicker than most other playmats on the market. It feels nice and cushiony and stable under the feet. \n<\/p>"
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-2": {
           "type": "text",
           "settings": {
-            "heading": "What is the decibel level of the noise?",
-            "description": "<p>Our Bubzi Co Owl Soother is set to not exceed 50 decibels. It has 5 volume levels so you can adjust it to suit your baby. Hope this helps<\/p>"
+            "heading": "Can you place furniture or heavy items on the mat?",
+            "description": "<p>Whilst we don’t suggest placing heavy items for long periods of time, our testing shows that the mat does bounce back quickly if a coffee table or kids table\/chairs are placed on it periodically. \n<\/p>"
           }
         },
         "0ba96602-0e84-4b94-9fd9-a08b1bd1966f": {
           "type": "text",
           "settings": {
-            "heading": "Do the lights and sound both turn off automatically after 30 min or just the sound?",
-            "description": "<p>Both the lights and lullabies turn off after 30 mins<\/p>"
+            "heading": "Is the playmat non-toxic and BPA free?",
+            "description": "<p>Yes, our high quality playmat is made of TPU (thermoplastic polyurethane) which is non-toxic, PVC-free, BPA-free, VOC-free and Vegan. It is also 100% recyclable and biodegradeable. It has been tested and approved by international child product safety testing labs.\n<\/p>"
           }
         },
         "960eda39-ae7e-4461-88ae-85ac77ed1101": {
           "type": "text",
           "settings": {
-            "heading": "Is this safe to keep in the crib, not attached to the bars, with a toddler so he can hold it?",
-            "description": "<p>Like with all baby products, we do not recommend placing the soother inside the crib without fastenings. It can be placed outside the crib on a dresser, table or chair etc. When your baby is old enough, you can introduce it inside the crib as a lovey if you choose<\/p>"
+            "heading": "Does it come in any other sizes or colors?",
+            "description": "<p>Not at the moment, but we are always developing new products for our customers so please email us at info@bubzico.com if you have an idea.<\/p>\n<p><\/p>"
           }
         },
         "477c4b00-13a3-40e8-b1a5-9bb90d3a1cc2": {
           "type": "text",
           "settings": {
-            "heading": "Can you wash it?",
-            "description": "<p>Yes you can remove the electronic component and hand wash the owl.<\/p>"
+            "heading": "How do you clean the mat?",
+            "description": "<p>We recommend cleaning with the soft cloth with water and mild detergent. Do not use any bleach products, as it may affect the print. You may use a vacuum if there are crumbs.\n<\/p>"
           }
         },
         "cb036877-03fc-49e8-acea-8a4ab83caa81": {
           "type": "text",
           "settings": {
-            "heading": "How long does it take to ship and where do they ship from?",
-            "description": "<p>Upon checkout, you can choose how quickly you would like your Bubzi to ship. Standard Shipping is up to 5 business days, Express is 2-3 days and Priority is 1-2 days.<br> <\/p><p>Our fulfillment warehouses are all over the USA so ordered are <br>processed the same day.<\/p>"
+            "heading": "Is it waterproof?",
+            "description": "<p>Yes, it has a completely waterproof layer that allows you to wipe any spills with ease.<\/p>\n<p><\/p>"
+          }
+        },
+        "2a75eb01-c3a9-4af9-a4cd-68d682b08689": {
+          "type": "text",
+          "settings": {
+            "heading": "Can you fold it to store away?",
+            "description": "<p>The mat comes with 2 velcro straps that you can keep to roll up the mat and store. It does not fold as the design is one smooth mat.\n<\/p>"
+          }
+        },
+        "8cb83feb-be89-4b72-9844-c3d299c4790d": {
+          "type": "text",
+          "settings": {
+            "heading": "Can I have a discount if I buy multiple?",
+            "description": "<p>Yes, if you buy 2 or more playmats you’ll get an auto-discount in the cart.  <br\/><\/p>"
+          }
+        },
+        "e8d6d69f-9d7f-4c60-8ff1-d4ccafe5dc43": {
+          "type": "text",
+          "settings": {
+            "heading": "Will the mat scratch with sharp objects?",
+            "description": "<p>It is difficult to puncture or rip the mat, however any sharp objects should not be used on the mat. It’s also pet safe, however please mind their sharp claws scratching the surface.<\/p>"
           }
         }
       },
@@ -484,7 +537,10 @@
         "0ba96602-0e84-4b94-9fd9-a08b1bd1966f",
         "960eda39-ae7e-4461-88ae-85ac77ed1101",
         "477c4b00-13a3-40e8-b1a5-9bb90d3a1cc2",
-        "cb036877-03fc-49e8-acea-8a4ab83caa81"
+        "cb036877-03fc-49e8-acea-8a4ab83caa81",
+        "2a75eb01-c3a9-4af9-a4cd-68d682b08689",
+        "8cb83feb-be89-4b72-9844-c3d299c4790d",
+        "e8d6d69f-9d7f-4c60-8ff1-d4ccafe5dc43"
       ],
       "settings": {
         "decoration_color": "blue",

@@ -96,7 +96,13 @@ button.field__input{
   z-index: 1;
 }
 .search--small{width: 224px;}
-.field-with-icon .field__input{padding-left: 45px;}
+.field-with-icon .field__input{
+  
+  padding-left: 45px;}
+.contact-form input,
+.contact-form textarea{
+  box-shadow: inset 0 0 0 2px var(--component-color-lines-borders, var(--color-lines-borders));
+}
 .field-with-icon .field__label{left: 45px;}
 .field__input:hover ~ .field__label,
 .field:hover .field__label{

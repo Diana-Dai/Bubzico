@@ -51,12 +51,15 @@
     "age_verification_popup_redirect_link": "",
     "enable_recently_viewed_products": true,
     "social_media_1": "",
-    "social_media_2": "",
+    "social_media_2": "https:\/\/www.facebook.com\/bubzico\/",
+    "social_media_3": "https:\/\/www.instagram.com\/bubzico\/",
+    "social_media_4": "https:\/\/www.pinterest.com.au\/BubziCoNurseryDecor\/",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": true,
     "favicon": "shopify:\/\/shop_images\/1005_bubzico_logo_-02.png",
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Untitled_design_25.png",
     "catalog_mode": false,
     "mobile_grid": "6",
     "color_icons": "#fff",
@@ -75,7 +78,7 @@
           "9932750d-e339-4919-b434-1159e7c6cce9": {
             "type": "announcement",
             "settings": {
-              "text": "FREE Shipping For Orders Over $100. Ships from the USA 🇺🇸",
+              "text": "FREE Shipping For Orders Over $50. Ships from the USA",
               "link_name": "",
               "link_url": "",
               "color_background": "#88b8ef",
@@ -183,8 +186,8 @@
               "show_newsletter": true,
               "heading": "NEWSLETTER",
               "subtext": "<p>Sign up for our e-mail and be the first to know about our special offers!<\/p>",
-              "newsletter_terms": "<p>By clicking the button you agree to the <a href=\"\/\"><strong>Privacy Policy<\/strong><\/a> and <a href=\"\/\"><strong>Terms and Conditions<\/strong><\/a>.<\/p>",
-              "show_social": false,
+              "newsletter_terms": "<p>By clicking the button you agree to the <a href=\"\/pages\/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Policy<\/strong><\/a> and <a href=\"\/pages\/terms-and-conditions\" title=\"Terms and Conditions\"><strong>Terms and Conditions<\/strong><\/a>.<\/p>",
+              "show_social": true,
               "heading_social": "FOLLOW US:"
             }
           }
@@ -258,12 +261,6 @@
       "18306912302550125850": {
         "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/rich-snippet\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": true,
         "settings": {
         }
       }

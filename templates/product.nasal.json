@@ -33,6 +33,7 @@
         },
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text_size": "small",
             "icon_name_1": "check_sm",
@@ -109,7 +110,7 @@
           "settings": {
             "heading": "How to use",
             "icon_name": "",
-            "content": "",
+            "content": "<p>Step 1: Never used a nasal suction device before? No worries, you’ll feel like a pro in no time! Simply clean parts, and thoroughly dry. BUBZI PRO PARENT TIP: Extra runny baby’s nose? Place a tissue inside before you start sucking.<\/p><p>Step 2: Insert nasal aspirator’s ultra-soft tip baby’s nostril opening. Gently inhale until you see mucus start to flow up. Don’t worry, unique mouthpiece stops any snot or germs from entering your mouth.<\/p><p>Step 3: Rinse with clean water, dry thoroughly then toss into the included convenient, hygienic storage case so it’s ready to save the day on its next use.<\/p><p>Our nasal aspirator comes pre-assembled in a convenient BPA FREE plastic storage case<\/p><p>No filters required<\/p><p>Wash in warm soapy water<\/p><p>Can be sterilised<\/p>",
             "page": ""
           }
         },
@@ -118,7 +119,7 @@
           "settings": {
             "heading": "Spec",
             "icon_name": "",
-            "content": "<p>Length: 7 inches, Height: 8.6 inches, Width: 3.5 inches.<\/p><p>The songs include: Minuet, Brahms Lullaby, Are You Sleeping, Baa Baa Black sheep, Home Sweet Home, American Patrol, Mary has a Little Lamb, Oh My Darling, London Bridge is Falling Down, and Hush Little Baby. It also includes a natural bird song, and a heartbeat and white noise sound to calm and settle your baby<\/p><p>Soft plush toy with electronic music box and light projector<\/p>",
+            "content": "",
             "page": ""
           }
         },
@@ -146,6 +147,7 @@
         },
         "86984dc9-190c-47fe-92e5-850f592f72a9": {
           "type": "additional-feature",
+          "disabled": true,
           "settings": {
             "heading": "Additional features",
             "icon_name": "certified_sm",
@@ -286,6 +288,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
+            "image": "{{ product.metafields.custom.images_with_text_2_image.value }}",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }

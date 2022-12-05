@@ -3,7 +3,7 @@
 {%- case block.type -%}
 {%- when 'description' -%}
 {%- if product.description != blank -%}
-<details class="chm-toggle{% if forloop.first %} toggle-opening{% endif %}"{% if forloop.first %} open{% endif %} {{ block.shopify_attributes }}>
+<details class="chm-toggle toggle-opening" open{{ block.shopify_attributes }}>
   <summary>
     <div class="chm-toggle__button">
       {%- render 'icons-list' icon_name: block.settings.icon_name -%}

@@ -1,7 +1,7 @@
 <div class="top-spacing-{{ section.settings.top_spacing }} {{ section.settings.width }}">
   <div class="grid justify-content-center">
-    <div class="col-md-12 col-6">
-      {%- if section.settings.show_heading -%}<h1 class="mt0 {% if page.content == blank %}mb0{% endif %} page-section__bottom-pading {{ section.settings.heading_aligment }}">{{ page.title }}</h1>{%- endif -%}
+    <div class="col-md-12 col-6 text-center">
+      {%- if section.settings.show_heading -%}<h1 class="mt0 blue {% if page.content == blank %}mb0{% endif %} page-section__bottom-pading {{ section.settings.heading_aligment }}">{{ page.title }}</h1>{%- endif -%}
       {{ page.content }}
     </div>
   </div>

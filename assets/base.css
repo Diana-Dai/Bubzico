@@ -1553,3 +1553,16 @@ margin: 0 auto;
   height: 100%;
   margin: 5px;
 }
+
+@media (max-width:576px){
+.image-with-text2 .contact-form__field{
+  margin-top:20px;
+  }
+}
+table{
+margin:20px 0;}
+table td{
+  text-align: center;
+border: 1px solid;
+  border-radius: 0 !important;
+}

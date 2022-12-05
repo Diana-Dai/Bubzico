@@ -6,7 +6,7 @@
         "01e8e8b9-4016-4780-8d95-24062070e38e": {
           "type": "featured_image",
           "settings": {
-            "image_size": "fixed",
+            "image_size": "fullscreen",
             "desktop_image_height": 420,
             "image_overlay_opacity": 0,
             "texts_aligment": "text-center",

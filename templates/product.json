@@ -33,6 +33,7 @@
         },
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text_size": "small",
             "icon_name_1": "check_sm",
@@ -80,15 +81,20 @@
             "show_dynamic_checkout": false
           }
         },
+        "0af1c96e-cb96-41f4-9ff6-3170a5804b7a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"offers\">\n <table>\n  <tr>\n    <td>Buy any 2 Soothers<\/td>\n    <td> 10% OFF + Free Shipping<\/td>\n  <\/tr>\n  <tr>\n    <td>Buy Any 3+ Soothers<\/td>\n    <td> 15% OFF  <\/td>\n  <\/tr>\n  <tr>\n    <td> Buy matching crib bedding set<\/td>\n    <td>20% OFF bedding set  <\/td>\n  <\/tr>\n<\/table> \n\n\n<\/div>"
+          }
+        },
         "ab12c122-e225-4180-b58c-7c07db6043f8": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text_size": "small",
             "icon_name_1": "",
-            "content_1": "<p>Create a soft, whimsical and cozy play area for your little one.<\/p><p>Designed exclusively by watercolor artist Nina Stajner for Bubzi Co, our woodland playmat creates an ultra-hygienic, mess-proof, waterproof, stain proof, easy wash surface - ensuring your sanity and their safety, through all the stages - babies crawling, toddlers walking, preschoolers snack time, kids gymnastic ninja moves & everyone’s artistic adventures.<\/p>",
-            "icon_name_2": "check_sm",
-            "content_2": "<p>BONUS <a href=\"\/products\/woodland-wonder-wall-decal-set\" target=\"_blank\" title=\"Woodland Wonder Wall Decal Set\">Woodland Wall Decal<\/a> Set with every playmat valued at $24.95<\/p>",
+            "content_1": "<p><strong>Finally get the sleep you need and deserve with a Bubzi Co Sleep Soother.<\/strong><\/p><p>Our best-selling all-in-one baby sleep solution - a white noise machine, lullaby music box and a starlight projector contained within a plush toy lovey. <\/p><p>✨ New & Improved with a Cry Sensor and 20 soothing sounds.<\/p>",
+            "icon_name_2": "",
+            "content_2": "",
             "icon_name_3": "",
             "content_3": "",
             "icon_name_4": "",
@@ -120,7 +126,7 @@
           "settings": {
             "heading": "How To Use",
             "icon_name": "",
-            "content": "<p>1. Take out of the cardboard box and roll out on the floor<\/p><p>2. The corner may be curled from transit, place something weighty on each corner to flatten overnight<\/p><p>3. Wipe down with damp cloth<\/p>",
+            "content": "<p>1. Insert the batteries into the music box with the little screwdriver included<\/p><p>2. Press the 'ON' button to start the music, Scroll through 20 songs with the 'ARROW' button<\/p><p>3. Press the 'LIGHT' button to turn lights on for a starlight projection<\/p><p>The Soother will now play for 30 minutes on your chosen sound and light on\/off. It will turn OFF automatically after this time.<\/p><p>4. Press the 'CRY SENSOR ON' button to turn on the cry activated sensor. It will activate after 30 sec of continuous crying, and play sound\/light for 5 minutes.<\/p>",
             "page": ""
           }
         },
@@ -129,7 +135,7 @@
           "settings": {
             "heading": "Features",
             "icon_name": "",
-            "content": "<p>Reversible design - Woodland Wonder \/ Egg-shell beige with white polka dots<\/p><p>Large 6.5(L) x 4.6(W) x 0.69(D) ft<\/p><p>Made from premium non-toxic TPU, PVC-free, Vegan<\/p><p>Safe for babies - tested, proven safe and certified under the strictest international standards<\/p><p>Large size perfect for play areas around the living room or nursery or even outdoors<\/p><p>Mess-free Hygienic surface - simply wipe up spills or vacuum crumbs off<\/p>",
+            "content": "<p>Now With Cry Activated Sensor and 20 Soothing Sounds!<\/p><p>Automatic Cry Sensor - Activates when baby cries to play sound and light for 5 minutes. Relaxing Songs + Birdie Tweets + Mama's Heartbeat – Choose between a relaxing bird song, a familiar heartbeat sound, or sleep melodies that help your baby drift off into dreamland within minutes. Turn on the lullaby sound machine, whisper goodnight, and walk out the room – the sleep machine will automatically switch off after 30 mins.<\/p><p>Gentle Projector Nightlight Keeps Children Calm – The mesmerizing soft galaxy light projector methodically cycles through red, green, and blue stars. The calming lights will even help those babies who fight to keep their eyes open. We’ve even included batteries and a small screwdriver so you can use the baby elephant soother right out of the box!<\/p><p>Use It Everywhere – With the Adjustable strap, Take this shusher sound machine on vacation, to grandma’s house, put it in the stroller when out for a walk, or use it in the car to calm your baby during long rides. The Elephant portable baby soother will become your little one’s best friend, helping them stay calm and relaxed even when overtired and super cranky. It’s almost like magic!<\/p>",
             "page": ""
           }
         },
@@ -164,6 +170,7 @@
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
+        "0af1c96e-cb96-41f4-9ff6-3170a5804b7a",
         "ab12c122-e225-4180-b58c-7c07db6043f8",
         "8f8597c7-077f-4119-81a0-47c333998da1",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
@@ -212,7 +219,7 @@
           "type": "image",
           "settings": {
             "content_type": "image",
-            "image": "shopify:\/\/shop_images\/emmylowephotoBubzi-16.jpg",
+            "image": "{{ product.metafields.custom.images_with_text_1_image.value }}",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": ""
           }
@@ -425,6 +432,24 @@
         "color_background": "#faebe6"
       }
     },
+    "2ff44614-6b8a-4f75-819b-1e3207dfc52d": {
+      "type": "slideshow",
+      "settings": {
+        "top_spacing": "normal",
+        "bottom_spacing": "normal",
+        "width": "page-width",
+        "image_size": "auto",
+        "desktop_image_height": 440,
+        "texts_aligment_mobile": "text-center-mobile",
+        "desktop_navigation": "dots_arrows",
+        "mobile_navigation": "dots_arrows",
+        "dots_desktop_position": "center",
+        "autoplay_enabled": true,
+        "autoplay_time": 5,
+        "video_slide_mode": "autoplay_muted",
+        "play_button_enabled": true
+      }
+    },
     "b6a57d08-8072-44ba-a8f1-4987d1087771": {
       "type": "accordion",
       "blocks": {
@@ -568,6 +593,7 @@
     "017e1fec-4097-4af8-ae4a-96bcb982b387",
     "017e1fec-4097-4af8-ae4a-96bcb982b3871",
     "39a3cd53-c1c5-468d-83d5-d2deef683f101",
+    "2ff44614-6b8a-4f75-819b-1e3207dfc52d",
     "b6a57d08-8072-44ba-a8f1-4987d1087771",
     "166839272531ed1302",
     "product-recommendations"

@@ -233,7 +233,7 @@ footer .field{
           {%- capture icon -%}{%- render "icons-list-social" icon_name:value -%}{%- endcapture -%}
           {%- if icon != blank -%}{%- break -%}{%- endif -%}
           {%- endfor -%}
-          <li><a href="{{ value }}">
+          <li><a target="_blank" href="{{ value }}">
             {{ icon }}
             <span class="visually-hidden">{{ icon_name }}</span>
             </a>

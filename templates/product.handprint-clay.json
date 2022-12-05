@@ -35,10 +35,10 @@
           "type": "text",
           "settings": {
             "text_size": "small",
-            "icon_name_1": "check_sm",
-            "content_1": "<p><strong>BEST PRICE<\/strong><br\/>We back all products with a 1 year guarantee.<\/p>",
-            "icon_name_2": "truck_sm",
-            "content_2": "<p><strong>FREE SHIPPING<\/strong><br\/>No code needed, just head for checkout!<\/p>",
+            "icon_name_1": "",
+            "content_1": "<p><strong>Decorate your home with their precious little prints<\/strong><br\/><br\/>Our Bubzi Co Precious Clay Ornament Kit makes it possible to preserve the magic of your baby’s perfect little handprint and footprint, and then cherish it for a lifetime.Each DIY craft kit comes with everything you need to create two gorgeous clay handprint ornaments then gift it to a loved one – or yourself.  <\/p>",
+            "icon_name_2": "",
+            "content_2": "",
             "icon_name_3": "",
             "content_3": "",
             "icon_name_4": "",
@@ -97,8 +97,15 @@
             "show_dynamic_checkout": false
           }
         },
+        "babe52a9-4168-4cae-b79f-4a5dd9e496bd": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"offers\">\n <table>\n  <tr>\n    <td>Buy 2 clay products<\/td>\n    <td> 10% OFF <\/td>\n  <\/tr>\n  <tr>\n    <td>Buy 3<\/td>\n    <td> 15% OFF   <\/td>\n  <\/tr>\n  <tr>\n    <td>Buy 4<\/td>\n    <td>20% OFF <\/td>\n  <\/tr>\n  <tr>\n    <td>Buy 5+<\/td>\n    <td>25% OFF <\/td>\n  <\/tr>\n<\/table> \n\n\n<\/div>"
+          }
+        },
         "c4d22b42-47e7-4d43-8e19-2ce79e85146d": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Description",
             "icon_name": "",
@@ -148,6 +155,7 @@
         },
         "86984dc9-190c-47fe-92e5-850f592f72a9": {
           "type": "additional-feature",
+          "disabled": true,
           "settings": {
             "heading": "Additional features",
             "icon_name": "certified_sm",
@@ -175,6 +183,7 @@
         "a593bf72-1978-43ec-9d69-7b6cf499eb6c",
         "22f92dfa-de40-4d8a-b823-e2ce09e7b494",
         "1b8b6108-97d1-4af6-bfc4-13bdc10f6046",
+        "babe52a9-4168-4cae-b79f-4a5dd9e496bd",
         "c4d22b42-47e7-4d43-8e19-2ce79e85146d",
         "99c77a7d-9f96-4c18-b2a8-3864d35b294a",
         "86106f28-8537-421d-bc18-e66191b98c4b",
@@ -588,14 +597,14 @@
           "type": "text",
           "settings": {
             "heading": "How old can the baby be to fit their hands and feet?",
-            "description": "We recommend this kit for newborn to 9 months old, however as long your baby’s foot is under 10cm\/3.9 in it will work."
+            "description": "<p>We recommend this kit for newborn to 9 months old, however as long your baby’s foot is under 10cm\/3.9 in it will work.<\/p>"
           }
         },
         "template--14581927182424__b6a57d08-8072-44ba-a8f1-4987d1087771-1668038143d571cfa5-2": {
           "type": "text",
           "settings": {
             "heading": "How can I achieve a smooth crack free finish?",
-            "description": "<p>The best way to guarantee a smooth finish is to knead the clay strongly for at least 10 minutes until it is soft, warm and shiny. Then dry thoroughly for 48 hours. Follow along with this video when you receive your kit: <\/p>\n\n\n<iframe src=\"https:\/\/www.youtube.com\/embed\/ShoEY7xyHBo\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"><\/iframe>"
+            "description": "<p>The best way to guarantee a smooth finish is to knead the clay strongly for at least 10 minutes until it is soft, warm and shiny. Then dry thoroughly for 48 hours. Follow along with this video when you receive your kit: <\/p><p>https:\/\/www.youtube.com\/watch?v=ShoEY7xyHBo&feature=emb_title<\/p>"
           }
         },
         "0ba96602-0e84-4b94-9fd9-a08b1bd1966f": {
