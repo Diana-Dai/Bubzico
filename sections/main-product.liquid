@@ -66,7 +66,7 @@
   {%- endif -%}
 
   {%- assign current_variant = product.selected_or_first_available_variant -%}
-
+  {%- unless product.tags contains 'free-gift' -%}
   <section class="top-spacing-{{ section.settings.top_spacing }} {{ section.settings.width }} product-page-section">
     <div class="grid{% if product.media.size == 0 %} justify-content-center{% endif %}">
       {% if product.media.size > 0 %}
@@ -1029,7 +1029,7 @@
 
 
   </section>
-
+  {%- endunless -%}
   {%- render "sticky-add-to-cart", section: section, product: product, current_variant: current_variant, enable_sticky_addtocart: enable_sticky_addtocart -%}
 
   {% javascript %}

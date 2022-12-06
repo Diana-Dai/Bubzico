@@ -105,34 +105,36 @@ endif
       {%- else -%}
       <div id="product-grid" class="grid el_mt_40 collection {{ section.settings.texts_aligment }}" data-id="{{ section.id }}">
         {%- for product in collection.products -%}
-        <div class="col-sp-{{ section.settings.mobile_grid }} {{ section.settings.grid }}">
-          {%- liquid
-              if section.settings.width == "page-wide"
-              assign page_is_wide = true
-              else
-              assign page_is_wide = false
-              endif
-          -%}
-          {%- render "product-card",
-              product_card_product: product,
-              settings_image_ratio: section.settings.image_ratio,
-              show_button_quickview: section.settings.show_button_quickview,
-              show_badge_sold_out: section.settings.show_badge_sold_out,
-              show_badge_on_sale: section.settings.show_badge_on_sale,
-              show_badge_feature: section.settings.show_badge_feature,
-              show_secondary_image: section.settings.show_secondary_image,
-              show_vendor: section.settings.show_vendor,
-              show_type: section.settings.show_type,
-              product_name_size: section.settings.product_name_size,
-              hover_underline: section.settings.hover_underline,
-              truncate_product_name: section.settings.truncate_product_name,
-              show_rating: section.settings.show_rating,
-              show_price: section.settings.show_price,
-              button_type_product: section.settings.button_type_product,
-          	  page_is_wide: page_is_wide,
-        	  section_id: section.id
-          -%}
-        </div>
+          {%- unless product.tags contains 'free-gift' -%}
+            <div class="col-sp-{{ section.settings.mobile_grid }} {{ section.settings.grid }}">
+              {%- liquid
+                  if section.settings.width == "page-wide"
+                  assign page_is_wide = true
+                  else
+                  assign page_is_wide = false
+                  endif
+              -%}
+              {%- render "product-card",
+                  product_card_product: product,
+                  settings_image_ratio: section.settings.image_ratio,
+                  show_button_quickview: section.settings.show_button_quickview,
+                  show_badge_sold_out: section.settings.show_badge_sold_out,
+                  show_badge_on_sale: section.settings.show_badge_on_sale,
+                  show_badge_feature: section.settings.show_badge_feature,
+                  show_secondary_image: section.settings.show_secondary_image,
+                  show_vendor: section.settings.show_vendor,
+                  show_type: section.settings.show_type,
+                  product_name_size: section.settings.product_name_size,
+                  hover_underline: section.settings.hover_underline,
+                  truncate_product_name: section.settings.truncate_product_name,
+                  show_rating: section.settings.show_rating,
+                  show_price: section.settings.show_price,
+                  button_type_product: section.settings.button_type_product,
+                  page_is_wide: page_is_wide,
+                section_id: section.id
+              -%}
+            </div>
+          {%- endunless -%}
         {%- endfor -%}
       </div>
       {%- if paginate.pages > 1 -%}

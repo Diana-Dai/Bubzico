@@ -68,6 +68,7 @@
     <slider-component class="grid el_mt_40 {{ section.settings.texts_aligment }}{% if section.settings.swipe_on_mobile %} slider slider--phone{% endif %}{% if section.settings.heading_aligment == "text-center" %} justify-content-center--no-phone{% endif %}">
       {%- if section.settings.collection != blank -%}
       {%- for product in section.settings.collection.products limit: section.settings.product_limit -%}
+      {%- unless product.tags contains 'free-gift' -%}
       <div class="col-sp-{{ section.settings.mobile_grid }} {{ section.settings.grid }}{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}">
         {%- liquid
         	if section.settings.width == "page-wide"
@@ -96,6 +97,7 @@
         	section_id: section.id
         -%}
       </div>
+      {%- endunless -%}
       {%- endfor -%}
       {%- else -%}
       {%- for i in (1..section.settings.product_limit) -%}

@@ -51,7 +51,8 @@
 
       <div class="grid el_mt_40 {{ section.settings.texts_aligment }}{% if section.settings.heading_aligment == "text-center" %} justify-content-center--no-phone{% endif %}">
         {%- for product in recommendations.products -%}
-        <div class="col-sp-{{ section.settings.mobile_grid }} {{ section.settings.grid }}">
+          {%- unless product.tags contains 'free-gift' -%}
+          <div class="col-sp-{{ section.settings.mobile_grid }} {{ section.settings.grid }}">
           {%- render "product-card",
               product_card_product: product,
           settings_image_ratio: section.settings.image_ratio,
@@ -71,6 +72,7 @@
        	  section_id: section.id
           -%}
         </div>
+      {%- endunless -%}
         {%- endfor -%}
       </div>
 

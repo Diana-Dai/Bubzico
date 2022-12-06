@@ -328,7 +328,9 @@ assign css_video = true
       {%- assign product_holder = "product" | append: i -%}
       {%- assign product_holder = block.settings[product_holder] -%}
       {%- if product_holder != blank -%}
+      {%- unless product.tags contains 'free-gift' -%}
       <div class="col-6">
+
         {%- render "product-card",
         	product_card_product: product_holder,
             show_button_quickview: block.settings.show_button_quickview,
@@ -347,6 +349,7 @@ assign css_video = true
         	page_is_wide: page_is_wide
         -%}
       </div>
+      {%- endunless -%}
 
       {%- else -%}
 

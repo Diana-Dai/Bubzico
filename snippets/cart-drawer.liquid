@@ -75,6 +75,7 @@
           <div class="mt20">
             <slider-component class="grid slider slider--phone">
               {%- for product in settings.cart_drawer_collection.products limit:4 -%}
+                {%- unless product.tags contains 'free-gift' -%}
               <div class="col-sp-6 col-3 slider__slide">
               {%- render "product-card",
                           product_card_product: product,
@@ -97,6 +98,7 @@
                           disable_image_zoom: true
                       -%}
               </div>
+            {%- endunless -%}
               {%- endfor -%}
             </slider-component>
 

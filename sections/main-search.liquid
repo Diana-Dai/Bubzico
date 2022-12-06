@@ -137,7 +137,8 @@ endif
         <div class="col-sp-6 {{ section.settings.grid }}">
           {%- case item.object_type -%}
           {%- when 'product' -%}
-
+            {{item.tags}}
+            {%- unless item.tags contains 'free-gift' -%}
             {%- render "product-card",
                 product_card_product: item,
             settings_image_ratio: section.settings.image_ratio,
@@ -155,6 +156,7 @@ endif
             show_price: section.settings.show_price,
             button_type_product: section.settings.button_type_product
             -%}
+            {%- endunless -%}
           {%- when 'article' -%}
        
           <div class="blog-posts mt--first-child-0 mb--last-child-0 hover-area {{ section.settings.texts_aligment_b }}{% if settings.enable_zoom_animation %} image-hover-scaling-up{% endif %}">

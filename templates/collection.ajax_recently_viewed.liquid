@@ -45,6 +45,7 @@ options[18] - product_limit: Number
 <slider-component class="grid el_mt_40 {{ options[0] }}{% if swipe_on_mobile %} slider slider--phone{% endif %}{% if options[17] == "text-center" %} justify-content-center--no-phone{% endif %}">
   {%- for handle in handles limit: product_limit -%}
   {%- assign product = all_products[handle] -%}
+  {%- unless product.tags contains 'free-gift' -%}
   <div class="col-sp-{{ options[4] }} {{ page_grid }}{% if swipe_on_mobile %} slider__slide{% endif %}">
     {%- liquid
         if options[2] == "page-wide"
@@ -73,6 +74,7 @@ options[18] - product_limit: Number
         section_id: options[16]
     -%}
   </div>
+{%- endunless -%}
   {%- endfor -%}
 </slider-component>
 

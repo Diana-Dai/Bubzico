@@ -12,6 +12,8 @@
     {%- endif -%}
     <ul id="predictive-search-results-list" class="predictive-search__results-list unstyle-ul" role="listbox" aria-labelledby="predictive-search-products">
       {%- for product in predictive_search.resources.products -%}
+        {%- unless product.tags contains 'free-gift' -%}
+
         <li id="predictive-search-option-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
           <a href="{{ product.url }}" class="predictive-search__item predictive-search__item--link" tabindex="-1">
             {%- if product.featured_media != blank -%}
@@ -33,6 +35,7 @@
             </div>
           </a>
         </li>
+      {%- endunless -%}
       {%- endfor -%}
       <li id="predictive-search-option-search-keywords" class="predictive-search-option-search-keywords" role="option" aria-selected="false">
         <button class="link hover-area" tabindex="-1">
