@@ -83,14 +83,15 @@
         "e31cfad9-5ebf-45c7-99a2-be505a1dae6e": {
           "type": "upsell",
           "settings": {
-            "upsell_product": "woodland-wonder-wall-decal-set",
+            "upsell_product": "woodland-wonder-wall-decal-set-free-gift",
             "upsell_text": "FREE GIFT Woodland Wall Decal Set"
           }
         },
         "8959230d-5f39-40d8-b2a0-10909fa6564e": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "<p><strong>\nBuy 2 playmats, get 40% OFF\n<\/strong><\/p>\n<p>- Plus a free woodland wall decal set<\/p>\n<p>- And Free shipping\n<\/p>\n<\/div>\n\n\n\n<\/div>"
+            "custom_liquid": "<div class=\"upsell__container\" >\n    <div class=\"upsell__text_wrapper\" style=\"text-align:center;\"><strong>\n    Buy 2 playmats, get 40% OFF\n    <\/strong><\/div>\n    <p style=\"text-align:center;\">Buy 2 Playmats, get 40% OFF second playmat\n    <\/p>\n    <p style=\"text-align:center;\">\n    No code needed, auto-discount in the cart\n    <\/p>\n<\/div>"
           }
         },
         "f8c51f7a-0c15-48a3-94bc-5f624cd18b31": {

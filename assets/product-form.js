@@ -51,22 +51,81 @@ if (!customElements.get('product-form')) {
       }
       }
       }
-      if(upsell__id){
-        fetch(`${routes.cart_add_url}`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            'X-Requested-With':'xmlhttprequest' 
-          },
-          body: JSON.stringify(upsell__data)
-        }
-        )
-        .then((response) => response.json())
-        .then((response) => {
+      // Check if the gift is already in cart
 
-        }) 
-        .finally(() => {
-          fetch(`${routes.cart_add_url}`, config)
+      if(upsell__id){
+        var cartContents = fetch(window.Shopify.routes.root + 'cart.js')
+        .then(response => response.json())
+        .then(data => {
+          let has_upsell_product = false;
+          for (let index = 0; index < data.items.length; index++) {
+            const item = data.items[index];
+            console.log(item.id);
+            if((item.id).toString() === upsell__id ){
+              has_upsell_product = true;
+              break;
+            }
+          }
+          if(!has_upsell_product ){
+            fetch(`${routes.cart_add_url}`, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                'X-Requested-With':'xmlhttprequest' 
+              },
+              body: JSON.stringify(upsell__data)
+            }
+            )
+            .then((response) => response.json())
+            .then((response) => {
+            }) 
+            .finally(() => {
+              fetch(`${routes.cart_add_url}`, config)
+                .then((response) => response.json())
+                .then((response) => {
+                  if (response.status) {
+                    this.handleErrorMessage(response.description);
+
+                    const soldOutMessage = this.submitButton.querySelector('.sold-out-message');
+                    if (!soldOutMessage) return;
+                    this.submitButton.setAttribute('aria-disabled', true);
+                    this.submitButton.querySelector('span').classList.add('hidden');
+                    soldOutMessage.classList.remove('hidden');
+                    this.error = true;
+                    return;
+                  } else if (!this.cart) {
+                    window.location = window.routes.cart_url;
+                    return;
+                  }
+
+                  this.error = false;
+                  const quickAddModal = this.closest('quick-add-modal');
+                  if (quickAddModal) {
+                    document.body.addEventListener('modalClosed', () => {
+                      setTimeout(() => { this.cart.renderContents(response) });
+                    }, { once: true });
+                    quickAddModal.hide(true);
+                  } else {
+                    this.cart.renderContents(response);
+                  };
+
+                  
+                })
+                .catch((e) => {
+                  console.error(e);
+                })
+                .finally(() => {
+                  this.submitButton.classList.remove('loading');
+                  if (this.cart && this.cart.classList.contains('is-empty')) this.cart.classList.remove('is-empty');
+                  if (!this.error) this.submitButton.removeAttribute('aria-disabled');
+                  this.querySelector('.loading-overlay__spinner').classList.add('hidden');
+                });
+            })
+            .catch((e) => {
+              console.error(e);
+            })
+          }else{
+            fetch(`${routes.cart_add_url}`, config)
             .then((response) => response.json())
             .then((response) => {
               if (response.status) {
@@ -93,7 +152,9 @@ if (!customElements.get('product-form')) {
                 quickAddModal.hide(true);
               } else {
                 this.cart.renderContents(response);
-              }
+              };
+
+              
             })
             .catch((e) => {
               console.error(e);
@@ -104,10 +165,10 @@ if (!customElements.get('product-form')) {
               if (!this.error) this.submitButton.removeAttribute('aria-disabled');
               this.querySelector('.loading-overlay__spinner').classList.add('hidden');
             });
-        })
-        .catch((e) => {
-          console.error(e);
-        })
+          }
+
+        });
+
       }else{
       fetch(`${routes.cart_add_url}`, config)
         .then((response) => response.json())

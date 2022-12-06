@@ -152,7 +152,7 @@
 
                     <div class="drawer__cart-item__media">
                       {% if item.image %}
-                      <a href="{{ item.url }}" class="image-hover-scaling__image">
+                      <a {% unless item.product.tags contains 'free-gift' %} href="{{ item.url }}"{% endunless %} class="image-hover-scaling__image">
 
                         {%- liquid
                         if settings.cart_drawer_image_ratio != 'auto'
@@ -189,8 +189,7 @@
                         {%- if settings.show_vendor -%}
                         <p>{{ item.product.vendor }}</p>
                         {%- endif -%}
-      
-                        <a href="{{ item.url }}" class="h5 cart-item__heading animation-underline">{{ item.product.title | escape }}</a>
+                        <a {% unless item.product.tags contains 'free-gift' %} href="{{ item.url }}"{% endunless %} class="h5 cart-item__heading {% unless item.product.tags contains 'free-gift' %}animation-underline{% endunless %}">{{ item.product.title | escape }}</a>
                      
                         {%- if item.product.has_only_default_variant == false or item.properties.size != 0 or item.selling_plan_allocation != nil -%}
                         <dl>
