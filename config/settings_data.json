@@ -4,8 +4,8 @@
     "color_accent": "#4484ce",
     "color_background": "#ffffff",
     "color_secondary_background": "#fffdf4",
-    "color_price": "#90a17d",
-    "color_save_price": "#4484ce",
+    "color_price": "#4484ce",
+    "color_save_price": "#e22120",
     "color_save_badge": "#4484ce",
     "color_featured_badge": "#ef6c00",
     "color_soldout_badge": "#142c73",
@@ -81,8 +81,8 @@
               "text": "🎄 Xmas Shipping Deadline: Dec 19th. Free Shipping over $50 🚚",
               "link_name": "",
               "link_url": "",
-              "color_background": "#88b8ef",
-              "color_text": "#fff",
+              "color_background": "#4484ce",
+              "color_text": "#ffffff",
               "color_link": "rgba(0,0,0,0)"
             }
           }

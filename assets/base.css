@@ -1566,3 +1566,7 @@ table td{
 border: 1px solid;
   border-radius: 0 !important;
 }
+
+.opinew-stars-plugin-link {
+  text-align:left;
+} 

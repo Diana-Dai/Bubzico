@@ -79,6 +79,14 @@
         {%- form 'product', product, id: product_form_id, class: 'form sticky-cart-button__form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
         <input type="hidden" name="id" value="{{ current_variant.id }}" disabled>
 
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+              {%- when 'upsell' -%}
+               <div data-gift-id="{{block.settings.upsell_product.selected_or_first_available_variant.id}}">
+                </div>
+              
+          {%- endcase -%}
+        {% endfor %}
         <button type="submit"
                 name="add"
                 class="sticky-cart-button product-form__submit btn btn_zoom product-form__submit__hide-text"

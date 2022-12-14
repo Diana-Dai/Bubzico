@@ -700,6 +700,68 @@
         "color_meta": "rgba(0,0,0,0)",
         "color_button_product": "rgba(0,0,0,0)"
       }
+    },
+    "9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0": {
+      "type": "brands",
+      "blocks": {
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-03_400x_95920d5d-5003-4e36-8105-7a0db5b8d212.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        },
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-02_400x_5117e94d-bc9c-4430-9224-4da16f09f5c0.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        },
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-01_400x_2a2fc411-12fd-43fc-a78a-57e4d14faf5c.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        },
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bubzi-icon-04_400x_9e88ecd2-9318-4135-b3fb-2edbc37d970d.jpg",
+            "url": "",
+            "heading": "Optional heading"
+          }
+        }
+      },
+      "block_order": [
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-0",
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-1",
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-2",
+        "template--16887147004205__9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0-1668136155cc9aa827-3"
+      ],
+      "settings": {
+        "decoration_color": "blue",
+        "subheading": "",
+        "heading": "Our Products Are Designed With Love To Help You",
+        "heading_aligment": "text-center",
+        "link_name": "",
+        "link_url": "",
+        "top_spacing": "normal",
+        "width": "page-width",
+        "grid": "col-3",
+        "mobile_grid": "6",
+        "swipe_on_mobile": false,
+        "text_aligment": "text-center",
+        "hide_text": true,
+        "hover_underline": false,
+        "color_subheading": "#4484ce",
+        "color_heading": "#4484ce",
+        "color_link": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -713,6 +775,7 @@
     "cea7b252-2e04-40cf-992b-7c24e9d3bda6",
     "166839274233f8fbf7",
     "b6a57d08-8072-44ba-a8f1-4987d1087771",
-    "product-recommendations"
+    "product-recommendations",
+    "9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0"
   ]
 }

@@ -15,7 +15,7 @@
             "description": "",
             "call_to_action": "one_link_banner",
             "button_primary_name": "",
-            "url": "",
+            "url": "shopify:\/\/products\/woodland-wonder-large-foam-playmat",
             "button_secondary_name": "",
             "button_secondary_url": "",
             "texts_aligment": "text-center",
@@ -478,7 +478,6 @@
     },
     "1654074087c407e2b5": {
       "type": "brands",
-      "disabled": true,
       "blocks": {
         "1654074087617b461f-0": {
           "type": "image",
@@ -527,6 +526,30 @@
             "url": "",
             "heading": "Optional heading"
           }
+        },
+        "a66ffc9c-9f4d-48c9-b251-a8ab36336d32": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/madeformums.png",
+            "url": "",
+            "heading": ""
+          }
+        },
+        "6ab69c8e-b1cc-43a2-b45f-128a9fbe9a0b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/business_insider.png",
+            "url": "",
+            "heading": ""
+          }
+        },
+        "c1f7e486-7768-4d8f-a57a-2fbe063d6a52": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Experiencedmommy.png",
+            "url": "",
+            "heading": ""
+          }
         }
       },
       "block_order": [
@@ -535,11 +558,14 @@
         "1654074087617b461f-2",
         "1654074087617b461f-3",
         "1654074087617b461f-4",
-        "1654074087617b461f-5"
+        "1654074087617b461f-5",
+        "a66ffc9c-9f4d-48c9-b251-a8ab36336d32",
+        "6ab69c8e-b1cc-43a2-b45f-128a9fbe9a0b",
+        "c1f7e486-7768-4d8f-a57a-2fbe063d6a52"
       ],
       "settings": {
         "decoration_color": "blue",
-        "subheading": "Read All About It",
+        "subheading": "",
         "heading": "As Featured In",
         "heading_aligment": "text-center",
         "link_name": "",

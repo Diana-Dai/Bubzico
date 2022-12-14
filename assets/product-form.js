@@ -33,12 +33,11 @@ if (!customElements.get('product-form')) {
       }
       config.body = formData;
 
-
       // Check if there's a free gift
       let upsell__id = '';
       var upsell__data;
-      if(this.closest('.product-page-section') && this.closest('.product-page-section').querySelector('.upsell__container')){
-      const upsell__container = this.closest('.product-page-section').querySelector('.upsell__container');
+      if(this.closest('#MainContent') && this.closest('#MainContent').querySelector('[data-gift-id]')){
+      const upsell__container = this.closest('#MainContent').querySelector('[data-gift-id]');
       if(upsell__container.getAttribute('data-gift-id')){
        upsell__id = upsell__container.getAttribute('data-gift-id');
       // const upsell__qty = this.querySelector('[name="quantity"]').value;
@@ -46,7 +45,8 @@ if (!customElements.get('product-form')) {
         "quantity": 1,
         "id": upsell__id,
         "properties": {
-          'free_gift': true
+          'free_gift': true,
+          'free_gift_product':document.querySelector('product-form [name=id]').value
         }
       }
       }

@@ -3,7 +3,11 @@
                 {{ product.metafields.opinew_metafields['stars_lists'] }}
         {% else %}
                    
-            <div class="opinew-stars-plugin-link opinew-list-stars-disable" onclick="window.location.href = 'https://{{shop.domain}}{{product.url}}'" style="
+            <div class="opinew-stars-plugin-link opinew-list-stars-disable" 
+              {% unless no_click == true %}
+                onclick="window.location.href = 'https://{{shop.domain}}{{product.url}}'"
+              {% endunless %} 
+              style="
             text-decoration: none;
             ">
               <span class="opinew-star-plugin-inside">

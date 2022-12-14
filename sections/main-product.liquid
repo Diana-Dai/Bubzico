@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="{{ 'component-rating-form.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'component-inputs.css' | asset_url }}" media="print" onload="this.media='all'">
   <noscript>{{ 'section-main-product.css' | asset_url | stylesheet_tag }}</noscript>
-  <noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
   <noscript>{{ 'component-rating.css' | asset_url | stylesheet_tag }}</noscript>
   <noscript>{{ 'component-rating-form.css' | asset_url | stylesheet_tag }}</noscript>
   <noscript>{{ 'component-inputs.css' | asset_url | stylesheet_tag }}</noscript>
@@ -247,7 +246,7 @@
                     FREE
                   </span>
                   <div class="price__regular body2">
-                    {{block.settings.upsell_product.price | money}}
+                    {{block.settings.upsell_product.compare_at_price | money}}
                   </span>
                   </div>
 
@@ -286,6 +285,8 @@
         </h1>
 
         {%- when 'price' -%}
+        <a href="#opinew-reviews-product-page-code" class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists', product:product, no_click:true %}</a>
+          
         <div class="no-js-hidden product__price" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
           {%- render 'main-product-price', product: product, use_variant: true -%}
         </div>

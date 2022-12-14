@@ -75,7 +75,6 @@
           <div class="mt20">
             <slider-component class="grid slider slider--phone">
               {%- for product in settings.cart_drawer_collection.products limit:4 -%}
-                {%- unless product.tags contains 'free-gift' -%}
               <div class="col-sp-6 col-3 slider__slide">
               {%- render "product-card",
                           product_card_product: product,
@@ -98,7 +97,6 @@
                           disable_image_zoom: true
                       -%}
               </div>
-            {%- endunless -%}
               {%- endfor -%}
             </slider-component>
 
@@ -147,9 +145,14 @@
               {%- if cart != empty -%}
               
               <div class="drawer__cart-items-wrapper">
-
+                {% assign free_gift_product = '' %}
                 {%- for item in cart.items -%}
-                <div class="drawer__cart-item" id="CartDrawer-Item-{{ item.index | plus: 1 }}">
+                  {%- for property in item.properties -%}
+                    {% if property.first == "free_gift_product"  %}
+                      {% assign free_gift_product = property.last %}
+                    {% endif %}
+                  {%-endfor-%}
+                <div {% if free_gift_product != blank %}data-free-gift-product="{{free_gift_product}}" {% endif %}  data-variant_id="{{item.variant_id}}" class="drawer__cart-item" id="CartDrawer-Item-{{ item.index | plus: 1 }}">
                   <div class="drawer__cart-item__content">
 
                     <div class="drawer__cart-item__media">
@@ -205,11 +208,11 @@
                           {%- endif -%}
                           {% assign free_gift = false %}
                           {%- for property in item.properties -%}
-                            {% if  property.first == "free_gift"  %}
+                            {% if property.first == "free_gift" or property.first == "free_gift_product"  %}
                               {% assign free_gift = true %}
                             {% endif %}
                           {%- assign property_first_char = property.first | slice: 0 -%}
-                          {%- if property.last != blank and property_first_char != '_' and property.first != "free_gift"  -%}
+                          {%- if property.last != blank and property_first_char != '_' and property.first != "free_gift" and property.first != "free_gift_product"  -%}
                           <div class="product-option">
                             <dt>{{ property.first }}: </dt>
                             <dd>
@@ -310,6 +313,7 @@
                                  aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
                                  id="Drawer-quantity-{{ item.index | plus: 1 }}"
                                  data-index="{{ item.index | plus: 1 }}"
+                                 data-id="{{item.variant_id}}"
                                  >
                           <button class="quantity__button no-js-hidden" name="plus" type="button">
                             <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: item.product.title | escape }}</span>
@@ -317,7 +321,7 @@
                           </button>
                         </quantity-input>
                         {% endunless %}
-                        <cart-remove-button id="CartDrawer-Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
+                        <cart-remove-button data-id='{{item.id}}' id="CartDrawer-Remove-{{ item.index | plus: 1 }}"  data-index="{{ item.index | plus: 1 }}">
                           <a href="{{ item.url_to_remove }}" class="drawer__cart-remove-button" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
                             {% render 'icon-remove' %}
                           </a>
@@ -339,7 +343,8 @@
             <div id="CartDrawer-CartErrors" role="alert"></div>
           </form>
         </cart-drawer-items>          
-        <div class="drawer__cart-info">
+{% comment %}
+                        <div class="drawer__cart-info">
           <div class="grid">
             <div class="col-4 mt--first-child-0 mb--last-child-0">
               <div class="w-full">
@@ -383,6 +388,7 @@
             </div>
           </div>
         </div>
+{% endcomment %}
         <div class="drawer__footer-footer">
           {%- if settings.show_cart_note -%}
           <toggle-component class="cart-drawer__collection chm-toggle--accordion top-and-bottom-lines mt40">
