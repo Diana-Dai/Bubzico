@@ -59,7 +59,9 @@
     "predictive_search_show_price": true,
     "favicon": "shopify:\/\/shop_images\/1005_bubzico_logo_-02.png",
     "currency_code_enabled": false,
-    "checkout_logo_image": "shopify:\/\/shop_images\/Untitled_design_25.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/bubzico_logo_f-03.jpg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
     "catalog_mode": false,
     "mobile_grid": "6",
     "color_icons": "#fff",
@@ -78,7 +80,7 @@
           "9932750d-e339-4919-b434-1159e7c6cce9": {
             "type": "announcement",
             "settings": {
-              "text": "🎄 Xmas Shipping Deadline: Dec 19th. Free Shipping over $50 🚚",
+              "text": "Happy New Year Sale! Free Shipping over $50 🚚",
               "link_name": "",
               "link_url": "",
               "color_background": "#4484ce",

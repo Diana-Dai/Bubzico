@@ -1481,7 +1481,7 @@ margin: 0 auto;
 }
 
 .drawer__cart-info{
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .drawer__cart-info [name="show_more"] ~ label{
@@ -1570,3 +1570,17 @@ border: 1px solid;
 .opinew-stars-plugin-link {
   text-align:left;
 } 
+
+.product__price .price{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product__price .price__container{
+  margin-top:0 !important;
+}
+
+.quick-add__submit svg path{
+  fill:#000;
+}

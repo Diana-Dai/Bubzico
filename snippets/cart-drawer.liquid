@@ -343,52 +343,7 @@
             <div id="CartDrawer-CartErrors" role="alert"></div>
           </form>
         </cart-drawer-items>          
-{% comment %}
-                        <div class="drawer__cart-info">
-          <div class="grid">
-            <div class="col-4 mt--first-child-0 mb--last-child-0">
-              <div class="w-full">
-                <div class="image-hover-scaling__image">
-                  <div class="border__radius" style="--aspect-ratio: 1.333333">
-                    <img
-                      srcset="
-                        //cdn.shopify.com/s/files/1/1719/6357/files/nasal-image-1_298x.png?v=1614383765    1x,
-                        //cdn.shopify.com/s/files/1/1719/6357/files/nasal-image-1_298x@2x.png?v=1614383765 2x
-                      "
-                      src="//cdn.shopify.com/s/files/1/1719/6357/files/nasal-image-1_298x.png?v=1614383765"
-                      loading="lazy"
-                      alt=""
-                      class="image-show--fadein image-loaded"
-                      onload="this.classList.add('image-loaded');"
-                      width="298"
-                      height="298"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-        
-            <div
-              class="col-8 mt--first-child-0 mt-15--mobile align-self-start text-left"
-            >
-              <div class="mb--last-child-0">
-                <h5 class="heading mt0 mb0">Your purchase helps families in need</h5>
-              </div>
-              <input hidden type="checkbox" value="false" id="show_more" name="show_more">
-              <label for="show_more"></label>
-              <div class="image-with-text__texts">
-                <div class="mt--first-child-0">
-                  <p style="font-size:0.8rem;">
-                    We're dedicated to helping new parents feel confident, safe and
-                    happy. In partnership with Baby2Baby we donate a Nasal Aspirator to
-                    a family in need in the USA 💝 Find Out More
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-{% endcomment %}
+
         <div class="drawer__footer-footer">
           {%- if settings.show_cart_note -%}
           <toggle-component class="cart-drawer__collection chm-toggle--accordion top-and-bottom-lines mt40">
@@ -477,6 +432,62 @@
             </div>
           </div>            
           
+        </div>
+        <div class="drawer__cart-info">
+          <div class="grid">
+            <div class="col-4 mt--first-child-0 mb--last-child-0">
+              <div class="w-full">
+                <div class="image-hover-scaling__image">
+                  <div class="border__radius" style="--aspect-ratio: 1.333333">
+                    <img
+                      srcset="
+                        //cdn.shopify.com/s/files/1/1719/6357/files/nasal-image-1_298x.png?v=1614383765    1x,
+                        //cdn.shopify.com/s/files/1/1719/6357/files/nasal-image-1_298x@2x.png?v=1614383765 2x
+                      "
+                      src="//cdn.shopify.com/s/files/1/1719/6357/files/nasal-image-1_298x.png?v=1614383765"
+                      loading="lazy"
+                      alt=""
+                      class="image-show--fadein image-loaded"
+                      onload="this.classList.add('image-loaded');"
+                      width="298"
+                      height="298"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+           <div
+              class="col-8 mt--first-child-0 mt-15--mobile align-self-start text-left"
+            >
+              <div class="mb--last-child-0">
+                <h5 class="heading mt0 mb0">Your purchase helps parents in need.</h5>
+              </div>
+              <div class="image-with-text__texts">
+                <a href="/pages/about-us-bubzi-co">See how</a>
+              </div>
+           </div>
+          {% comment %}
+            <div
+              class="col-8 mt--first-child-0 mt-15--mobile align-self-start text-left"
+            >
+              <div class="mb--last-child-0">
+                <h5 class="heading mt0 mb0">Your purchase helps families in need</h5>
+              </div>
+                
+              <input hidden type="checkbox" value="false" id="show_more" name="show_more">
+              <label for="show_more"></label>
+              <div class="image-with-text__texts">
+                <div class="mt--first-child-0">
+                  <p style="font-size:0.8rem;">
+                    We're dedicated to helping new parents feel confident, safe and
+                    happy. In partnership with Baby2Baby we donate a Nasal Aspirator to
+                    a family in need in the USA 💝 Find Out More
+                  </p>
+                </div>
+              </div>
+            </div>
+            {% endcomment %}
+          </div>
         </div>
       </div>
     </drawer-inner>

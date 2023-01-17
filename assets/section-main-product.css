@@ -173,13 +173,14 @@ legend{
   padding: 0;
 }
 .product__buttons{
-  margin-top: var(--padding4);
+  margin-top: var(--padding2);
 }
+.shopify-app-block,
 .product__title,
 .product__price,
 .product__information,
 .product__rating{
-  margin-top: var(--padding2);
+  margin-top: var(--padding1);
 }
 .product__rating{
   margin-left: -2px;
@@ -195,7 +196,7 @@ legend{
   margin-top: 5px;
 }
 .product__text__container{
-  margin-top: var(--padding4);
+  margin-top: var(--padding2);
 }
 .product__text{
   display: flex;

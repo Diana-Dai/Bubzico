@@ -19,8 +19,14 @@
             "text_size": "h2"
           }
         },
+        "bc410637-ce66-47b6-bb32-03a92b6d0e6c": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        },
         "4f8b197f-142b-4618-96c7-abd9de7cc0c4": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
@@ -155,6 +161,7 @@
       "block_order": [
         "c334dc4d-89dc-4e31-8960-5ff0586700f3",
         "1f5e6d17-7cef-4e03-b13d-b19240ced047",
+        "bc410637-ce66-47b6-bb32-03a92b6d0e6c",
         "4f8b197f-142b-4618-96c7-abd9de7cc0c4",
         "36032345-aea2-4f92-821a-d5ca441bfc03",
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",

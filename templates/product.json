@@ -19,8 +19,14 @@
             "text_size": "h2"
           }
         },
+        "27b5927f-7e4c-43aa-b4e2-d46725c1d6ea": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        },
         "4f8b197f-142b-4618-96c7-abd9de7cc0c4": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
@@ -165,6 +171,7 @@
       "block_order": [
         "c334dc4d-89dc-4e31-8960-5ff0586700f3",
         "1f5e6d17-7cef-4e03-b13d-b19240ced047",
+        "27b5927f-7e4c-43aa-b4e2-d46725c1d6ea",
         "4f8b197f-142b-4618-96c7-abd9de7cc0c4",
         "36032345-aea2-4f92-821a-d5ca441bfc03",
         "1557ae4f-d2c4-49c9-8a9b-b9d9fec4b79b",
@@ -553,6 +560,66 @@
         "width": "page-width"
       }
     },
+    "97d8ca0f-df42-4e69-99bd-35f4c26f018e": {
+      "type": "image-with-text-type2",
+      "blocks": {
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-0": {
+          "type": "image",
+          "settings": {
+            "content_type": "image",
+            "image": "shopify:\/\/shop_images\/banner.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-1": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "<p>Bubzi Co x Baby2Baby One For One Program<\/p>"
+          }
+        },
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've partnered with Baby2Baby to help parents in need in the USA.<\/p><p>For every purchase on our website, we donate one of our Premium Nasal Aspirator to a family in need via Baby2Baby. Nasal Aspirators are an essential for every baby, so we're grateful to be able to help new parents through this amazing organization. Find out more about Baby2Baby <a href=\"https:\/\/baby2baby.org\">here.<\/a><\/p>"
+          }
+        },
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_name": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-0",
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-1",
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-2",
+        "template--17621062549805__97d8ca0f-df42-4e69-99bd-35f4c26f018e-167395619445bdec1a-3"
+      ],
+      "settings": {
+        "decoration_color": "blue",
+        "url": "",
+        "top_spacing": "normal",
+        "width": "page-fullwidth",
+        "content_size": "fullscreen",
+        "desktop_content_height": 440,
+        "row_reverse": false,
+        "content_aligment": "align-self-center",
+        "texts_aligment": "text-center",
+        "heading_tag": "h2",
+        "text_size": "normal",
+        "hover_underline": false,
+        "color_subheading": "rgba(0,0,0,0)",
+        "color_heading": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
+        "color_button": "rgba(0,0,0,0)",
+        "play_background": "rgba(0,0,0,0)",
+        "color_background": "rgba(0,0,0,0)"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -658,6 +725,7 @@
     "2ff44614-6b8a-4f75-819b-1e3207dfc52d",
     "b6a57d08-8072-44ba-a8f1-4987d1087771",
     "166839272531ed1302",
+    "97d8ca0f-df42-4e69-99bd-35f4c26f018e",
     "product-recommendations",
     "9e84dc21-fbc4-45cd-a9e9-24bfac5b31b0"
   ]

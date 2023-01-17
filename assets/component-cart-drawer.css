@@ -109,7 +109,7 @@ cart-drawer-items{
 }
 .drawer__cart-item__details__items{
   grid-area: a;
-  word-break: break-all;
+/*   word-break: break-all; */
 }
 .drawer__cart-item__totals{
   grid-area: b;
@@ -238,6 +238,7 @@ drawer-inner{
     opacity: var(--opacity-icons);
     transition: opacity var(--duration-medium) var(--animation-bezier);
   }
+
   cart-drawer .drawer__close:hover svg,
   .drawer__cart-remove-button:hover svg {
     opacity: 1;
@@ -265,7 +266,11 @@ drawer-inner{
     gap: 15px;
   }
   .drawer__cart-item__details{
-    grid-template-columns: 53.5% 1fr;
+    display:block;
+/*     grid-template-columns: 53.5% 1fr; */
+  }
+    .drawer__cart-item__totals{
+    text-align:left !important;
   }
   cart-drawer:not(.is-empty) .drawer__footer > *:last-child{
     padding-bottom: 35px;
